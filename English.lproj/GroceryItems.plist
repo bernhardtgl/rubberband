@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+
+<!-- supported quantities are: 1 lb, 0.5 lb, 5 lb, 1 gal, 1 pt, 8 oz -->
+<!-- if you want to add a new quantity, modify Database.m, populateItemsSampleData -->
+<!-- right now they are hardcoded to the string -->
+
+<!--generated from SampleData.xls-->
+<dict><key>Name</key><string>Allspice</string><key>Aisle</key><string>Spices</string></dict>
+<dict><key>Name</key><string>Almonds</string><key>Aisle</key><string>Baking</string></dict>
+<dict><key>Name</key><string>Aluminum Foil</string><key>Aisle</key><string>Household</string></dict>
+<dict><key>Name</key><string>Anchovies</string><key>Aisle</key><string>Prepared foods</string></dict>
+<dict><key>Name</key><string>Apple</string><key>Aisle</key><string>Produce</string></dict>
+<dict><key>Name</key><string>Arugula</string><key>Aisle</key><string>Produce</string></dict>
+<dict><key>Name</key><string>Asparagus</string><key>Aisle</key><string>Produce</string></dict>
+<dict><key>Name</key><string>Avocado</string><key>Aisle</key><string>Produce</string></dict>
+<dict><key>Name</key><string>Baby food</string><key>Aisle</key><string>Baby</string></dict>
+<dict><key>Name</key><string>Bacon</string><key>Aisle</key><string>Meat</string><key>Usual</key><string>1 lb</string></dict>
+<dict><key>Name</key><string>Bagels</string><key>Aisle</key><string>Bakery</string></dict>
+<dict><key>Name</key><string>Baguette</string><key>Aisle</key><string>Bakery</string></dict>
+<dict><key>Name</key><string>Baking powder</string><key>Aisle</key><string>Baking</string></dict>
+<dict><key>Name</key><string>Baking soda</string><key>Aisle</key><string>Baking</string></dict>
+<dict><key>Name</key><string>Balsamic vinegar</string><key>Aisle</key><string>Condiments</string></dict>
+<dict><key>Name</key><string>Bamboo skewers</string><key>Aisle</key><string>Ethnic foods</string></dict>
+<dict><key>Name</key><string>Bananas</string><key>Aisle</key><string>Produce</string></dict>
+<dict><key>Name</key><string>Band-aids</string><key>Aisle</key><string>Personal Care</string></dict>
+<dict><key>Name</key><string>Barbeque sauce</string><key>Aisle</key><string>Condiments</string></dict>
+<dict><key>Name</key><string>Basil</string><key>Aisle</key><string>Produce</string></dict>
+<dict><key>Name</key><string>Basmati rice</string><key>Aisle</key><string>Ethnic foods</string></dict>
+<dict><key>Name</key><string>Batteries</string><key>Aisle</key><string>Check-Out</string></dict>
+<dict><key>Name</key><string>Bay leaves</string><key>Aisle</key><string>Spices</string></dict>
+<dict><key>Name</key><string>Beans</string><key>Aisle</key><string>Canned vegetables/pasta</string></dict>
+<dict><key>Name</key><string>Beef broth</string><key>Aisle</key><string>Prepared foods</string></dict>
+<dict><key>Name</key><string>Beer</string><key>Aisle</key><string>Beverages</string></dict>
+<dict><key>Name</key><string>Beets</string><key>Aisle</key><string>Produce</string></dict>
+<dict><key>Name</key><string>Bittersweet chocolate</string><key>Aisle</key><string>Baking</string></dict>
+<dict><key>Name</key><string>Blackberry preserves</string><key>Aisle</key><string>Condiments</string></dict>
+<dict><key>Name</key><string>Bleu cheese</string><key>Aisle</key><string>Deli/Cheese</string><key>Usual</key><string>0.5 lb</string></dict>
+<dict><key>Name</key><string>Body soap</string><key>Aisle</key><string>Personal Care</string></dict>
+<dict><key>Name</key><string>Bread</string><key>Aisle</key><string>Bakery</string></dict>
+<dict><key>Name</key><string>Bread flour</string><key>Aisle</key><string>Baking</string></dict>
+<dict><key>Name</key><string>Broccoli</string><key>Aisle</key><string>Produce</string></dict>
+<dict><key>Name</key><string>Brown sugar</string><key>Aisle</key><string>Baking</string></dict>
+<dict><key>Name</key><string>Butter</string><key>Aisle</key><string>Dairy</string><key>Usual</key><string>1 lb</string></dict>
+<dict><key>Name</key><string>Cabbage</string><key>Aisle</key><string>Produce</string></dict>
+<dict><key>Name</key><string>Canned corn</string><key>Aisle</key><string>Canned vegetables/pasta</string></dict>
+<dict><key>Name</key><string>Canola oil</string><key>Aisle</key><string>Condiments</string></dict>
+<dict><key>Name</key><string>Cantaloupe</string><key>Aisle</key><string>Produce</string></dict>
+<dict><key>Name</key><string>Capers</string><key>Aisle</key><string>Prepared foods</string></dict>
+<dict><key>Name</key><string>Capicola</string><key>Aisle</key><string>Deli/Cheese</string><key>Usual</key><string>0.5 lb</string></dict>
+<dict><key>Name</key><string>Cardamom pods</string><key>Aisle</key><string>Spices</string></dict>
+<dict><key>Name</key><string>Carrot</string><key>Aisle</key><string>Produce</string></dict>
+<dict><key>Name</key><string>Cashew</string><key>Aisle</key><string>Baking</string></dict>
+<dict><key>Name</key><string>Cat food</string><key>Aisle</key><string>Pets</string></dict>
+<dict><key>Name</key><string>Cauliflower</string><key>Aisle</key><string>Produce</string></dict>
+<dict><key>Name</key><string>Celery</string><key>Aisle</key><string>Produce</string></dict>
+<dict><key>Name</key><string>Cereal</string><key>Aisle</key><string>Cereal</string></dict>
+<dict><key>Name</key><string>Champagne vinegar</string><key>Aisle</key><string>* Specialty store</string></dict>
+<dict><key>Name</key><string>Cheddar cheese</string><key>Aisle</key><string>Deli/Cheese</string><key>Usual</key><string>0.5 lb</string></dict>
+<dict><key>Name</key><string>Cheese</string><key>Aisle</key><string>Deli/Cheese</string><key>Usual</key><string>0.5 lb</string></dict>
+<dict><key>Name</key><string>Cherries</string><key>Aisle</key><string>Deli/Cheese</string></dict>
+<dict><key>Name</key><string>Chicken</string><key>Aisle</key><string>Meat</string><key>Usual</key><string>1 lb</string></dict>
+<dict><key>Name</key><string>Chicken broth</string><key>Aisle</key><string>Prepared foods</string></dict>
+<dict><key>Name</key><string>Chicken thighs</string><key>Aisle</key><string>Meat</string><key>Usual</key><string>1 lb</string></dict>
+<dict><key>Name</key><string>Chile-garlic sauce</string><key>Aisle</key><string>Ethnic foods</string></dict>
+<dict><key>Name</key><string>Chili oil</string><key>Aisle</key><string>Ethnic foods</string></dict>
+<dict><key>Name</key><string>Chili Powder</string><key>Aisle</key><string>Spices</string></dict>
+<dict><key>Name</key><string>Chinese BBQ sauce</string><key>Aisle</key><string>Ethnic foods</string></dict>
+<dict><key>Name</key><string>Chipotle peppers</string><key>Aisle</key><string>Ethnic foods</string></dict>
+<dict><key>Name</key><string>Chips</string><key>Aisle</key><string>Snacks</string></dict>
+<dict><key>Name</key><string>Chocolate chips</string><key>Aisle</key><string>Baking</string></dict>
+<dict><key>Name</key><string>Chorizo</string><key>Aisle</key><string>Meat</string><key>Usual</key><string>1 lb</string></dict>
+<dict><key>Name</key><string>Cilantro</string><key>Aisle</key><string>Produce</string></dict>
+<dict><key>Name</key><string>Cinnamon stick</string><key>Aisle</key><string>Spices</string></dict>
+<dict><key>Name</key><string>Clams</string><key>Aisle</key><string>* Fish market</string><key>Usual</key><string>1 lb</string></dict>
+<dict><key>Name</key><string>Coffee</string><key>Aisle</key><string>Cereal</string></dict>
+<dict><key>Name</key><string>Coke</string><key>Aisle</key><string>Beverages</string></dict>
+<dict><key>Name</key><string>Cookies</string><key>Aisle</key><string>Snacks</string></dict>
+<dict><key>Name</key><string>Coriander</string><key>Aisle</key><string>Spices</string></dict>
+<dict><key>Name</key><string>Corn</string><key>Aisle</key><string>Produce</string></dict>
+<dict><key>Name</key><string>Corn meal</string><key>Aisle</key><string>Baking</string></dict>
+<dict><key>Name</key><string>Corn tortillas</string><key>Aisle</key><string>Ethnic foods</string></dict>
+<dict><key>Name</key><string>Cottage cheese</string><key>Aisle</key><string>Dairy</string><key>Usual</key><string>8 oz</string></dict>
+<dict><key>Name</key><string>Couscous</string><key>Aisle</key><string>Ethnic foods</string></dict>
+<dict><key>Name</key><string>Crab meat</string><key>Aisle</key><string>* Fish market</string><key>Usual</key><string>0.5 lb</string></dict>
+<dict><key>Name</key><string>Crackers</string><key>Aisle</key><string>Snacks</string></dict>
+<dict><key>Name</key><string>Cream</string><key>Aisle</key><string>Dairy</string><key>Usual</key><string>1 pt</string></dict>
+<dict><key>Name</key><string>Cream cheese</string><key>Aisle</key><string>Deli/Cheese</string><key>Usual</key><string>8 oz</string></dict>
+<dict><key>Name</key><string>Crushed tomatoes</string><key>Aisle</key><string>Canned vegetables/pasta</string></dict>
+<dict><key>Name</key><string>Cucumber</string><key>Aisle</key><string>Produce</string></dict>
+<dict><key>Name</key><string>Cumin</string><key>Aisle</key><string>Spices</string></dict>
+<dict><key>Name</key><string>Curry paste</string><key>Aisle</key><string>Ethnic foods</string></dict>
+<dict><key>Name</key><string>Curry powder</string><key>Aisle</key><string>Spices</string></dict>
+<dict><key>Name</key><string>Deli meat</string><key>Aisle</key><string>Deli/Cheese</string><key>Usual</key><string>0.5 lb</string></dict>
+<dict><key>Name</key><string>Deoderant</string><key>Aisle</key><string>Personal Care</string></dict>
+<dict><key>Name</key><string>Diapers</string><key>Aisle</key><string>Baby</string></dict>
+<dict><key>Name</key><string>Diced tomatoes</string><key>Aisle</key><string>Canned vegetables/pasta</string></dict>
+<dict><key>Name</key><string>Dijon mustard</string><key>Aisle</key><string>Condiments</string></dict>
+<dict><key>Name</key><string>Dill</string><key>Aisle</key><string>Spices</string></dict>
+<dict><key>Name</key><string>Dish soap</string><key>Aisle</key><string>Household</string></dict>
+<dict><key>Name</key><string>Dishwasher soap</string><key>Aisle</key><string>Household</string></dict>
+<dict><key>Name</key><string>Dog food</string><key>Aisle</key><string>Pets</string></dict>
+<dict><key>Name</key><string>Dried cherries</string><key>Aisle</key><string>Meat</string></dict>
+<dict><key>Name</key><string>Egg noodles</string><key>Aisle</key><string>Ethnic foods</string></dict>
+<dict><key>Name</key><string>Eggplant</string><key>Aisle</key><string>Produce</string></dict>
+<dict><key>Name</key><string>Eggs</string><key>Aisle</key><string>Dairy</string></dict>
+<dict><key>Name</key><string>Fennel</string><key>Aisle</key><string>Spices</string></dict>
+<dict><key>Name</key><string>Figs</string><key>Aisle</key><string>Produce</string></dict>
+<dict><key>Name</key><string>Fish</string><key>Aisle</key><string>* Fish market</string><key>Usual</key><string>1 lb</string></dict>
+<dict><key>Name</key><string>Fish sauce</string><key>Aisle</key><string>Ethnic foods</string></dict>
+<dict><key>Name</key><string>Flank steak</string><key>Aisle</key><string>Meat</string><key>Usual</key><string>1 lb</string></dict>
+<dict><key>Name</key><string>Flour</string><key>Aisle</key><string>Baking</string></dict>
+<dict><key>Name</key><string>Flour tortillas</string><key>Aisle</key><string>Ethnic foods</string></dict>
+<dict><key>Name</key><string>Flowers</string><key>Aisle</key><string>Check-Out</string></dict>
+<dict><key>Name</key><string>Frozen corn</string><key>Aisle</key><string>Frozen</string></dict>
+<dict><key>Name</key><string>Frozen peas</string><key>Aisle</key><string>Frozen</string></dict>
+<dict><key>Name</key><string>Garbage bags</string><key>Aisle</key><string>Household</string></dict>
+<dict><key>Name</key><string>Garlic</string><key>Aisle</key><string>Produce</string></dict>
+<dict><key>Name</key><string>Ginger</string><key>Aisle</key><string>Produce</string></dict>
+<dict><key>Name</key><string>Grapes</string><key>Aisle</key><string>Produce</string></dict>
+<dict><key>Name</key><string>Green beans</string><key>Aisle</key><string>Produce</string></dict>
+<dict><key>Name</key><string>Green pepper</string><key>Aisle</key><string>Produce</string></dict>
+<dict><key>Name</key><string>Ground beef</string><key>Aisle</key><string>Meat</string><key>Usual</key><string>1 lb</string></dict>
+<dict><key>Name</key><string>Ground pork</string><key>Aisle</key><string>Meat</string><key>Usual</key><string>1 lb</string></dict>
+<dict><key>Name</key><string>Halibut</string><key>Aisle</key><string>* Fish market</string><key>Usual</key><string>1 lb</string></dict>
+<dict><key>Name</key><string>Hazelnuts</string><key>Aisle</key><string>Baking</string></dict>
+<dict><key>Name</key><string>Herbs de provençe</string><key>Aisle</key><string>* Specialty store</string></dict>
+<dict><key>Name</key><string>Hoisin sauce</string><key>Aisle</key><string>Ethnic foods</string></dict>
+<dict><key>Name</key><string>Honey</string><key>Aisle</key><string>Baking</string></dict>
+<dict><key>Name</key><string>Horseradish</string><key>Aisle</key><string>Condiments</string></dict>
+<dict><key>Name</key><string>Ice</string><key>Aisle</key><string>Check-Out</string><key>Usual</key><string>5 lb</string></dict>
+<dict><key>Name</key><string>Ice Cream</string><key>Aisle</key><string>Frozen</string></dict>
+<dict><key>Name</key><string>Italian sausage</string><key>Aisle</key><string>Meat</string><key>Usual</key><string>1 lb</string></dict>
+<dict><key>Name</key><string>Jalapeno pepper</string><key>Aisle</key><string>Produce</string></dict>
+<dict><key>Name</key><string>Jam</string><key>Aisle</key><string>Condiments</string></dict>
+<dict><key>Name</key><string>Jelly</string><key>Aisle</key><string>Condiments</string></dict>
+<dict><key>Name</key><string>Jicama</string><key>Aisle</key><string>Produce</string></dict>
+<dict><key>Name</key><string>Juice</string><key>Aisle</key><string>Beverages</string></dict>
+<dict><key>Name</key><string>Ketchup</string><key>Aisle</key><string>Condiments</string></dict>
+<dict><key>Name</key><string>Lamb</string><key>Aisle</key><string>Meat</string><key>Usual</key><string>1 lb</string></dict>
+<dict><key>Name</key><string>Lamb loin chops</string><key>Aisle</key><string>Meat</string><key>Usual</key><string>1 lb</string></dict>
+<dict><key>Name</key><string>Lasagna</string><key>Aisle</key><string>Canned vegetables/pasta</string></dict>
+<dict><key>Name</key><string>Laundry detergent</string><key>Aisle</key><string>Household</string></dict>
+<dict><key>Name</key><string>Lemon</string><key>Aisle</key><string>Produce</string></dict>
+<dict><key>Name</key><string>Lemon juice</string><key>Aisle</key><string>Canned fruit</string></dict>
+<dict><key>Name</key><string>Lemongrass</string><key>Aisle</key><string>Produce</string></dict>
+<dict><key>Name</key><string>Lettuce</string><key>Aisle</key><string>Produce</string></dict>
+<dict><key>Name</key><string>Lime</string><key>Aisle</key><string>Produce</string></dict>
+<dict><key>Name</key><string>Lotion</string><key>Aisle</key><string>Personal Care</string></dict>
+<dict><key>Name</key><string>Mace</string><key>Aisle</key><string>Spices</string></dict>
+<dict><key>Name</key><string>Mango</string><key>Aisle</key><string>Produce</string></dict>
+<dict><key>Name</key><string>Mayonnaise</string><key>Aisle</key><string>Condiments</string></dict>
+<dict><key>Name</key><string>Milk</string><key>Aisle</key><string>Dairy</string><key>Usual</key><string>1 gal</string></dict>
+<dict><key>Name</key><string>Mint leaves</string><key>Aisle</key><string>Produce</string></dict>
+<dict><key>Name</key><string>Mozzarella cheese</string><key>Aisle</key><string>Deli/Cheese</string><key>Usual</key><string>0.5 lb</string></dict>
+<dict><key>Name</key><string>Mushrooms</string><key>Aisle</key><string>Produce</string></dict>
+<dict><key>Name</key><string>Mustard</string><key>Aisle</key><string>Condiments</string></dict>
+<dict><key>Name</key><string>Mustard seed</string><key>Aisle</key><string>Spices</string></dict>
+<dict><key>Name</key><string>Napkins</string><key>Aisle</key><string>Household</string></dict>
+<dict><key>Name</key><string>Nutmeg</string><key>Aisle</key><string>Spices</string></dict>
+<dict><key>Name</key><string>Nuts</string><key>Aisle</key><string>Baking</string></dict>
+<dict><key>Name</key><string>Oatmeal</string><key>Aisle</key><string>Cereal</string></dict>
+<dict><key>Name</key><string>Olive oil</string><key>Aisle</key><string>Condiments</string></dict>
+<dict><key>Name</key><string>Onion</string><key>Aisle</key><string>Produce</string></dict>
+<dict><key>Name</key><string>Orange</string><key>Aisle</key><string>Produce</string></dict>
+<dict><key>Name</key><string>Orange juice</string><key>Aisle</key><string>Dairy</string></dict>
+<dict><key>Name</key><string>Oregano</string><key>Aisle</key><string>Spices</string></dict>
+<dict><key>Name</key><string>Panko</string><key>Aisle</key><string>* Specialty store</string></dict>
+<dict><key>Name</key><string>Paper towels</string><key>Aisle</key><string>Household</string></dict>
+<dict><key>Name</key><string>Parmesan cheese</string><key>Aisle</key><string>Deli/Cheese</string><key>Usual</key><string>0.5 lb</string></dict>
+<dict><key>Name</key><string>Parsley</string><key>Aisle</key><string>Produce</string></dict>
+<dict><key>Name</key><string>Pasta sauce</string><key>Aisle</key><string>Canned vegetables/pasta</string></dict>
+<dict><key>Name</key><string>Peaches</string><key>Aisle</key><string>Produce</string></dict>
+<dict><key>Name</key><string>Peanut butter</string><key>Aisle</key><string>Condiments</string></dict>
+<dict><key>Name</key><string>Peanut oil</string><key>Aisle</key><string>Condiments</string></dict>
+<dict><key>Name</key><string>Peanuts</string><key>Aisle</key><string>Baking</string></dict>
+<dict><key>Name</key><string>Pear</string><key>Aisle</key><string>Produce</string></dict>
+<dict><key>Name</key><string>Peas</string><key>Aisle</key><string>Produce</string></dict>
+<dict><key>Name</key><string>Pecans</string><key>Aisle</key><string>Baking</string></dict>
+<dict><key>Name</key><string>Penne pasta</string><key>Aisle</key><string>Canned vegetables/pasta</string></dict>
+<dict><key>Name</key><string>Pepper</string><key>Aisle</key><string>Spices</string></dict>
+<dict><key>Name</key><string>Pepperoni</string><key>Aisle</key><string>Meat</string></dict>
+<dict><key>Name</key><string>Pickles</string><key>Aisle</key><string>Condiments</string></dict>
+<dict><key>Name</key><string>Pineapple</string><key>Aisle</key><string>Produce</string></dict>
+<dict><key>Name</key><string>Pine nuts</string><key>Aisle</key><string>Baking</string></dict>
+<dict><key>Name</key><string>Pizza</string><key>Aisle</key><string>Frozen</string></dict>
+<dict><key>Name</key><string>Pizza sauce</string><key>Aisle</key><string>Canned vegetables/pasta</string></dict>
+<dict><key>Name</key><string>Plantains</string><key>Aisle</key><string>Produce</string></dict>
+<dict><key>Name</key><string>Poblano pepper</string><key>Aisle</key><string>Produce</string></dict>
+<dict><key>Name</key><string>Pork</string><key>Aisle</key><string>Meat</string><key>Usual</key><string>1 lb</string></dict>
+<dict><key>Name</key><string>Pork chops</string><key>Aisle</key><string>Meat</string><key>Usual</key><string>1 lb</string></dict>
+<dict><key>Name</key><string>Pork roast</string><key>Aisle</key><string>Meat</string><key>Usual</key><string>1 lb</string></dict>
+<dict><key>Name</key><string>Pork shoulder</string><key>Aisle</key><string>Meat</string><key>Usual</key><string>1 lb</string></dict>
+<dict><key>Name</key><string>Port wine</string><key>Aisle</key><string>Beverages</string></dict>
+<dict><key>Name</key><string>Portabella mushrooms</string><key>Aisle</key><string>Produce</string><key>Usual</key><string>1 lb</string></dict>
+<dict><key>Name</key><string>Potato</string><key>Aisle</key><string>Produce</string><key>Usual</key><string>1 lb</string></dict>
+<dict><key>Name</key><string>Powdered sugar</string><key>Aisle</key><string>Baking</string></dict>
+<dict><key>Name</key><string>Pretzels</string><key>Aisle</key><string>Snacks</string></dict>
+<dict><key>Name</key><string>Prosciutto</string><key>Aisle</key><string>Deli/Cheese</string><key>Usual</key><string>0.5 lb</string></dict>
+<dict><key>Name</key><string>Raisins</string><key>Aisle</key><string>Baking</string></dict>
+<dict><key>Name</key><string>Red onion</string><key>Aisle</key><string>Produce</string></dict>
+<dict><key>Name</key><string>Red pepper</string><key>Aisle</key><string>Produce</string></dict>
+<dict><key>Name</key><string>Red potato</string><key>Aisle</key><string>Produce</string><key>Usual</key><string>1 lb</string></dict>
+<dict><key>Name</key><string>Red wine</string><key>Aisle</key><string>Beverages</string></dict>
+<dict><key>Name</key><string>Red wine vinegar</string><key>Aisle</key><string>Condiments</string></dict>
+<dict><key>Name</key><string>Rice</string><key>Aisle</key><string>Prepared foods</string></dict>
+<dict><key>Name</key><string>Rice noodles</string><key>Aisle</key><string>Ethnic foods</string></dict>
+<dict><key>Name</key><string>Rice wine vinegar</string><key>Aisle</key><string>Ethnic foods</string></dict>
+<dict><key>Name</key><string>Saffron</string><key>Aisle</key><string>Spices</string></dict>
+<dict><key>Name</key><string>Sage</string><key>Aisle</key><string>Spices</string></dict>
+<dict><key>Name</key><string>Salad dressing</string><key>Aisle</key><string>Condiments</string></dict>
+<dict><key>Name</key><string>Salmon</string><key>Aisle</key><string>* Fish market</string><key>Usual</key><string>1 lb</string></dict>
+<dict><key>Name</key><string>Salt</string><key>Aisle</key><string>Spices</string></dict>
+<dict><key>Name</key><string>Sausage</string><key>Aisle</key><string>Meat</string><key>Usual</key><string>1 lb</string></dict>
+<dict><key>Name</key><string>Scallions</string><key>Aisle</key><string>Produce</string></dict>
+<dict><key>Name</key><string>Scallops</string><key>Aisle</key><string>* Fish market</string><key>Usual</key><string>1 lb</string></dict>
+<dict><key>Name</key><string>Sea salt</string><key>Aisle</key><string>Spices</string></dict>
+<dict><key>Name</key><string>Serrano pepper</string><key>Aisle</key><string>Produce</string></dict>
+<dict><key>Name</key><string>Sesame paste</string><key>Aisle</key><string>Ethnic foods</string></dict>
+<dict><key>Name</key><string>Sesame seeds</string><key>Aisle</key><string>Spices</string></dict>
+<dict><key>Name</key><string>Shampoo</string><key>Aisle</key><string>Personal Care</string></dict>
+<dict><key>Name</key><string>Shrimp</string><key>Aisle</key><string>* Fish market</string><key>Usual</key><string>1 lb</string></dict>
+<dict><key>Name</key><string>Sirloin steak</string><key>Aisle</key><string>Meat</string><key>Usual</key><string>1 lb</string></dict>
+<dict><key>Name</key><string>Smoked salmon</string><key>Aisle</key><string>* Fish market</string><key>Usual</key><string>1 lb</string></dict>
+<dict><key>Name</key><string>Soup</string><key>Aisle</key><string>Soup</string></dict>
+<dict><key>Name</key><string>Sour cream</string><key>Aisle</key><string>Dairy</string></dict>
+<dict><key>Name</key><string>Soy sauce</string><key>Aisle</key><string>Condiments</string></dict>
+<dict><key>Name</key><string>Spaghetti</string><key>Aisle</key><string>Canned vegetables/pasta</string></dict>
+<dict><key>Name</key><string>Spinach</string><key>Aisle</key><string>Produce</string></dict>
+<dict><key>Name</key><string>Squash</string><key>Aisle</key><string>Produce</string></dict>
+<dict><key>Name</key><string>Steak</string><key>Aisle</key><string>Meat</string><key>Usual</key><string>1 lb</string></dict>
+<dict><key>Name</key><string>Strawberries</string><key>Aisle</key><string>Produce</string></dict>
+<dict><key>Name</key><string>Sugar</string><key>Aisle</key><string>Baking</string></dict>
+<dict><key>Name</key><string>Sun dried tomatoes</string><key>Aisle</key><string>Canned vegetables/pasta</string></dict>
+<dict><key>Name</key><string>Sweet potato</string><key>Aisle</key><string>Produce</string><key>Usual</key><string>1 lb</string></dict>
+<dict><key>Name</key><string>Tabasco</string><key>Aisle</key><string>Condiments</string></dict>
+<dict><key>Name</key><string>Tarragon</string><key>Aisle</key><string>Spices</string></dict>
+<dict><key>Name</key><string>Tea</string><key>Aisle</key><string>Cereal</string></dict>
+<dict><key>Name</key><string>Teriyaki marinade</string><key>Aisle</key><string>Ethnic foods</string></dict>
+<dict><key>Name</key><string>Thyme</string><key>Aisle</key><string>Spices</string></dict>
+<dict><key>Name</key><string>Tofu</string><key>Aisle</key><string>Produce</string></dict>
+<dict><key>Name</key><string>Toilet paper</string><key>Aisle</key><string>Household</string></dict>
+<dict><key>Name</key><string>Tomatillos</string><key>Aisle</key><string>Produce</string></dict>
+<dict><key>Name</key><string>Tomato</string><key>Aisle</key><string>Produce</string></dict>
+<dict><key>Name</key><string>Tomato paste</string><key>Aisle</key><string>Canned vegetables/pasta</string></dict>
+<dict><key>Name</key><string>Tomato sauce</string><key>Aisle</key><string>Canned vegetables/pasta</string></dict>
+<dict><key>Name</key><string>Toothpaste</string><key>Aisle</key><string>Personal Care</string></dict>
+<dict><key>Name</key><string>Tumeric</string><key>Aisle</key><string>Spices</string></dict>
+<dict><key>Name</key><string>Tuna</string><key>Aisle</key><string>* Fish market</string><key>Usual</key><string>1 lb</string></dict>
+<dict><key>Name</key><string>Unsweetened Chocolate</string><key>Aisle</key><string>Baking</string></dict>
+<dict><key>Name</key><string>Vanilla bean</string><key>Aisle</key><string>Spices</string></dict>
+<dict><key>Name</key><string>Vanilla extract</string><key>Aisle</key><string>Baking</string></dict>
+<dict><key>Name</key><string>Vegetable oil</string><key>Aisle</key><string>Condiments</string></dict>
+<dict><key>Name</key><string>Vinegar</string><key>Aisle</key><string>Condiments</string></dict>
+<dict><key>Name</key><string>Water</string><key>Aisle</key><string>Beverages</string><key>Usual</key><string>1 gal</string></dict>
+<dict><key>Name</key><string>Water chestnuts</string><key>Aisle</key><string>Ethnic foods</string></dict>
+<dict><key>Name</key><string>Wheat flour</string><key>Aisle</key><string>Baking</string></dict>
+<dict><key>Name</key><string>White onion</string><key>Aisle</key><string>Produce</string></dict>
+<dict><key>Name</key><string>White pepper</string><key>Aisle</key><string>Spices</string></dict>
+<dict><key>Name</key><string>White wine</string><key>Aisle</key><string>Beverages</string></dict>
+<dict><key>Name</key><string>Whole tomatoes</string><key>Aisle</key><string>Canned vegetables/pasta</string></dict>
+<dict><key>Name</key><string>Yeast</string><key>Aisle</key><string>Baking</string></dict>
+<dict><key>Name</key><string>Yellow onion</string><key>Aisle</key><string>Produce</string></dict>
+<dict><key>Name</key><string>Yellow pepper</string><key>Aisle</key><string>Produce</string></dict>
+<dict><key>Name</key><string>Yogurt</string><key>Aisle</key><string>Dairy</string></dict>
+<dict><key>Name</key><string>Zucchini</string><key>Aisle</key><string>Produce</string></dict>
+
+</array>
+</plist>

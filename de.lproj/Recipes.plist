@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+
+<!-- supported quantities are: 1 lb, 0.5 lb, 0.25 lb, 2 lb
+<!-- if you want to add a new quantity, modify Database.m, populateRecipesSampleData -->
+<!-- right now they are hardcoded to the string -->
+
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Name</key>
+		<string>In Prosciutto gewickelte Krabben mit Brombeer-Minz-Sauce</string>
+		<key>Notes</key>
+		<string>Ergibt 4 Selbstverteidigungsspieße.
+		Kochzeit: 20 Minuten
+		Quelle: Seattlefoodgeek.com</string>
+		<key>Link</key>
+		<string>http://seattlefoodgeek.com/2008/04/27/proscuitto-wrapped-shrimp-with-blackberry-mint-sauce/</string>
+		<key>Image</key>
+		<string>recipe1.png</string>
+
+		<key>Ingredients</key>
+		<array>		
+			<dict><key>Name</key><string>Garnelen</string><key>Amount</key><string>1 lb</string></dict>
+			<dict><key>Name</key><string>Parmaschinken</string><key>Amount</key><string>0.25 lb</string></dict>
+			<dict><key>Name</key><string>Schaschlikspieße</string></dict>
+			<dict><key>Name</key><string>Muskatblüte</string></dict>
+			<dict><key>Name</key><string>Paprika, weiß</string></dict>
+			<dict><key>Name</key><string>Brombeer Marmelade</string></dict>
+			<dict><key>Name</key><string>Pfefferminze</string></dict>
+			<dict><key>Name</key><string>Portwein</string></dict>
+			<dict><key>Name</key><string>Meersalz</string></dict>
+		</array>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Asiatische Lachsschälchen</string>
+		<key>Notes</key>
+		<string>Ergibt 4 Glücksmomente in Vorspeisengröße.
+		Kochzeit: 30 Minuten
+		Quelle: Seattlefoodgeek.com</string>
+		<key>Link</key>
+		<string>http://seattlefoodgeek.com/2008/06/01/asian-salmon-cups-with-fresh-aromatics/</string>
+		<key>Image</key>
+		<string>recipe2.png</string>
+
+		<key>Ingredients</key>
+		<array>
+			<dict><key>Name</key><string>Lachs</string><key>Amount</key><string>1 lb</string></dict>
+			<dict><key>Name</key><string>Sojasauce</string></dict>
+			<dict><key>Name</key><string>Teriyaki Marinade</string></dict>
+			<dict><key>Name</key><string>Chiliöl</string></dict>
+			<dict><key>Name</key><string>Frühlingszwiebeln</string></dict>
+			<dict><key>Name</key><string>Knoblauch</string></dict>
+			<dict><key>Name</key><string>Ingwer</string></dict>
+			<dict><key>Name</key><string>Wasserkastanie</string></dict>
+			<dict><key>Name</key><string>Limette</string></dict>
+			<dict><key>Name</key><string>Sesamsamen</string></dict>
+			<dict><key>Name</key><string>Erdnussöl</string></dict>
+			<dict><key>Name</key><string>Reisweinessig</string></dict>
+			<dict><key>Name</key><string>Weißkohl</string></dict>
+			<dict><key>Name</key><string>Hoisinsauce</string></dict>
+		</array>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Bratkartoffelsalat mit Dijon-Vinaigrette</string>
+		<key>Notes</key>
+		<string>Kochzeit: 1 Stunde 
+		Ergibt 8 Portitionen
+		Quelle: Seattlefoodgeek.com</string>
+		<key>Link</key>
+		<string>http://seattlefoodgeek.com/2008/06/30/roasted-potato-salad-with-dijon-vinaigrette/</string>
+		<key>Image</key>
+		<string>recipe3.png</string>
+
+		<key>Ingredients</key>
+		<array>
+			<dict><key>Name</key><string>Kartoffel</string><key>Amount</key><string>2 lb</string></dict>
+			<dict><key>Name</key><string>Zwiebel, weiß</string></dict>
+			<dict><key>Name</key><string>Paprika, rot</string></dict>
+			<dict><key>Name</key><string>Knoblauch</string></dict>
+			<dict><key>Name</key><string>Olivenöl</string></dict>
+			<dict><key>Name</key><string>Champagner Essig</string></dict>
+			<dict><key>Name</key><string>Dijonsenf</string></dict>
+			<dict><key>Name</key><string>Honig</string></dict>
+			<dict><key>Name</key><string>Kapern</string></dict>
+			<dict><key>Name</key><string>Kräuter der Provence</string></dict>
+			<dict><key>Name</key><string>Meersalz</string></dict>
+		</array>
+	</dict>
+	
+</array>
+</plist>

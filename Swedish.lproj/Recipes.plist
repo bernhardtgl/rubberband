@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+
+<!-- supported quantities are: 1 lb, 0.5 lb, 0.25 lb, 2 lb
+<!-- if you want to add a new quantity, modify Database.m, populateRecipesSampleData -->
+<!-- right now they are hardcoded to the string -->
+
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Name</key>
+		<string>Prosciuttolindade räkor med björnbärsmintsås</string>
+		<key>Notes</key>
+		<string>Mängd: 4 rejäla grillspett.
+Total tillagningstid: 20 minuter
+Från: seattlefoodgeek.com</string>
+		<key>Link</key>
+		<string>http://seattlefoodgeek.com/2008/04/27/proscuitto-wrapped-shrimp-with-blackberry-mint-sauce/</string>
+		<key>Image</key>
+		<string>recipe1.png</string>
+
+		<key>Ingredients</key>
+		<array>		
+<dict><key>Name</key><string>Räkor</string><key>Amount</key><string>1 lb</string></dict>
+<dict><key>Name</key><string>Prosciutto</string><key>Amount</key><string>0.25 lb</string></dict>
+<dict><key>Name</key><string>Grillspett av trä</string></dict>
+<dict><key>Name</key><string>Muskotblomma</string></dict>
+<dict><key>Name</key><string>Vitpeppar</string></dict>
+<dict><key>Name</key><string>Konserverade björnbär</string></dict>
+<dict><key>Name</key><string>Färsk mynta</string></dict>
+<dict><key>Name</key><string>Portvin</string></dict>
+<dict><key>Name</key><string>Havssalt</string></dict>
+		</array>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Asiatiska laxbägare med färska kryddor</string>
+		<key>Notes</key>
+		<string>Mängd: 4 portioner lagom till förrätt 
+Total tillagningstid: 30 minuter
+Från: seattlefoodgeek.com</string>
+		<key>Link</key>
+		<string>http://seattlefoodgeek.com/2008/06/01/asian-salmon-cups-with-fresh-aromatics/</string>
+		<key>Image</key>
+		<string>recipe2.png</string>
+
+		<key>Ingredients</key>
+		<array>
+<dict><key>Name</key><string>Lax</string><key>Amount</key><string>1 lb</string></dict>
+<dict><key>Name</key><string>Soja</string></dict>
+<dict><key>Name</key><string>Teriyakimarinad</string></dict>
+<dict><key>Name</key><string>Chiliolja</string></dict>
+<dict><key>Name</key><string>Gräslök</string></dict>
+<dict><key>Name</key><string>Vitlök</string></dict>
+<dict><key>Name</key><string>Ingefära</string></dict>
+<dict><key>Name</key><string>Vattenkastanjer</string></dict>
+<dict><key>Name</key><string>Lime</string></dict>
+<dict><key>Name</key><string>Sesamfrön</string></dict>
+<dict><key>Name</key><string>Jordnötsolja</string></dict>
+<dict><key>Name</key><string>Risvinäger</string></dict>
+<dict><key>Name</key><string>Vitkål</string></dict>
+<dict><key>Name</key><string>Kinesisk BBQ-sås</string></dict>
+		</array>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Rostad potatissallad med dijonvinägrett</string>
+		<key>Notes</key>
+		<string>Total tillagningstid: 1 timme 
+Mängd: 8 portioner
+Från: seattlefoodgeek.com</string>
+		<key>Link</key>
+		<string>http://seattlefoodgeek.com/2008/06/30/roasted-potato-salad-with-dijon-vinaigrette/</string>
+		<key>Image</key>
+		<string>recipe3.png</string>
+
+		<key>Ingredients</key>
+		<array>
+<dict><key>Name</key><string>Potatis med rött skal</string><key>Amount</key><string>2 lb</string></dict>
+<dict><key>Name</key><string>Silverlök</string></dict>
+<dict><key>Name</key><string>Röd paprika</string></dict>
+<dict><key>Name</key><string>Vitlök</string></dict>
+<dict><key>Name</key><string>Olivolja</string></dict>
+<dict><key>Name</key><string>Champagne</string></dict>
+<dict><key>Name</key><string>Dijonsenap</string></dict>
+<dict><key>Name</key><string>Honung</string></dict>
+<dict><key>Name</key><string>Kapris</string></dict>
+<dict><key>Name</key><string>Fransk örtkryddblandning</string></dict>
+<dict><key>Name</key><string>Havssalt</string></dict>
+		</array>
+	</dict>
+	
+</array>
+</plist>

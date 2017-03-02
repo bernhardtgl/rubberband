@@ -1,0 +1,347 @@
+﻿/* cup abbreviation */
+" c" = " c";
+
+/* gram abbreviation */
+" g" = " g";
+
+/* gallon abbreviation */
+" gal" = " gal";
+
+/* kilogram abbreviation */
+" kg" = " kg";
+
+/* liter abbreviation */
+" l" = " l";
+
+/* pound abbreviation */
+" lb" = " lb";
+
+/* milliliter abbreviation */
+" ml" = " ml";
+
+/* ounce abbreviation */
+" oz" = " oz";
+
+/* pint abbreviation */
+" pt" = " pt";
+
+/* quart abbreviation */
+" qt" = " ct";
+
+/* tablespoon abbreviation */
+" Tbsp" = " cda";
+
+/* teaspoon abbreviation */
+" tsp" = " cdita";
+
+/* Section header for non A-Z items */
+"123" = "123";
+
+/* Button to add a new aisle */
+"Add Aisle" = "Añadir Pasillo";
+
+/* Add all ingredients to recipe */
+"Add all ingredients" = "Añadir ingredientes";
+
+/* View title */
+"Add Ingredients" = "Añadir Ingredientes";
+
+/* Add item to recipe */
+"Add ingredients" = "Añadir ingredientes";
+
+/* No comment provided by engineer. */
+"Add Photo" = "Añadir foto";
+
+/* THIS NEEDS TO BE SHORT - button when adding from email */
+"Add Recipe" = "Añadir Receta";
+
+/* button in email */
+"Add to GroceryZen" = "Añadir a GroceryZen";
+
+/* THIS NEEDS TO BE SHORT - button when adding from email */
+"Add to List" = "Añadir a la lista";
+
+/* View title */
+"Add to Recipes" = "Añadir a las recetas";
+
+/* No comment provided by engineer. */
+"Add to recipes" = "Añadir a las recetas";
+
+/* DON'T CHANGE THIS - localized button name */
+"add_button.png" = "add_button_es.png";
+
+/* Title for Select Aisle
+   Aisle label */
+"Aisle" = "Pasillo";
+
+/* Aisle edit button */
+"Aisles" = "Pasillos";
+
+/* Easter egg item: set to the item you like least */
+"Broccoli" = "Brócoli";
+
+/* button
+   Cancel button */
+"Cancel" = "Cancelar";
+
+/* Check out button */
+"Check Out" = "Pagar";
+
+/* Button */
+"Choose Existing Photo" = "Seleccionar foto existente";
+
+/* Must be short! Button after user has emailed list. */
+"Clear List" = "Borrar";
+
+/* Button text
+   button */
+"Close" = "Cerrar";
+
+/* unit of measure */
+"cup" = "taza";
+
+/* unit of measure */
+"cups" = "tacitas";
+
+/* add from email */
+"Do you want to add %d items to your shopping list?" = "¿Quiere añadir los artículos %d a su lista de la compra?";
+
+/* Message when user launches from a website to add a recipe
+   Message when user launches from a email to add a recipe */
+"Do you want to add a new recipe?\r\n\r\n%@" = "¿Quiere añadir una nueva receta?\r\n\r\n%@";
+
+/* add from email - singular */
+"Do you want to add one item to your shopping list?" = "¿Quiere añadir urn artículo a a su lista de la compra?";
+
+/* text in recipe email */
+"Don't have GroceryZen?" = "¿No tiene GroceryZen?";
+
+/* Done button
+   done searching */
+"Done" = "Fin";
+
+/* Edit picture label
+   Button */
+"Edit" = "Editar";
+
+/* Title for edit aisle */
+"Edit Aisle" = "Editar Pasillo";
+
+/* Title for Edit Aisle screen */
+"Edit Aisles" = "Editar Pasillo";
+
+/* View name */
+"Edit Notes" = "Editar Notas";
+
+/* THIS NEEDS TO BE SHORT! Button to email a specific recipe */
+"Email" = "Enviar";
+
+/* E-mail shopping list button title */
+"Email List" = "Lista de Email";
+
+/* E-mail recipe button title
+   Title of view */
+"Email Recipe" = "Enviar Receta por Email";
+
+/* unit of measure */
+"gallon" = "galón";
+
+/* unit of measure */
+"gallons" = "galones";
+
+/* unit of measure */
+"gram" = "gramo";
+
+/* unit of measure */
+"grams" = "gramos";
+
+/* Load failure */
+"GroceryZen had trouble loading the information from your most recent changes. If this keeps happening, please contact our technical support." = "GrozeryZen ha tenido problemas para cargar la información de sus últimos cambios. Si esto sigue ocurriendo, póngase en contacto con nuestro soporte técnico.";
+
+/* Name of 'aisle' for completed items. */
+"Have" = "Tengo";
+
+/* e-mail subject line for recipe */
+"Here's my shopping list for \"%@\"" = "Aquí está mi lista de la compra para \"%@\"";
+
+/* Item count usually needed */
+"I usually buy" = "Generalmente compro";
+
+/* Title for Edit Item */
+"Item" = "Artículo";
+
+/* unit of measure */
+"item" = "artículo";
+
+/* unit of measure */
+"items" = "artículos";
+
+/* Item view navigation title
+   Items label */
+"Items" = "Artículos";
+
+/* Must be short! Button after user has emailed list. */
+"Keep List" = "Guardar";
+
+/* unit of measure */
+"kilogram" = "kilogramo";
+
+/* unit of measure */
+"kilograms" = "kilogramos";
+
+/* unit of measure */
+"liter" = "litro";
+
+/* unit of measure */
+"liters" = "litros";
+
+/* unit of measure */
+"milliliter" = "mililitro";
+
+/* unit of measure */
+"milliliters" = "mililitros";
+
+/* Placeholder for item name
+   Placeholder for aisle name
+   Placeholder for name
+   Placeholder name for recipe */
+"Name" = "Nombre";
+
+/* Quantity for an ingredient in a recipe */
+"Needed for this recipe" = "Necesario para esta receta";
+
+/* Quantity needed
+   Item count currently needed */
+"Needed now" = "Necesario ahora";
+
+/* Title for new aisle */
+"New Aisle" = "Nuevo pasillo";
+
+/* Title for New Item */
+"New Item" = "Nuevo Artículo";
+
+/* Title for New Recipe */
+"New Recipe" = "Nueva Receta";
+
+/* No comment provided by engineer. */
+"No ingredients" = "No hay ingredientes";
+
+/* Aisle name if not selected
+   No aisle
+   Unspecified aisle
+   Items text if none are selected */
+"None" = "Ninguno";
+
+/* Note text if not specified */
+"Notes" = "Notas";
+
+/* text in recipe email */
+"Notes:" = "Notas:";
+
+/* No comment provided by engineer. */
+"OK" = "OK";
+
+/* unit of measure */
+"ounce" = "onza";
+
+/* unit of measure */
+"ounces" = "onzas";
+
+/* unit of measure */
+"pint" = "pinta";
+
+/* unit of measure */
+"pints" = "pintas";
+
+/* unit of measure */
+"pound" = "libra";
+
+/* unit of measure */
+"pounds" = "libras";
+
+/* Title of quantity screen
+   Quantity label */
+"Quantity" = "Cantidad";
+
+/* unit of measure */
+"quart" = "cuarto";
+
+/* unit of measure */
+"quarts" = "cuartos";
+
+/* Title for Edit Recipe
+   Title for View Recipe */
+"Recipe" = "Receta";
+
+/* Title for recipe name */
+"Recipe Info" = "Información";
+
+/* link text for site when emailing a recipe */
+"Recipe website" = "Página web de la receta";
+
+/* Recipes view navigation title */
+"Recipes" = "Recetas";
+
+/* Save button */
+"Save" = "Guardar";
+
+/* Placeholder */
+"Search" = "Buscar";
+
+/* Share view navigation title */
+"Share" = "Compartir";
+
+/* Shop view navigation title */
+"Shop" = "Comprar";
+
+/* e-mail subject line for Shopping list */
+"Shopping list" = "Lista de la compra";
+
+/* text in recipe email */
+"Shopping list:" = "Lista de la compra:";
+
+/* Message after user has emailed list. */
+"Since you emailed your list, do you want to clear it now?" = "Como ya ha enviado la lista por email, ¿quiere borrarla ahora?";
+
+/* unit of measure */
+"tablespoon" = "cucharada";
+
+/* unit of measure */
+"tablespoons" = "cucharadas";
+
+/* Button */
+"Take Photo" = "Hacer Foto";
+
+/* No comment provided by engineer. */
+"Tap on 'Edit' to add some." = "Presione 'Editar' para añadir algunas.";
+
+/* unit of measure */
+"teaspoon" = "cucharadita";
+
+/* unit of measure */
+"teaspoons" = "cucharaditas";
+
+/* Message if emailing a list doesn't work. */
+"The mail application could not be opened - this happens sometimes.\r\n\r\nIf it keeps happening, change the list slightly and try again." = "No se ha podido abrir el programa de email - esto ocurre a veces.\r\n\r\nSi sigue ocurriendo, modifique la lista ligeramente e inténtelo de nuevo.";
+
+/* Message if emailing a recipe doesn't work. */
+"The mail application could not be opened - this happens sometimes.\r\n\r\nIf it keeps happening, change the recipe slightly and try again." = "No se ha podido abrir el programa de email - esto ocurre a veces.\r\n\r\nSi sigue ocurriendo, modifique la receta ligeramente e inténtelo de nuevo.";
+
+/* No comment provided by engineer. */
+"This will reset all the items you have purchased." = "Esto anulará todos los artículos que ha comprado.";
+
+/* Easter egg checkout message */
+"This will reset all the items you have purchased.\r\nEwwww, you bought broccoli!" = "Esto anulará todos los artículos que ha comprado.\r\nPuaj, ¡ha comprado brócoli!";
+
+/* No comment provided by engineer. */
+"Woohoo! You don't need anything\r\nelse today." = "¡Bien! No necesita nada\r\nmás hoy.";
+
+/* Placeholder for recipe web address */
+"www.example.com" = "www.example.com";
+
+/* No comment provided by engineer. */
+"You're done shopping" = "Ha terminado de hacer la compra";
+
+/* Message when can't add two things together like pounds + liters */
+"You're trying to use two different units of measurement. Couldn't add these ingredients:\r\n" = "Está intentando usar dos unidades de media distintas. No se han podido añadir estos ingredientes:\r\n";
+

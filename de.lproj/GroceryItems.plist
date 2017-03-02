@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+
+<!-- supported quantities are: 1 lb, 0.5 lb, 5 lb, 1 gal, 1 pt, 8 oz -->
+<!-- if you want to add a new quantity, modify Database.m, populateItemsSampleData -->
+<!-- right now they are hardcoded to the string -->
+
+<!--generated from SampleData.xls-->
+<dict><key>Name</key><string>Aluminiumfolie</string><key>Aisle</key><string>Haushaltswaren</string></dict>
+<dict><key>Name</key><string>Anchovies</string><key>Aisle</key><string>Fertiggerichte</string></dict>
+<dict><key>Name</key><string>Apfel</string><key>Aisle</key><string>Obst/Gemüse</string></dict>
+<dict><key>Name</key><string>Appenzeller</string><key>Aisle</key><string>Delikatessen</string><key>Usual</key><string>0.5 lb</string></dict>
+<dict><key>Name</key><string>Aubergine</string><key>Aisle</key><string>Obst/Gemüse</string></dict>
+<dict><key>Name</key><string>Aufschnitt</string><key>Aisle</key><string>Delikatessen</string><key>Usual</key><string>0.5 lb</string></dict>
+<dict><key>Name</key><string>Avocado</string><key>Aisle</key><string>Obst/Gemüse</string></dict>
+<dict><key>Name</key><string>Babynahrung</string><key>Aisle</key><string>Baby</string></dict>
+<dict><key>Name</key><string>Backpulver</string><key>Aisle</key><string>Backen</string></dict>
+<dict><key>Name</key><string>Bagels</string><key>Aisle</key><string>Backwaren</string></dict>
+<dict><key>Name</key><string>Baguette</string><key>Aisle</key><string>Backwaren</string></dict>
+<dict><key>Name</key><string>Balsamicoessig</string><key>Aisle</key><string>Saucen/Essig</string></dict>
+<dict><key>Name</key><string>Bananen</string><key>Aisle</key><string>Obst/Gemüse</string></dict>
+<dict><key>Name</key><string>Basilikum</string><key>Aisle</key><string>Obst/Gemüse</string></dict>
+<dict><key>Name</key><string>Basmatireis</string><key>Aisle</key><string>Internationale Küche</string></dict>
+<dict><key>Name</key><string>Batterien</string><key>Aisle</key><string>Kassenbereich</string></dict>
+<dict><key>Name</key><string>Bier</string><key>Aisle</key><string>Getränke</string></dict>
+<dict><key>Name</key><string>Birnen</string><key>Aisle</key><string>Obst/Gemüse</string></dict>
+<dict><key>Name</key><string>Blumen</string><key>Aisle</key><string>Kassenbereich</string></dict>
+<dict><key>Name</key><string>Blumenkohl</string><key>Aisle</key><string>Obst/Gemüse</string></dict>
+<dict><key>Name</key><string>Bohnen</string><key>Aisle</key><string>Obst/Gemüse</string></dict>
+<dict><key>Name</key><string>Bonbons</string><key>Aisle</key><string>Süßigkeiten/Knabbereien</string></dict>
+<dict><key>Name</key><string>Brauner Zucker</string><key>Aisle</key><string>Backen</string></dict>
+<dict><key>Name</key><string>Breze</string><key>Aisle</key><string>Backwaren</string></dict>
+<dict><key>Name</key><string>Brokkoli</string><key>Aisle</key><string>Obst/Gemüse</string></dict>
+<dict><key>Name</key><string>Brombeer Marmelade</string><key>Aisle</key><string>Saucen/Essig</string></dict>
+<dict><key>Name</key><string>Brot</string><key>Aisle</key><string>Backwaren</string></dict>
+<dict><key>Name</key><string>Butter</string><key>Aisle</key><string>Milchprodukte</string><key>Usual</key><string>1 lb</string></dict>
+<dict><key>Name</key><string>Buttermilch</string><key>Aisle</key><string>Milchprodukte</string><key>Usual</key><string>1 pt</string></dict>
+<dict><key>Name</key><string>Cashewnüsse</string><key>Aisle</key><string>Backen</string></dict>
+<dict><key>Name</key><string>Champagner Essig</string><key>Aisle</key><string>* Fachgeschäft</string></dict>
+<dict><key>Name</key><string>Champignons</string><key>Aisle</key><string>Obst/Gemüse</string></dict>
+<dict><key>Name</key><string>Cheddar</string><key>Aisle</key><string>Delikatessen</string><key>Usual</key><string>0.5 lb</string></dict>
+<dict><key>Name</key><string>Cheddar</string><key>Aisle</key><string>Delikatessen</string><key>Usual</key><string>0.5 lb</string></dict>
+<dict><key>Name</key><string>Chili-Knoblauch-Sauce</string><key>Aisle</key><string>Internationale Küche</string></dict>
+<dict><key>Name</key><string>Chiliöl</string><key>Aisle</key><string>Internationale Küche</string></dict>
+<dict><key>Name</key><string>Chilipulver</string><key>Aisle</key><string>Gewürze</string></dict>
+<dict><key>Name</key><string>Chips</string><key>Aisle</key><string>Süßigkeiten/Knabbereien</string></dict>
+<dict><key>Name</key><string>Chorizo</string><key>Aisle</key><string>Fleischwaren</string><key>Usual</key><string>1 lb</string></dict>
+<dict><key>Name</key><string>Cola</string><key>Aisle</key><string>Getränke</string></dict>
+<dict><key>Name</key><string>Cornflakes</string><key>Aisle</key><string>Müsli</string></dict>
+<dict><key>Name</key><string>Couscous</string><key>Aisle</key><string>Internationale Küche</string></dict>
+<dict><key>Name</key><string>Currypaste</string><key>Aisle</key><string>Internationale Küche</string></dict>
+<dict><key>Name</key><string>Currypulver</string><key>Aisle</key><string>Gewürze</string></dict>
+<dict><key>Name</key><string>Deodorant</string><key>Aisle</key><string>Hygiene</string></dict>
+<dict><key>Name</key><string>Dijonsenf</string><key>Aisle</key><string>Saucen/Essig</string></dict>
+<dict><key>Name</key><string>Dill</string><key>Aisle</key><string>Gewürze</string></dict>
+<dict><key>Name</key><string>Edamer</string><key>Aisle</key><string>Delikatessen</string><key>Usual</key><string>0.5 lb</string></dict>
+<dict><key>Name</key><string>Eier</string><key>Aisle</key><string>Milchprodukte</string></dict>
+<dict><key>Name</key><string>Eis</string><key>Aisle</key><string>Kassenbereich</string><key>Usual</key><string>5 lb</string></dict>
+<dict><key>Name</key><string>Emmentaler</string><key>Aisle</key><string>Delikatessen</string><key>Usual</key><string>0.5 lb</string></dict>
+<dict><key>Name</key><string>Erbsen</string><key>Aisle</key><string>Obst/Gemüse</string></dict>
+<dict><key>Name</key><string>Erbsen (Tiefkühl)</string><key>Aisle</key><string>Tiefkühlkost</string></dict>
+<dict><key>Name</key><string>Erdbeeren</string><key>Aisle</key><string>Obst/Gemüse</string></dict>
+<dict><key>Name</key><string>Erdnussbutter</string><key>Aisle</key><string>Saucen/Essig</string></dict>
+<dict><key>Name</key><string>Erdnüsse</string><key>Aisle</key><string>Backen</string></dict>
+<dict><key>Name</key><string>Erdnussflips</string><key>Aisle</key><string>Süßigkeiten/Knabbereien</string></dict>
+<dict><key>Name</key><string>Erdnussöl</string><key>Aisle</key><string>Saucen/Essig</string></dict>
+<dict><key>Name</key><string>Essig</string><key>Aisle</key><string>Saucen/Essig</string></dict>
+<dict><key>Name</key><string>Estragon</string><key>Aisle</key><string>Gewürze</string></dict>
+<dict><key>Name</key><string>Feigen</string><key>Aisle</key><string>Obst/Gemüse</string></dict>
+<dict><key>Name</key><string>Fenchel</string><key>Aisle</key><string>Gewürze</string></dict>
+<dict><key>Name</key><string>Filetsteak</string><key>Aisle</key><string>Fleischwaren</string><key>Usual</key><string>1 lb</string></dict>
+<dict><key>Name</key><string>Fisch</string><key>Aisle</key><string>* Fisch/Meeresfrüchte</string><key>Usual</key><string>1 lb</string></dict>
+<dict><key>Name</key><string>Fischsauce</string><key>Aisle</key><string>Internationale Küche</string></dict>
+<dict><key>Name</key><string>Frischkäse</string><key>Aisle</key><string>Delikatessen</string><key>Usual</key><string>8 oz</string></dict>
+<dict><key>Name</key><string>Frühlingszwiebeln</string><key>Aisle</key><string>Obst/Gemüse</string></dict>
+<dict><key>Name</key><string>Garnelen</string><key>Aisle</key><string>* Fisch/Meeresfrüchte</string><key>Usual</key><string>1 lb</string></dict>
+<dict><key>Name</key><string>Geschirrspülmittel</string><key>Aisle</key><string>Haushaltswaren</string></dict>
+<dict><key>Name</key><string>Glühbirnen</string><key>Aisle</key><string>Haushaltswaren</string></dict>
+<dict><key>Name</key><string>Gorgonzola</string><key>Aisle</key><string>Delikatessen</string><key>Usual</key><string>0.5 lb</string></dict>
+<dict><key>Name</key><string>Gouda</string><key>Aisle</key><string>Delikatessen</string><key>Usual</key><string>0.5 lb</string></dict>
+<dict><key>Name</key><string>Grillsauce</string><key>Aisle</key><string>Saucen/Essig</string></dict>
+<dict><key>Name</key><string>Gruyère</string><key>Aisle</key><string>Delikatessen</string><key>Usual</key><string>0.5 lb</string></dict>
+<dict><key>Name</key><string>Gurke</string><key>Aisle</key><string>Obst/Gemüse</string></dict>
+<dict><key>Name</key><string>Hackfleisch (Rind)</string><key>Aisle</key><string>Fleischwaren</string><key>Usual</key><string>1 lb</string></dict>
+<dict><key>Name</key><string>Hackfleisch (Schwein)</string><key>Aisle</key><string>Fleischwaren</string><key>Usual</key><string>1 lb</string></dict>
+<dict><key>Name</key><string>Haferflocken</string><key>Aisle</key><string>Müsli</string></dict>
+<dict><key>Name</key><string>Handseife</string><key>Aisle</key><string>Haushaltswaren</string></dict>
+<dict><key>Name</key><string>Harzer</string><key>Aisle</key><string>Delikatessen</string><key>Usual</key><string>0.5 lb</string></dict>
+<dict><key>Name</key><string>Haselnüsse</string><key>Aisle</key><string>Backen</string></dict>
+<dict><key>Name</key><string>Hefe</string><key>Aisle</key><string>Backen</string></dict>
+<dict><key>Name</key><string>Heilbutt</string><key>Aisle</key><string>* Fisch/Meeresfrüchte</string><key>Usual</key><string>1 lb</string></dict>
+<dict><key>Name</key><string>Hoisinsauce</string><key>Aisle</key><string>Internationale Küche</string></dict>
+<dict><key>Name</key><string>Hoisinsauce</string><key>Aisle</key><string>Internationale Küche</string></dict>
+<dict><key>Name</key><string>Honig</string><key>Aisle</key><string>Backen</string></dict>
+<dict><key>Name</key><string>Huhn</string><key>Aisle</key><string>Fleischwaren</string><key>Usual</key><string>1 lb</string></dict>
+<dict><key>Name</key><string>Hühnchenschenkel</string><key>Aisle</key><string>Fleischwaren</string><key>Usual</key><string>1 lb</string></dict>
+<dict><key>Name</key><string>Hühnerbrühe</string><key>Aisle</key><string>Fertiggerichte</string></dict>
+<dict><key>Name</key><string>Hundefutter</string><key>Aisle</key><string>Haustiere</string></dict>
+<dict><key>Name</key><string>Hüttenkäse</string><key>Aisle</key><string>Milchprodukte</string><key>Usual</key><string>8 oz</string></dict>
+<dict><key>Name</key><string>Ingwer</string><key>Aisle</key><string>Obst/Gemüse</string></dict>
+<dict><key>Name</key><string>Jakobsmuschel</string><key>Aisle</key><string>* Fisch/Meeresfrüchte</string><key>Usual</key><string>1 lb</string></dict>
+<dict><key>Name</key><string>Jalapeños</string><key>Aisle</key><string>Obst/Gemüse</string></dict>
+<dict><key>Name</key><string>Joghurt</string><key>Aisle</key><string>Milchprodukte</string></dict>
+<dict><key>Name</key><string>Kaffee</string><key>Aisle</key><string>Müsli</string></dict>
+<dict><key>Name</key><string>Kaffeesahne</string><key>Aisle</key><string>Milchprodukte</string></dict>
+<dict><key>Name</key><string>Kakaopulver</string><key>Aisle</key><string>Backen</string></dict>
+<dict><key>Name</key><string>Kapern</string><key>Aisle</key><string>Fertiggerichte</string></dict>
+<dict><key>Name</key><string>Kardamon</string><key>Aisle</key><string>Gewürze</string></dict>
+<dict><key>Name</key><string>Karotten</string><key>Aisle</key><string>Obst/Gemüse</string></dict>
+<dict><key>Name</key><string>Kartoffel</string><key>Aisle</key><string>Obst/Gemüse</string><key>Usual</key><string>1 lb</string></dict>
+<dict><key>Name</key><string>Käse</string><key>Aisle</key><string>Delikatessen</string><key>Usual</key><string>0.5 lb</string></dict>
+<dict><key>Name</key><string>Katzenfutter</string><key>Aisle</key><string>Haustiere</string></dict>
+<dict><key>Name</key><string>Kekse</string><key>Aisle</key><string>Süßigkeiten/Knabbereien</string></dict>
+<dict><key>Name</key><string>Ketchup</string><key>Aisle</key><string>Saucen/Essig</string></dict>
+<dict><key>Name</key><string>Kirschen</string><key>Aisle</key><string>Delikatessen</string></dict>
+<dict><key>Name</key><string>Kirschen, getrocknet</string><key>Aisle</key><string>Fleischwaren</string></dict>
+<dict><key>Name</key><string>Kleber</string><key>Aisle</key><string>Haushaltswaren</string></dict>
+<dict><key>Name</key><string>Klopapier</string><key>Aisle</key><string>Haushaltswaren</string></dict>
+<dict><key>Name</key><string>Knoblauch</string><key>Aisle</key><string>Obst/Gemüse</string></dict>
+<dict><key>Name</key><string>Kochbanane</string><key>Aisle</key><string>Obst/Gemüse</string></dict>
+<dict><key>Name</key><string>Koriander</string><key>Aisle</key><string>Obst/Gemüse</string></dict>
+<dict><key>Name</key><string>Koriander</string><key>Aisle</key><string>Gewürze</string></dict>
+<dict><key>Name</key><string>Krabben</string><key>Aisle</key><string>* Fisch/Meeresfrüchte</string><key>Usual</key><string>0.5 lb</string></dict>
+<dict><key>Name</key><string>Kräuter der Provence</string><key>Aisle</key><string>* Fachgeschäft</string></dict>
+<dict><key>Name</key><string>Kreuzkümmel</string><key>Aisle</key><string>Gewürze</string></dict>
+<dict><key>Name</key><string>Küchenrolle</string><key>Aisle</key><string>Haushaltswaren</string></dict>
+<dict><key>Name</key><string>Kukumar</string><key>Aisle</key><string>Gewürze</string></dict>
+<dict><key>Name</key><string>Kürbis</string><key>Aisle</key><string>Obst/Gemüse</string></dict>
+<dict><key>Name</key><string>Lachs</string><key>Aisle</key><string>* Fisch/Meeresfrüchte</string><key>Usual</key><string>1 lb</string></dict>
+<dict><key>Name</key><string>Lachs, geräuchert</string><key>Aisle</key><string>* Fisch/Meeresfrüchte</string><key>Usual</key><string>1 lb</string></dict>
+<dict><key>Name</key><string>Lamm</string><key>Aisle</key><string>Fleischwaren</string><key>Usual</key><string>1 lb</string></dict>
+<dict><key>Name</key><string>Lamm, Kotelett</string><key>Aisle</key><string>Fleischwaren</string><key>Usual</key><string>1 lb</string></dict>
+<dict><key>Name</key><string>Lasagne</string><key>Aisle</key><string>Konserven/Dosen</string></dict>
+<dict><key>Name</key><string>Limette</string><key>Aisle</key><string>Obst/Gemüse</string></dict>
+<dict><key>Name</key><string>Lorbeerblätter</string><key>Aisle</key><string>Gewürze</string></dict>
+<dict><key>Name</key><string>Mais</string><key>Aisle</key><string>Obst/Gemüse</string></dict>
+<dict><key>Name</key><string>Mais (Dose)</string><key>Aisle</key><string>Konserven/Dosen</string></dict>
+<dict><key>Name</key><string>Mais (Tiefkühl)</string><key>Aisle</key><string>Tiefkühlkost</string></dict>
+<dict><key>Name</key><string>Maismehl</string><key>Aisle</key><string>Backen</string></dict>
+<dict><key>Name</key><string>Mandeln</string><key>Aisle</key><string>Backen</string></dict>
+<dict><key>Name</key><string>Mango</string><key>Aisle</key><string>Obst/Gemüse</string></dict>
+<dict><key>Name</key><string>Marmelade</string><key>Aisle</key><string>Saucen/Essig</string></dict>
+<dict><key>Name</key><string>Mayonnaisse</string><key>Aisle</key><string>Saucen/Essig</string></dict>
+<dict><key>Name</key><string>Meerrettich</string><key>Aisle</key><string>Saucen/Essig</string></dict>
+<dict><key>Name</key><string>Meersalz</string><key>Aisle</key><string>Gewürze</string></dict>
+<dict><key>Name</key><string>Mehl</string><key>Aisle</key><string>Backen</string></dict>
+<dict><key>Name</key><string>Milch</string><key>Aisle</key><string>Milchprodukte</string><key>Usual</key><string>1 gal</string></dict>
+<dict><key>Name</key><string>Mixed Pickles</string><key>Aisle</key><string>Saucen/Essig</string></dict>
+<dict><key>Name</key><string>Mozzarella</string><key>Aisle</key><string>Delikatessen</string><key>Usual</key><string>0.5 lb</string></dict>
+<dict><key>Name</key><string>Müllbeutel</string><key>Aisle</key><string>Haushaltswaren</string></dict>
+<dict><key>Name</key><string>Muscheln</string><key>Aisle</key><string>* Fisch/Meeresfrüchte</string><key>Usual</key><string>1 lb</string></dict>
+<dict><key>Name</key><string>Muskatblüte</string><key>Aisle</key><string>Gewürze</string></dict>
+<dict><key>Name</key><string>Muskatnuss</string><key>Aisle</key><string>Gewürze</string></dict>
+<dict><key>Name</key><string>Müsli</string><key>Aisle</key><string>Müsli</string></dict>
+<dict><key>Name</key><string>Natron</string><key>Aisle</key><string>Backen</string></dict>
+<dict><key>Name</key><string>Nudeln, chinesisch</string><key>Aisle</key><string>Internationale Küche</string></dict>
+<dict><key>Name</key><string>Nudeln, Penne</string><key>Aisle</key><string>Konserven/Dosen</string></dict>
+<dict><key>Name</key><string>Nudelsauce</string><key>Aisle</key><string>Konserven/Dosen</string></dict>
+<dict><key>Name</key><string>Nüsse</string><key>Aisle</key><string>Backen</string></dict>
+<dict><key>Name</key><string>Oliven</string><key>Aisle</key><string>Saucen/Essig</string></dict>
+<dict><key>Name</key><string>Olivenöl</string><key>Aisle</key><string>Saucen/Essig</string></dict>
+<dict><key>Name</key><string>Orangen</string><key>Aisle</key><string>Obst/Gemüse</string></dict>
+<dict><key>Name</key><string>Orangensaft</string><key>Aisle</key><string>Milchprodukte</string></dict>
+<dict><key>Name</key><string>Oregano</string><key>Aisle</key><string>Gewürze</string></dict>
+<dict><key>Name</key><string>Paniermehl</string><key>Aisle</key><string>Backen</string></dict>
+<dict><key>Name</key><string>Paprika, gelb</string><key>Aisle</key><string>Obst/Gemüse</string></dict>
+<dict><key>Name</key><string>Paprika, grün</string><key>Aisle</key><string>Obst/Gemüse</string></dict>
+<dict><key>Name</key><string>Paprika, rot</string><key>Aisle</key><string>Obst/Gemüse</string></dict>
+<dict><key>Name</key><string>Paprika, weiß</string><key>Aisle</key><string>Gewürze</string></dict>
+<dict><key>Name</key><string>Parmaschinken</string><key>Aisle</key><string>Delikatessen</string><key>Usual</key><string>0.5 lb</string></dict>
+<dict><key>Name</key><string>Parmesan</string><key>Aisle</key><string>Delikatessen</string><key>Usual</key><string>0.5 lb</string></dict>
+<dict><key>Name</key><string>Pekannüsse</string><key>Aisle</key><string>Backen</string></dict>
+<dict><key>Name</key><string>Petersilie</string><key>Aisle</key><string>Obst/Gemüse</string></dict>
+<dict><key>Name</key><string>Pfeffer</string><key>Aisle</key><string>Gewürze</string></dict>
+<dict><key>Name</key><string>Pfefferminze</string><key>Aisle</key><string>Obst/Gemüse</string></dict>
+<dict><key>Name</key><string>Pfirsiche</string><key>Aisle</key><string>Obst/Gemüse</string></dict>
+<dict><key>Name</key><string>Pflanzenöl</string><key>Aisle</key><string>Saucen/Essig</string></dict>
+<dict><key>Name</key><string>Pflaster</string><key>Aisle</key><string>Hygiene</string></dict>
+<dict><key>Name</key><string>Pilze</string><key>Aisle</key><string>Obst/Gemüse</string></dict>
+<dict><key>Name</key><string>Piment</string><key>Aisle</key><string>Gewürze</string></dict>
+<dict><key>Name</key><string>Pinienkerne</string><key>Aisle</key><string>Backen</string></dict>
+<dict><key>Name</key><string>Pizza</string><key>Aisle</key><string>Tiefkühlkost</string></dict>
+<dict><key>Name</key><string>Pizzasauce</string><key>Aisle</key><string>Konserven/Dosen</string></dict>
+<dict><key>Name</key><string>Plätzchen</string><key>Aisle</key><string>Süßigkeiten/Knabbereien</string></dict>
+<dict><key>Name</key><string>Portwein</string><key>Aisle</key><string>Getränke</string></dict>
+<dict><key>Name</key><string>Puderzucker</string><key>Aisle</key><string>Backen</string></dict>
+<dict><key>Name</key><string>Quark</string><key>Aisle</key><string>Milchprodukte</string></dict>
+<dict><key>Name</key><string>Rapsöl</string><key>Aisle</key><string>Saucen/Essig</string></dict>
+<dict><key>Name</key><string>Reis</string><key>Aisle</key><string>Fertiggerichte</string></dict>
+<dict><key>Name</key><string>Reisnudeln</string><key>Aisle</key><string>Internationale Küche</string></dict>
+<dict><key>Name</key><string>Reisweinessig</string><key>Aisle</key><string>Internationale Küche</string></dict>
+<dict><key>Name</key><string>Rinderbrühe</string><key>Aisle</key><string>Fertiggerichte</string></dict>
+<dict><key>Name</key><string>Roastbeef</string><key>Aisle</key><string>Fleischwaren</string><key>Usual</key><string>1 lb</string></dict>
+<dict><key>Name</key><string>Rocquefort</string><key>Aisle</key><string>Delikatessen</string><key>Usual</key><string>0.5 lb</string></dict>
+<dict><key>Name</key><string>Roggenmehl</string><key>Aisle</key><string>Backen</string></dict>
+<dict><key>Name</key><string>Rosinen</string><key>Aisle</key><string>Backen</string></dict>
+<dict><key>Name</key><string>Rote Beete</string><key>Aisle</key><string>Obst/Gemüse</string></dict>
+<dict><key>Name</key><string>Rotwein</string><key>Aisle</key><string>Getränke</string></dict>
+<dict><key>Name</key><string>Rotweinessig</string><key>Aisle</key><string>Saucen/Essig</string></dict>
+<dict><key>Name</key><string>Rucola</string><key>Aisle</key><string>Obst/Gemüse</string></dict>
+<dict><key>Name</key><string>Safran</string><key>Aisle</key><string>Gewürze</string></dict>
+<dict><key>Name</key><string>Saft</string><key>Aisle</key><string>Getränke</string></dict>
+<dict><key>Name</key><string>Sahne</string><key>Aisle</key><string>Milchprodukte</string><key>Usual</key><string>1 pt</string></dict>
+<dict><key>Name</key><string>Salami</string><key>Aisle</key><string>Delikatessen</string><key>Usual</key><string>0.5 lb</string></dict>
+<dict><key>Name</key><string>Salami</string><key>Aisle</key><string>Fleischwaren</string></dict>
+<dict><key>Name</key><string>Salat</string><key>Aisle</key><string>Obst/Gemüse</string></dict>
+<dict><key>Name</key><string>Salatdressing</string><key>Aisle</key><string>Saucen/Essig</string></dict>
+<dict><key>Name</key><string>Salbei</string><key>Aisle</key><string>Gewürze</string></dict>
+<dict><key>Name</key><string>Salz</string><key>Aisle</key><string>Gewürze</string></dict>
+<dict><key>Name</key><string>Salzstange</string><key>Aisle</key><string>Süßigkeiten/Knabbereien</string></dict>
+<dict><key>Name</key><string>Sauerkraut</string><key>Aisle</key><string>Konserven/Dosen</string></dict>
+<dict><key>Name</key><string>Schalotte</string><key>Aisle</key><string>Obst/Gemüse</string></dict>
+<dict><key>Name</key><string>Schaschlikspieße</string><key>Aisle</key><string>Internationale Küche</string></dict>
+<dict><key>Name</key><string>Schimmelkäse</string><key>Aisle</key><string>Delikatessen</string><key>Usual</key><string>0.5 lb</string></dict>
+<dict><key>Name</key><string>Schokoriegel</string><key>Aisle</key><string>Süßigkeiten/Knabbereien</string></dict>
+<dict><key>Name</key><string>Schweinebraten</string><key>Aisle</key><string>Fleischwaren</string><key>Usual</key><string>1 lb</string></dict>
+<dict><key>Name</key><string>Schweinefleisch</string><key>Aisle</key><string>Fleischwaren</string><key>Usual</key><string>1 lb</string></dict>
+<dict><key>Name</key><string>Schweinekotelett</string><key>Aisle</key><string>Fleischwaren</string><key>Usual</key><string>1 lb</string></dict>
+<dict><key>Name</key><string>Schweineschulter</string><key>Aisle</key><string>Fleischwaren</string><key>Usual</key><string>1 lb</string></dict>
+<dict><key>Name</key><string>Seife</string><key>Aisle</key><string>Hygiene</string></dict>
+<dict><key>Name</key><string>Sellerie</string><key>Aisle</key><string>Obst/Gemüse</string></dict>
+<dict><key>Name</key><string>Senf</string><key>Aisle</key><string>Saucen/Essig</string></dict>
+<dict><key>Name</key><string>Senfsamen</string><key>Aisle</key><string>Gewürze</string></dict>
+<dict><key>Name</key><string>Servietten</string><key>Aisle</key><string>Haushaltswaren</string></dict>
+<dict><key>Name</key><string>Sesamsamen</string><key>Aisle</key><string>Gewürze</string></dict>
+<dict><key>Name</key><string>Shampoo</string><key>Aisle</key><string>Hygiene</string></dict>
+<dict><key>Name</key><string>Sojasauce</string><key>Aisle</key><string>Saucen/Essig</string></dict>
+<dict><key>Name</key><string>Sourcream</string><key>Aisle</key><string>Milchprodukte</string></dict>
+<dict><key>Name</key><string>Spaghetti</string><key>Aisle</key><string>Konserven/Dosen</string></dict>
+<dict><key>Name</key><string>Spargel</string><key>Aisle</key><string>Obst/Gemüse</string></dict>
+<dict><key>Name</key><string>Speck</string><key>Aisle</key><string>Fleischwaren</string><key>Usual</key><string>1 lb</string></dict>
+<dict><key>Name</key><string>Spinat</string><key>Aisle</key><string>Obst/Gemüse</string></dict>
+<dict><key>Name</key><string>Steak</string><key>Aisle</key><string>Fleischwaren</string><key>Usual</key><string>1 lb</string></dict>
+<dict><key>Name</key><string>Suppe</string><key>Aisle</key><string>Suppen</string></dict>
+<dict><key>Name</key><string>Süßkartoffel</string><key>Aisle</key><string>Obst/Gemüse</string><key>Usual</key><string>1 lb</string></dict>
+<dict><key>Name</key><string>Tabasco</string><key>Aisle</key><string>Saucen/Essig</string></dict>
+<dict><key>Name</key><string>Tahinipaste</string><key>Aisle</key><string>Internationale Küche</string></dict>
+<dict><key>Name</key><string>Tee</string><key>Aisle</key><string>Müsli</string></dict>
+<dict><key>Name</key><string>Teriyaki Marinade</string><key>Aisle</key><string>Internationale Küche</string></dict>
+<dict><key>Name</key><string>Tesa</string><key>Aisle</key><string>Haushaltswaren</string></dict>
+<dict><key>Name</key><string>Thunfisch</string><key>Aisle</key><string>* Fisch/Meeresfrüchte</string><key>Usual</key><string>1 lb</string></dict>
+<dict><key>Name</key><string>Thymian</string><key>Aisle</key><string>Gewürze</string></dict>
+<dict><key>Name</key><string>Tofu</string><key>Aisle</key><string>Obst/Gemüse</string></dict>
+<dict><key>Name</key><string>Tomate</string><key>Aisle</key><string>Obst/Gemüse</string></dict>
+<dict><key>Name</key><string>Tomaten, ganz</string><key>Aisle</key><string>Konserven/Dosen</string></dict>
+<dict><key>Name</key><string>Tomaten, gestückelt</string><key>Aisle</key><string>Konserven/Dosen</string></dict>
+<dict><key>Name</key><string>Tomaten, getrocknet</string><key>Aisle</key><string>Konserven/Dosen</string></dict>
+<dict><key>Name</key><string>Tomaten, passiert</string><key>Aisle</key><string>Konserven/Dosen</string></dict>
+<dict><key>Name</key><string>Tomatenkonzentrat</string><key>Aisle</key><string>Konserven/Dosen</string></dict>
+<dict><key>Name</key><string>Tomatensauce</string><key>Aisle</key><string>Konserven/Dosen</string></dict>
+<dict><key>Name</key><string>Tomatillo</string><key>Aisle</key><string>Obst/Gemüse</string></dict>
+<dict><key>Name</key><string>Tortillas</string><key>Aisle</key><string>Internationale Küche</string></dict>
+<dict><key>Name</key><string>Trauben</string><key>Aisle</key><string>Obst/Gemüse</string></dict>
+<dict><key>Name</key><string>Vanilleextrakt</string><key>Aisle</key><string>Backen</string></dict>
+<dict><key>Name</key><string>Vanilleschote</string><key>Aisle</key><string>Gewürze</string></dict>
+<dict><key>Name</key><string>Vollkornmehl</string><key>Aisle</key><string>Backen</string></dict>
+<dict><key>Name</key><string>Wackelpudding</string><key>Aisle</key><string>Saucen/Essig</string></dict>
+<dict><key>Name</key><string>Waschmittel</string><key>Aisle</key><string>Haushaltswaren</string></dict>
+<dict><key>Name</key><string>Wasser</string><key>Aisle</key><string>Getränke</string><key>Usual</key><string>1 gal</string></dict>
+<dict><key>Name</key><string>Wasserkastanie</string><key>Aisle</key><string>Internationale Küche</string></dict>
+<dict><key>Name</key><string>Weißkohl</string><key>Aisle</key><string>Obst/Gemüse</string></dict>
+<dict><key>Name</key><string>Weißwein</string><key>Aisle</key><string>Getränke</string></dict>
+<dict><key>Name</key><string>Weizenmehl</string><key>Aisle</key><string>Backen</string></dict>
+<dict><key>Name</key><string>Wiener Würste</string><key>Aisle</key><string>Fleischwaren</string><key>Usual</key><string>1 lb</string></dict>
+<dict><key>Name</key><string>Windeln</string><key>Aisle</key><string>Baby</string></dict>
+<dict><key>Name</key><string>Wurst</string><key>Aisle</key><string>Fleischwaren</string><key>Usual</key><string>1 lb</string></dict>
+<dict><key>Name</key><string>Zahnpasta</string><key>Aisle</key><string>Hygiene</string></dict>
+<dict><key>Name</key><string>Zartbitter Schokolade</string><key>Aisle</key><string>Backen</string></dict>
+<dict><key>Name</key><string>Zimt</string><key>Aisle</key><string>Gewürze</string></dict>
+<dict><key>Name</key><string>Zitrone</string><key>Aisle</key><string>Obst/Gemüse</string></dict>
+<dict><key>Name</key><string>Zitronengras</string><key>Aisle</key><string>Obst/Gemüse</string></dict>
+<dict><key>Name</key><string>Zitronensaft</string><key>Aisle</key><string>Konserven/Dosen</string></dict>
+<dict><key>Name</key><string>Zucchini</string><key>Aisle</key><string>Obst/Gemüse</string></dict>
+<dict><key>Name</key><string>Zucker</string><key>Aisle</key><string>Backen</string></dict>
+<dict><key>Name</key><string>Zwiebel, gelb</string><key>Aisle</key><string>Obst/Gemüse</string></dict>
+<dict><key>Name</key><string>Zwiebel, rot</string><key>Aisle</key><string>Obst/Gemüse</string></dict>
+<dict><key>Name</key><string>Zwiebel, weiß</string><key>Aisle</key><string>Obst/Gemüse</string></dict>
+
+</array>
+</plist>

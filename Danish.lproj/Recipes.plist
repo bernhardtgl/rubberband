@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+
+<!-- supported quantities are: 1 lb, 0.5 lb, 0.25 lb, 2 lb
+<!-- if you want to add a new quantity, modify Database.m, populateRecipesSampleData -->
+<!-- right now they are hardcoded to the string -->
+
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Name</key>
+		<string>Rejer svøbt i parmaskinke m. solbær-mynte-sovs</string>
+		<key>Notes</key>
+		<string>Giver: 4 selvforsvars-spyd. 
+Samlet tilberedningstid: 20 min.
+Fra: seattlefoodgeek.com</string>
+		<key>Link</key>
+		<string>http://seattlefoodgeek.com/2008/04/27/proscuitto-wrapped-shrimp-with-blackberry-mint-sauce/</string>
+		<key>Image</key>
+		<string>recipe1.png</string>
+
+		<key>Ingredients</key>
+		<array>		
+<dict><key>Name</key><string>Rejer</string><key>Amount</key><string>1 lb</string></dict>
+<dict><key>Name</key><string>Parmaskinke</string><key>Amount</key><string>0.25 lb</string></dict>
+<dict><key>Name</key><string>Bambusspyd</string></dict>
+<dict><key>Name</key><string>Muskatblomme</string></dict>
+<dict><key>Name</key><string>Hvid peber</string></dict>
+<dict><key>Name</key><string>Solbærsyltetøj</string></dict>
+<dict><key>Name</key><string>Mynte</string></dict>
+<dict><key>Name</key><string>Portvin</string></dict>
+<dict><key>Name</key><string>Havsalt</string></dict>
+		</array>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Asiatiske laksekager med friske aromater</string>
+		<key>Notes</key>
+		<string>Giver: 4 forretter af nydelse. 
+Samlet tilberedningstid: 30 min.
+Fra: seattlefoodgeek.com</string>
+		<key>Link</key>
+		<string>http://seattlefoodgeek.com/2008/06/01/asian-salmon-cups-with-fresh-aromatics/</string>
+		<key>Image</key>
+		<string>recipe2.png</string>
+
+		<key>Ingredients</key>
+		<array>
+<dict><key>Name</key><string>Laks</string><key>Amount</key><string>1 lb</string></dict>
+<dict><key>Name</key><string>Sojasovs</string></dict>
+<dict><key>Name</key><string>Teriyakisovs</string></dict>
+<dict><key>Name</key><string>Chiliolie</string></dict>
+<dict><key>Name</key><string>Forårsløg</string></dict>
+<dict><key>Name</key><string>Hvidløg</string></dict>
+<dict><key>Name</key><string>Ingefær</string></dict>
+<dict><key>Name</key><string>Vandkastanjer</string></dict>
+<dict><key>Name</key><string>Lime</string></dict>
+<dict><key>Name</key><string>Sesamfrø</string></dict>
+<dict><key>Name</key><string>Jordnøddeolie</string></dict>
+<dict><key>Name</key><string>Risvineddike</string></dict>
+<dict><key>Name</key><string>Hvidkål</string></dict>
+<dict><key>Name</key><string>Kinesisk barbequesovs</string></dict>
+		</array>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Stegt kartoffelsalat med Dijon vinaigrette</string>
+		<key>Notes</key>
+		<string>Samlet tilberedningstid: 1 time.
+Til: 8 personer
+Fra: seattlefoodgeek.com</string>
+		<key>Link</key>
+		<string>http://seattlefoodgeek.com/2008/06/30/roasted-potato-salad-with-dijon-vinaigrette/</string>
+		<key>Image</key>
+		<string>recipe3.png</string>
+
+		<key>Ingredients</key>
+		<array>
+<dict><key>Name</key><string>Røde kartofler</string><key>Amount</key><string>2 lb</string></dict>
+<dict><key>Name</key><string>Salatløg</string></dict>
+<dict><key>Name</key><string>Rød peberfrugt</string></dict>
+<dict><key>Name</key><string>Hvidløg</string></dict>
+<dict><key>Name</key><string>Olivenolie</string></dict>
+<dict><key>Name</key><string>Champagneeddike</string></dict>
+<dict><key>Name</key><string>Dijonsennep</string></dict>
+<dict><key>Name</key><string>Honning</string></dict>
+<dict><key>Name</key><string>Kapers</string></dict>
+<dict><key>Name</key><string>Herbs de provençe</string></dict>
+<dict><key>Name</key><string>Havsalt</string></dict>
+		</array>
+	</dict>
+	
+</array>
+</plist>

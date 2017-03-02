@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+
+<!-- supported quantities are: 1 lb, 0.5 lb, 0.25 lb, 2 lb
+<!-- if you want to add a new quantity, modify Database.m, populateRecipesSampleData -->
+<!-- right now they are hardcoded to the string -->
+
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Name</key>
+		<string>Gambas envueltas en jamón con salsa zarzamora de menta</string>
+		<key>Notes</key>
+		<string>Sirve: 4 brochetas de defensa personal. 
+		Tiempo total de cocina: 20 minutos.
+		De: seattlefoodgeek.com</string>
+		<key>Link</key>
+		<string>http://seattlefoodgeek.com/2008/04/27/proscuitto-wrapped-shrimp-with-blackberry-mint-sauce/</string>
+		<key>Image</key>
+		<string>recipe1.png</string>
+
+		<key>Ingredients</key>
+		<array>		
+<dict><key>Name</key><string>Gambas</string><key>Amount</key><string>1 lb</string></dict>
+<dict><key>Name</key><string>Jamón</string><key>Amount</key><string>0.25 lb</string></dict>
+<dict><key>Name</key><string>Brochetas de bambú</string></dict>
+<dict><key>Name</key><string>Macis</string></dict>
+<dict><key>Name</key><string>Pimienta blanca</string></dict>
+<dict><key>Name</key><string>Conservante de zarzamora</string></dict>
+<dict><key>Name</key><string>Hojas de hierbabuena</string></dict>
+<dict><key>Name</key><string>Vino de Oporto</string></dict>
+<dict><key>Name</key><string>Sal marina</string></dict>
+		</array>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Copas de salmón asiático con aromáticos frescos</string>
+		<key>Notes</key>
+		<string>Sirve: 4 porciones de alegría. 
+		Tiempo total de cocina: 30 minutos.
+		De: seattlefoodgeek.com</string>
+		<key>Link</key>
+		<string>http://seattlefoodgeek.com/2008/06/01/asian-salmon-cups-with-fresh-aromatics/</string>
+		<key>Image</key>
+		<string>recipe2.png</string>
+
+		<key>Ingredients</key>
+		<array>
+
+<dict><key>Name</key><string>Salmón</string><key>Amount</key><string>1 lb</string></dict>
+<dict><key>Name</key><string>Salsa de soja</string></dict>
+<dict><key>Name</key><string>Marinada de Teriyaki</string></dict>
+<dict><key>Name</key><string>Aceite de chile</string></dict>
+<dict><key>Name</key><string>Cebolleta</string></dict>
+<dict><key>Name</key><string>Ajo</string></dict>
+<dict><key>Name</key><string>Gengibre</string></dict>
+<dict><key>Name</key><string>Castañas de agua</string></dict>
+<dict><key>Name</key><string>Lima</string></dict>
+<dict><key>Name</key><string>Semillas de sésamo</string></dict>
+<dict><key>Name</key><string>Aceite de cacahuete</string></dict>
+<dict><key>Name</key><string>Vinagre de vino de arroz</string></dict>
+<dict><key>Name</key><string>Berza</string></dict>
+<dict><key>Name</key><string>Salsa china de barbacoa </string></dict>
+
+		</array>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Ensalada de patatas asadas con vinagreta de Dijón</string>
+		<key>Notes</key>
+		<string>Tiempo total de cocina: 1 hora 
+		Sirve: 8 porciones
+		De: seattlefoodgeek.com</string>
+		<key>Link</key>
+		<string>http://seattlefoodgeek.com/2008/06/30/roasted-potato-salad-with-dijon-vinaigrette/</string>
+		<key>Image</key>
+		<string>recipe3.png</string>
+
+		<key>Ingredients</key>
+		<array>
+
+<dict><key>Name</key><string>Patata roja</string><key>Amount</key><string>2 lb</string></dict>
+<dict><key>Name</key><string>Cebolla blanca</string></dict>
+<dict><key>Name</key><string>Pimiento rojo</string></dict>
+<dict><key>Name</key><string>Ajo</string></dict>
+<dict><key>Name</key><string>Aceite de oliva</string></dict>
+<dict><key>Name</key><string>Vinagre de champán</string></dict>
+<dict><key>Name</key><string>Mostaza Dijon</string></dict>
+<dict><key>Name</key><string>Miel</string></dict>
+<dict><key>Name</key><string>Alcaparras</string></dict>
+<dict><key>Name</key><string>Hierba de Provenza</string></dict>
+<dict><key>Name</key><string>Sal marina</string></dict>
+
+		</array>
+	</dict>
+	
+</array>
+</plist>

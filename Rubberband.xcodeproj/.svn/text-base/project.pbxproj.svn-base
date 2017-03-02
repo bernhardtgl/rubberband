@@ -1,0 +1,822 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* RubberbandAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* RubberbandAppDelegate.m */; };
+		1D3623EC0D0F72F000981E51 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D3623EB0D0F72F000981E51 /* CoreGraphics.framework */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		37067E240DC629150018CEB6 /* glow.png in Resources */ = {isa = PBXBuildFile; fileRef = 37067E230DC629150018CEB6 /* glow.png */; };
+		371C4F7E0DAC495B00C1A98B /* RecipesTable.m in Sources */ = {isa = PBXBuildFile; fileRef = 371C4F7D0DAC495B00C1A98B /* RecipesTable.m */; };
+		3721FFD80DBBE7C300C76BB2 /* NewTextFieldViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3721FFD70DBBE7C300C76BB2 /* NewTextFieldViewController.m */; };
+		3722420A0E05D742006846B1 /* image_overlay.png in Resources */ = {isa = PBXBuildFile; fileRef = 372242090E05D742006846B1 /* image_overlay.png */; };
+		3723ED040DAC43F0009B4570 /* Recipe.m in Sources */ = {isa = PBXBuildFile; fileRef = 3723ED030DAC43F0009B4570 /* Recipe.m */; };
+		37290ACB0DE52D7F00383ABD /* edit_overlay.png in Resources */ = {isa = PBXBuildFile; fileRef = 37290ACA0DE52D7F00383ABD /* edit_overlay.png */; };
+		37290B570DE5B44700383ABD /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 37290B560DE5B44700383ABD /* icon.png */; };
+		373037740E7C69950016AB3A /* ItemQuantity.m in Sources */ = {isa = PBXBuildFile; fileRef = 373037730E7C69950016AB3A /* ItemQuantity.m */; };
+		3731BC760DC3DD8600D79468 /* GroceryItems.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3731BC750DC3DD8600D79468 /* GroceryItems.plist */; };
+		3731BC8F0DC3E0CE00D79468 /* Aisles.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3731BC8E0DC3E0CE00D79468 /* Aisles.plist */; };
+		373353A10DF8EE3B00BA56BD /* AddRecipesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 373353A00DF8EE3B00BA56BD /* AddRecipesViewController.m */; };
+		374299DA0E20416200E71C87 /* NotesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 374299D90E20416200E71C87 /* NotesViewController.m */; };
+		3745FB4F0E3B722900AEE411 /* recipe1.png in Resources */ = {isa = PBXBuildFile; fileRef = 3745FB4E0E3B722900AEE411 /* recipe1.png */; };
+		374B0EB90E7F535400A62054 /* QuantityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 374B0EB60E7F535400A62054 /* QuantityViewController.m */; };
+		374B0EBA0E7F535400A62054 /* QuantityTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 374B0EB80E7F535400A62054 /* QuantityTableViewCell.m */; };
+		374FFBA40E3BD5050023329F /* recipe3.png in Resources */ = {isa = PBXBuildFile; fileRef = 374FFBA20E3BD5050023329F /* recipe3.png */; };
+		374FFBA50E3BD5050023329F /* recipe2.png in Resources */ = {isa = PBXBuildFile; fileRef = 374FFBA30E3BD5050023329F /* recipe2.png */; };
+		374FFCA00E3D2F150023329F /* NewNameAndLinkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 374FFC9F0E3D2F150023329F /* NewNameAndLinkViewController.m */; };
+		3757734E0EC79032001BC69B /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3757734D0EC79032001BC69B /* Localizable.strings */; };
+		37585D2B0D863B0F00AA18F3 /* GroceryItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 37585D290D863B0F00AA18F3 /* GroceryItem.m */; };
+		3759B5F80D8C378D0050E08A /* NewItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3759B5F70D8C378D0050E08A /* NewItemViewController.m */; };
+		3759B6980D8C65370050E08A /* TextTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3759B6970D8C65370050E08A /* TextTableViewCell.m */; };
+		376896AC0D8612D500E271A2 /* ItemsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 376896AB0D8612D500E271A2 /* ItemsViewController.m */; };
+		3769773A0D9EA86A0043B9CA /* AisleTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 376977390D9EA86A0043B9CA /* AisleTableViewCell.m */; };
+		3776556D0E323DE900FB7D0C /* TableViewControllerUserPrefs.m in Sources */ = {isa = PBXBuildFile; fileRef = 3776556C0E323DE900FB7D0C /* TableViewControllerUserPrefs.m */; };
+		377EAACB0DF32C7000101188 /* checkbox_need.png in Resources */ = {isa = PBXBuildFile; fileRef = 377EAACA0DF32C7000101188 /* checkbox_need.png */; };
+		377EAB4D0DF334F700101188 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 377EAB4C0DF334F700101188 /* Default.png */; };
+		3789C0BF0E4E4AE6009CFE5B /* SearchBarCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3789C0BE0E4E4AE6009CFE5B /* SearchBarCell.m */; };
+		378C3C990D96DB0500B782E3 /* ItemTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 378C3C980D96DB0500B782E3 /* ItemTableViewCell.m */; };
+		379BB7400D9F1C1600F7F58A /* AislesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 379BB73F0D9F1C1600F7F58A /* AislesViewController.m */; };
+		37AA88D50D95671C00E4FFCE /* SmallNumberTableViewCell.m in Resources */ = {isa = PBXBuildFile; fileRef = 37AA88D40D95671C00E4FFCE /* SmallNumberTableViewCell.m */; };
+		37AA88F20D956B0100E4FFCE /* segment_arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 37AA88F10D956B0100E4FFCE /* segment_arrow.png */; };
+		37AA88F40D956B4300E4FFCE /* SmallNumberTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 37AA88D40D95671C00E4FFCE /* SmallNumberTableViewCell.m */; };
+		37B2D4AC0DA816FC0072A9EB /* ShopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37B2D4AB0DA816FC0072A9EB /* ShopViewController.m */; };
+		37B2D56C0DA81DF40072A9EB /* tab_items.png in Resources */ = {isa = PBXBuildFile; fileRef = 37B2D56A0DA81DF40072A9EB /* tab_items.png */; };
+		37B2D56D0DA81DF40072A9EB /* tab_shop.png in Resources */ = {isa = PBXBuildFile; fileRef = 37B2D56B0DA81DF40072A9EB /* tab_shop.png */; };
+		37C333E60DAC4DC40007F5B9 /* RecipesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37C333E50DAC4DC40007F5B9 /* RecipesViewController.m */; };
+		37C333E80DAC4E310007F5B9 /* tab_recipes.png in Resources */ = {isa = PBXBuildFile; fileRef = 37C333E70DAC4E310007F5B9 /* tab_recipes.png */; };
+		37C3B1C50D9B367D006722A2 /* checkbox_have.png in Resources */ = {isa = PBXBuildFile; fileRef = 37C3B1C30D9B367D006722A2 /* checkbox_have.png */; };
+		37C3B1CA0D9B37C3006722A2 /* checkbox_dontneed.png in Resources */ = {isa = PBXBuildFile; fileRef = 37C3B1C70D9B37C3006722A2 /* checkbox_dontneed.png */; };
+		37CBBC090DE0E4620005FADE /* NewRecipeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37CBBC080DE0E4620005FADE /* NewRecipeViewController.m */; };
+		37D772DC0E9814AE00709F4F /* ItemQtyTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 37D772DB0E9814AE00709F4F /* ItemQtyTableViewCell.m */; };
+		37D908910E496B8A00D25516 /* dist.plist in Resources */ = {isa = PBXBuildFile; fileRef = 37D908900E496B8A00D25516 /* dist.plist */; };
+		37DB4F5A0E2A56F4009DD3BA /* strikethrough.png in Resources */ = {isa = PBXBuildFile; fileRef = 37DB4F590E2A56F4009DD3BA /* strikethrough.png */; };
+		37E1038E0F228F95004B3BF8 /* EmailRecipe.html in Resources */ = {isa = PBXBuildFile; fileRef = 37E1038D0F228F95004B3BF8 /* EmailRecipe.html */; };
+		37E103BF0F22997F004B3BF8 /* Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 37E103BE0F22997F004B3BF8 /* Base64.m */; };
+		37E22B740DE89A7200168288 /* AddIngredientsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37E22B730DE89A7200168288 /* AddIngredientsViewController.m */; };
+		37E9922E0F3B64C9007DFFB2 /* gray_selection.png in Resources */ = {isa = PBXBuildFile; fileRef = 37E9922D0F3B64C9007DFFB2 /* gray_selection.png */; };
+		37EDD9CB0DE0C31B00D5180A /* NameAndPictureView.m in Sources */ = {isa = PBXBuildFile; fileRef = 37EDD9CA0DE0C31B00D5180A /* NameAndPictureView.m */; };
+		37EDDA6A0DE0D2C500D5180A /* add_photo.png in Resources */ = {isa = PBXBuildFile; fileRef = 37EDDA690DE0D2C500D5180A /* add_photo.png */; };
+		37EFC2940DF8F7AA009959BB /* AddObjectTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 37EFC2920DF8F7AA009959BB /* AddObjectTableViewCell.m */; };
+		37F784A40DB7892200741059 /* RecipeNone.png in Resources */ = {isa = PBXBuildFile; fileRef = 37F784A30DB7892200741059 /* RecipeNone.png */; };
+		37FF4EEE0F36159E00AFE4C7 /* HelperFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = 37FF4EEC0F36159E00AFE4C7 /* HelperFunctions.m */; };
+		37FF505C0F366F7B00AFE4C7 /* UIImageHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 37FF505B0F366F7B00AFE4C7 /* UIImageHelper.m */; };
+		37FF50AA0F3678FB00AFE4C7 /* EmailRecipeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37FF50A90F3678FB00AFE4C7 /* EmailRecipeViewController.m */; };
+		4415B7000DAC5F530052313F /* ShopViewDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 4415B6FF0DAC5F530052313F /* ShopViewDataSource.m */; };
+		4415CD4F0D96830300BA1E6E /* Aisle.m in Sources */ = {isa = PBXBuildFile; fileRef = 4415CD4E0D96830300BA1E6E /* Aisle.m */; };
+		441D46020D9A79AF00C9488D /* AislesTable.m in Sources */ = {isa = PBXBuildFile; fileRef = 441D46010D9A79AF00C9488D /* AislesTable.m */; };
+		442E8BA70DEECCEE00D7398F /* RecipesViewDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 442E8BA60DEECCEE00D7398F /* RecipesViewDataSource.m */; };
+		44500AD10DFCCF3900A3B8B2 /* RecipeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44500AD00DFCCF3900A3B8B2 /* RecipeViewController.m */; };
+		4452280F0E7E25EA000F2640 /* ShareViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4452280E0E7E25EA000F2640 /* ShareViewController.m */; };
+		44597FF30DE186EA00F908DA /* ItemsViewDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 44597FF20DE186EA00F908DA /* ItemsViewDataSource.m */; };
+		44597FF60DE1874100F908DA /* NotesTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 44597FF50DE1874100F908DA /* NotesTableViewCell.m */; };
+		44597FF90DE1877600F908DA /* ItemsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 44597FF80DE1877600F908DA /* ItemsTableViewCell.m */; };
+		4462FE010DA1E000006A12DD /* GroceryItemsTable.m in Sources */ = {isa = PBXBuildFile; fileRef = 4462FE000DA1E000006A12DD /* GroceryItemsTable.m */; };
+		447E01630DE18AF100F313AA /* RecipeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 447E01620DE18AF100F313AA /* RecipeTableViewCell.m */; };
+		448288B80DED1314004570D5 /* Recipes.plist in Resources */ = {isa = PBXBuildFile; fileRef = 448288B60DED1314004570D5 /* Recipes.plist */; };
+		44949FE50E8EF514008A1EDA /* tab_share.png in Resources */ = {isa = PBXBuildFile; fileRef = 44949FE40E8EF514008A1EDA /* tab_share.png */; };
+		449854D00DAF050700E3A430 /* ShoppingAisle.m in Sources */ = {isa = PBXBuildFile; fileRef = 449854CF0DAF050700E3A430 /* ShoppingAisle.m */; };
+		44E221870D8A42E30088D009 /* Database.m in Sources */ = {isa = PBXBuildFile; fileRef = 44E221860D8A42E30088D009 /* Database.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* RubberbandAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RubberbandAppDelegate.h; path = Classes/RubberbandAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* RubberbandAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RubberbandAppDelegate.m; sourceTree = "<group>"; };
+		1D3623EB0D0F72F000981E51 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1D6058910D05DD3D006BFB54 /* Rubberband.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rubberband.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = ../main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* Rubberband_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Rubberband_Prefix.pch; sourceTree = "<group>"; };
+		37067E230DC629150018CEB6 /* glow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = glow.png; sourceTree = "<group>"; };
+		371C4F7C0DAC495B00C1A98B /* RecipesTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RecipesTable.h; path = Classes/RecipesTable.h; sourceTree = "<group>"; };
+		371C4F7D0DAC495B00C1A98B /* RecipesTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecipesTable.m; sourceTree = "<group>"; };
+		3721FFD70DBBE7C300C76BB2 /* NewTextFieldViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NewTextFieldViewController.m; path = Classes/NewTextFieldViewController.m; sourceTree = "<group>"; };
+		372242090E05D742006846B1 /* image_overlay.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image_overlay.png; sourceTree = "<group>"; };
+		3723ED020DAC43F0009B4570 /* Recipe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Recipe.h; path = Classes/Recipe.h; sourceTree = "<group>"; };
+		3723ED030DAC43F0009B4570 /* Recipe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Recipe.m; sourceTree = "<group>"; };
+		37290ACA0DE52D7F00383ABD /* edit_overlay.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = edit_overlay.png; sourceTree = "<group>"; };
+		37290B560DE5B44700383ABD /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		373037720E7C69950016AB3A /* ItemQuantity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ItemQuantity.h; path = Classes/ItemQuantity.h; sourceTree = "<group>"; };
+		373037730E7C69950016AB3A /* ItemQuantity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemQuantity.m; sourceTree = "<group>"; };
+		3731BC8C0DC3E0C800D79468 /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = English; path = English.lproj/Aisles.plist; sourceTree = "<group>"; };
+		3733539F0DF8EE3B00BA56BD /* AddRecipesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AddRecipesViewController.h; path = Classes/AddRecipesViewController.h; sourceTree = "<group>"; };
+		373353A00DF8EE3B00BA56BD /* AddRecipesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AddRecipesViewController.m; path = Classes/AddRecipesViewController.m; sourceTree = "<group>"; };
+		373D36510DC3D9C000BD75D2 /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = English; path = English.lproj/GroceryItems.plist; sourceTree = "<group>"; };
+		3741DF170DF21A3E00CD5855 /* Protocols.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Protocols.h; path = Classes/Protocols.h; sourceTree = "<group>"; };
+		374299D80E20416200E71C87 /* NotesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NotesViewController.h; path = Classes/NotesViewController.h; sourceTree = "<group>"; };
+		374299D90E20416200E71C87 /* NotesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NotesViewController.m; path = Classes/NotesViewController.m; sourceTree = "<group>"; };
+		3745FB240E3B6E1000AEE411 /* SampleData.xls */ = {isa = PBXFileReference; lastKnownFileType = file; name = SampleData.xls; path = "Sample Data/SampleData.xls"; sourceTree = "<group>"; };
+		3745FB4E0E3B722900AEE411 /* recipe1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = recipe1.png; sourceTree = "<group>"; };
+		3748EF9D0F34DADC00BC0306 /* de */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
+		3748EF9E0F34DAEE00BC0306 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = de; path = de.lproj/Aisles.plist; sourceTree = "<group>"; };
+		3748EF9F0F34DAF900BC0306 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = de; path = de.lproj/GroceryItems.plist; sourceTree = "<group>"; };
+		3748EFA00F34DB0200BC0306 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = de; path = de.lproj/Recipes.plist; sourceTree = "<group>"; };
+		374B0EB50E7F535300A62054 /* QuantityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = QuantityViewController.h; path = Classes/QuantityViewController.h; sourceTree = "<group>"; };
+		374B0EB60E7F535400A62054 /* QuantityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = QuantityViewController.m; path = Classes/QuantityViewController.m; sourceTree = "<group>"; };
+		374B0EB70E7F535400A62054 /* QuantityTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = QuantityTableViewCell.h; path = Classes/QuantityTableViewCell.h; sourceTree = "<group>"; };
+		374B0EB80E7F535400A62054 /* QuantityTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = QuantityTableViewCell.m; path = Classes/QuantityTableViewCell.m; sourceTree = "<group>"; };
+		374FFBA20E3BD5050023329F /* recipe3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = recipe3.png; sourceTree = "<group>"; };
+		374FFBA30E3BD5050023329F /* recipe2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = recipe2.png; sourceTree = "<group>"; };
+		374FFC9E0E3D2F150023329F /* NewNameAndLinkViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NewNameAndLinkViewController.h; path = Classes/NewNameAndLinkViewController.h; sourceTree = "<group>"; };
+		374FFC9F0E3D2F150023329F /* NewNameAndLinkViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NewNameAndLinkViewController.m; path = Classes/NewNameAndLinkViewController.m; sourceTree = "<group>"; };
+		3757734F0EC79045001BC69B /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/Localizable.strings; sourceTree = "<group>"; };
+		375773500EC7904B001BC69B /* Dutch */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = Dutch; path = Dutch.lproj/Localizable.strings; sourceTree = "<group>"; };
+		3757735D0EC79115001BC69B /* Dutch */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Dutch; path = Dutch.lproj/Aisles.plist; sourceTree = "<group>"; };
+		3757735E0EC79120001BC69B /* Dutch */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Dutch; path = Dutch.lproj/GroceryItems.plist; sourceTree = "<group>"; };
+		375773640EC7928D001BC69B /* Dutch */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Dutch; path = Dutch.lproj/Recipes.plist; sourceTree = "<group>"; };
+		37585D290D863B0F00AA18F3 /* GroceryItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GroceryItem.m; sourceTree = "<group>"; };
+		37585D2A0D863B0F00AA18F3 /* GroceryItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GroceryItem.h; path = Classes/GroceryItem.h; sourceTree = "<group>"; };
+		3759B5F60D8C378D0050E08A /* NewItemViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NewItemViewController.h; path = Classes/NewItemViewController.h; sourceTree = "<group>"; };
+		3759B5F70D8C378D0050E08A /* NewItemViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NewItemViewController.m; path = Classes/NewItemViewController.m; sourceTree = "<group>"; };
+		3759B6960D8C65370050E08A /* TextTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TextTableViewCell.h; path = Classes/TextTableViewCell.h; sourceTree = "<group>"; };
+		3759B6970D8C65370050E08A /* TextTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TextTableViewCell.m; path = Classes/TextTableViewCell.m; sourceTree = "<group>"; };
+		376573A3113F6568002C91B0 /* Danish */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Danish; path = Danish.lproj/Localizable.strings; sourceTree = "<group>"; };
+		376896AA0D8612D500E271A2 /* ItemsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ItemsViewController.h; path = Classes/ItemsViewController.h; sourceTree = "<group>"; };
+		376896AB0D8612D500E271A2 /* ItemsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ItemsViewController.m; path = Classes/ItemsViewController.m; sourceTree = "<group>"; };
+		376977380D9EA86A0043B9CA /* AisleTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AisleTableViewCell.h; path = Classes/AisleTableViewCell.h; sourceTree = "<group>"; };
+		376977390D9EA86A0043B9CA /* AisleTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AisleTableViewCell.m; path = Classes/AisleTableViewCell.m; sourceTree = "<group>"; };
+		376E26760DBD7CAC004F6DF2 /* NewTextFieldViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NewTextFieldViewController.h; path = Classes/NewTextFieldViewController.h; sourceTree = "<group>"; };
+		3776556B0E323DE900FB7D0C /* TableViewControllerUserPrefs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TableViewControllerUserPrefs.h; path = Classes/TableViewControllerUserPrefs.h; sourceTree = "<group>"; };
+		3776556C0E323DE900FB7D0C /* TableViewControllerUserPrefs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewControllerUserPrefs.m; sourceTree = "<group>"; };
+		377EAACA0DF32C7000101188 /* checkbox_need.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = checkbox_need.png; sourceTree = "<group>"; };
+		377EAB4C0DF334F700101188 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = Images/Default.png; sourceTree = "<group>"; };
+		3789C0BD0E4E4AE6009CFE5B /* SearchBarCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SearchBarCell.h; path = Classes/SearchBarCell.h; sourceTree = "<group>"; };
+		3789C0BE0E4E4AE6009CFE5B /* SearchBarCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SearchBarCell.m; path = Classes/SearchBarCell.m; sourceTree = "<group>"; };
+		378C3C970D96DB0500B782E3 /* ItemTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ItemTableViewCell.h; path = Classes/ItemTableViewCell.h; sourceTree = "<group>"; };
+		378C3C980D96DB0500B782E3 /* ItemTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ItemTableViewCell.m; path = Classes/ItemTableViewCell.m; sourceTree = "<group>"; };
+		379BB73E0D9F1C1600F7F58A /* AislesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AislesViewController.h; path = Classes/AislesViewController.h; sourceTree = "<group>"; };
+		379BB73F0D9F1C1600F7F58A /* AislesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AislesViewController.m; path = Classes/AislesViewController.m; sourceTree = "<group>"; };
+		37A58C510E997BF3007234A7 /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = it; path = it.lproj/Aisles.plist; sourceTree = "<group>"; };
+		37A58C540E997C00007234A7 /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = it; path = it.lproj/GroceryItems.plist; sourceTree = "<group>"; };
+		37A58C560E997C11007234A7 /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = it; path = it.lproj/Recipes.plist; sourceTree = "<group>"; };
+		37AA88D30D95671C00E4FFCE /* SmallNumberTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SmallNumberTableViewCell.h; path = Classes/SmallNumberTableViewCell.h; sourceTree = "<group>"; };
+		37AA88D40D95671C00E4FFCE /* SmallNumberTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SmallNumberTableViewCell.m; path = Classes/SmallNumberTableViewCell.m; sourceTree = "<group>"; };
+		37AA88F10D956B0100E4FFCE /* segment_arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = segment_arrow.png; sourceTree = "<group>"; };
+		37ACD9D312903C6700129B4D /* Swedish */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Swedish; path = Swedish.lproj/Localizable.strings; sourceTree = "<group>"; };
+		37ACDA0E12903FB200129B4D /* Swedish */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Swedish; path = Swedish.lproj/Aisles.plist; sourceTree = "<group>"; };
+		37ACDA0F12903FBD00129B4D /* Swedish */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Swedish; path = Swedish.lproj/GroceryItems.plist; sourceTree = "<group>"; };
+		37ACDA1012903FC500129B4D /* Swedish */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Swedish; path = Swedish.lproj/Recipes.plist; sourceTree = "<group>"; };
+		37B2D4AA0DA816FC0072A9EB /* ShopViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ShopViewController.h; path = Classes/ShopViewController.h; sourceTree = "<group>"; };
+		37B2D4AB0DA816FC0072A9EB /* ShopViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ShopViewController.m; path = Classes/ShopViewController.m; sourceTree = "<group>"; };
+		37B2D56A0DA81DF40072A9EB /* tab_items.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tab_items.png; sourceTree = "<group>"; };
+		37B2D56B0DA81DF40072A9EB /* tab_shop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tab_shop.png; sourceTree = "<group>"; };
+		37C333E40DAC4DC40007F5B9 /* RecipesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RecipesViewController.h; path = Classes/RecipesViewController.h; sourceTree = "<group>"; };
+		37C333E50DAC4DC40007F5B9 /* RecipesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RecipesViewController.m; path = Classes/RecipesViewController.m; sourceTree = "<group>"; };
+		37C333E70DAC4E310007F5B9 /* tab_recipes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tab_recipes.png; sourceTree = "<group>"; };
+		37C3B1C30D9B367D006722A2 /* checkbox_have.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = checkbox_have.png; sourceTree = "<group>"; };
+		37C3B1C70D9B37C3006722A2 /* checkbox_dontneed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = checkbox_dontneed.png; sourceTree = "<group>"; };
+		37CBBC070DE0E4620005FADE /* NewRecipeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NewRecipeViewController.h; path = Classes/NewRecipeViewController.h; sourceTree = "<group>"; };
+		37CBBC080DE0E4620005FADE /* NewRecipeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NewRecipeViewController.m; path = Classes/NewRecipeViewController.m; sourceTree = "<group>"; };
+		37D325450E9087570014FF9B /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/Localizable.strings; sourceTree = "<group>"; };
+		37D7297C0DB155BD0047BBE8 /* ItemsViewDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ItemsViewDataSource.h; path = Classes/ItemsViewDataSource.h; sourceTree = "<group>"; };
+		37D772DA0E9814AE00709F4F /* ItemQtyTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ItemQtyTableViewCell.h; path = Classes/ItemQtyTableViewCell.h; sourceTree = "<group>"; };
+		37D772DB0E9814AE00709F4F /* ItemQtyTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ItemQtyTableViewCell.m; path = Classes/ItemQtyTableViewCell.m; sourceTree = "<group>"; };
+		37D908900E496B8A00D25516 /* dist.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = dist.plist; sourceTree = "<group>"; };
+		37DB4F590E2A56F4009DD3BA /* strikethrough.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = strikethrough.png; sourceTree = "<group>"; };
+		37E1038D0F228F95004B3BF8 /* EmailRecipe.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = EmailRecipe.html; sourceTree = "<group>"; };
+		37E103BD0F22997F004B3BF8 /* Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Base64.h; sourceTree = "<group>"; };
+		37E103BE0F22997F004B3BF8 /* Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Base64.m; path = ../Base64.m; sourceTree = "<group>"; };
+		37E22B720DE89A7200168288 /* AddIngredientsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AddIngredientsViewController.h; path = Classes/AddIngredientsViewController.h; sourceTree = "<group>"; };
+		37E22B730DE89A7200168288 /* AddIngredientsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AddIngredientsViewController.m; path = Classes/AddIngredientsViewController.m; sourceTree = "<group>"; };
+		37E3615A113F7B2300A2892D /* Danish */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Danish; path = Danish.lproj/GroceryItems.plist; sourceTree = "<group>"; };
+		37E3615B113F7B2C00A2892D /* Danish */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Danish; path = Danish.lproj/Aisles.plist; sourceTree = "<group>"; };
+		37E3615C113F7B3300A2892D /* Danish */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Danish; path = Danish.lproj/Recipes.plist; sourceTree = "<group>"; };
+		37E6F8E8111AA88500153B37 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
+		37E6F8F5111AA92F00153B37 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = es; path = es.lproj/Aisles.plist; sourceTree = "<group>"; };
+		37E6F8F6111AA93500153B37 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = es; path = es.lproj/GroceryItems.plist; sourceTree = "<group>"; };
+		37E6F8F7111AA94000153B37 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = es; path = es.lproj/Recipes.plist; sourceTree = "<group>"; };
+		37E9922D0F3B64C9007DFFB2 /* gray_selection.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gray_selection.png; sourceTree = "<group>"; };
+		37EDD9C90DE0C31B00D5180A /* NameAndPictureView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NameAndPictureView.h; path = Classes/NameAndPictureView.h; sourceTree = "<group>"; };
+		37EDD9CA0DE0C31B00D5180A /* NameAndPictureView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NameAndPictureView.m; path = Classes/NameAndPictureView.m; sourceTree = "<group>"; };
+		37EDDA690DE0D2C500D5180A /* add_photo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = add_photo.png; sourceTree = "<group>"; };
+		37EFC2920DF8F7AA009959BB /* AddObjectTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AddObjectTableViewCell.m; path = Classes/AddObjectTableViewCell.m; sourceTree = "<group>"; };
+		37EFC2930DF8F7AA009959BB /* AddObjectTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AddObjectTableViewCell.h; path = Classes/AddObjectTableViewCell.h; sourceTree = "<group>"; };
+		37F784A30DB7892200741059 /* RecipeNone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RecipeNone.png; sourceTree = "<group>"; };
+		37FF4EEC0F36159E00AFE4C7 /* HelperFunctions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HelperFunctions.m; sourceTree = "<group>"; };
+		37FF4EED0F36159E00AFE4C7 /* HelperFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HelperFunctions.h; path = Classes/HelperFunctions.h; sourceTree = "<group>"; };
+		37FF505A0F366F7B00AFE4C7 /* UIImageHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UIImageHelper.h; path = Classes/UIImageHelper.h; sourceTree = "<group>"; };
+		37FF505B0F366F7B00AFE4C7 /* UIImageHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIImageHelper.m; sourceTree = "<group>"; };
+		37FF50A80F3678FB00AFE4C7 /* EmailRecipeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EmailRecipeViewController.h; path = Classes/EmailRecipeViewController.h; sourceTree = "<group>"; };
+		37FF50A90F3678FB00AFE4C7 /* EmailRecipeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EmailRecipeViewController.m; path = Classes/EmailRecipeViewController.m; sourceTree = "<group>"; };
+		4415B6FE0DAC5F530052313F /* ShopViewDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ShopViewDataSource.h; path = Classes/ShopViewDataSource.h; sourceTree = "<group>"; };
+		4415B6FF0DAC5F530052313F /* ShopViewDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ShopViewDataSource.m; path = Classes/ShopViewDataSource.m; sourceTree = "<group>"; };
+		4415CD4D0D96830300BA1E6E /* Aisle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Aisle.h; path = Classes/Aisle.h; sourceTree = "<group>"; };
+		4415CD4E0D96830300BA1E6E /* Aisle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Aisle.m; sourceTree = "<group>"; };
+		441D46000D9A79AF00C9488D /* AislesTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AislesTable.h; path = Classes/AislesTable.h; sourceTree = "<group>"; };
+		441D46010D9A79AF00C9488D /* AislesTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AislesTable.m; sourceTree = "<group>"; };
+		442E8BA50DEECCEE00D7398F /* RecipesViewDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RecipesViewDataSource.h; path = Classes/RecipesViewDataSource.h; sourceTree = "<group>"; };
+		442E8BA60DEECCEE00D7398F /* RecipesViewDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RecipesViewDataSource.m; path = Classes/RecipesViewDataSource.m; sourceTree = "<group>"; };
+		44500ACF0DFCCF3900A3B8B2 /* RecipeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RecipeViewController.h; path = Classes/RecipeViewController.h; sourceTree = "<group>"; };
+		44500AD00DFCCF3900A3B8B2 /* RecipeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RecipeViewController.m; path = Classes/RecipeViewController.m; sourceTree = "<group>"; };
+		4452280D0E7E25D1000F2640 /* ShareViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ShareViewController.h; path = Classes/ShareViewController.h; sourceTree = "<group>"; };
+		4452280E0E7E25EA000F2640 /* ShareViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ShareViewController.m; path = Classes/ShareViewController.m; sourceTree = "<group>"; };
+		44597FF20DE186EA00F908DA /* ItemsViewDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ItemsViewDataSource.m; path = Classes/ItemsViewDataSource.m; sourceTree = "<group>"; };
+		44597FF40DE1871A00F908DA /* NotesTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NotesTableViewCell.h; path = Classes/NotesTableViewCell.h; sourceTree = "<group>"; };
+		44597FF50DE1874100F908DA /* NotesTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NotesTableViewCell.m; path = Classes/NotesTableViewCell.m; sourceTree = "<group>"; };
+		44597FF70DE1875F00F908DA /* ItemsTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ItemsTableViewCell.h; path = Classes/ItemsTableViewCell.h; sourceTree = "<group>"; };
+		44597FF80DE1877600F908DA /* ItemsTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ItemsTableViewCell.m; path = Classes/ItemsTableViewCell.m; sourceTree = "<group>"; };
+		4462FDFF0DA1E000006A12DD /* GroceryItemsTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GroceryItemsTable.h; path = Classes/GroceryItemsTable.h; sourceTree = "<group>"; };
+		4462FE000DA1E000006A12DD /* GroceryItemsTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GroceryItemsTable.m; sourceTree = "<group>"; };
+		447E01610DE18AF100F313AA /* RecipeTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RecipeTableViewCell.h; path = Classes/RecipeTableViewCell.h; sourceTree = "<group>"; };
+		447E01620DE18AF100F313AA /* RecipeTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RecipeTableViewCell.m; path = Classes/RecipeTableViewCell.m; sourceTree = "<group>"; };
+		448288B70DED1314004570D5 /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = English; path = English.lproj/Recipes.plist; sourceTree = "<group>"; };
+		44949FE40E8EF514008A1EDA /* tab_share.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tab_share.png; sourceTree = "<group>"; };
+		449854CF0DAF050700E3A430 /* ShoppingAisle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ShoppingAisle.m; path = Classes/ShoppingAisle.m; sourceTree = "<group>"; };
+		44D6F4850DB1022E00BDB50E /* ShoppingAisle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ShoppingAisle.h; path = Classes/ShoppingAisle.h; sourceTree = "<group>"; };
+		44E221850D8A42E30088D009 /* Database.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Database.h; path = Classes/Database.h; sourceTree = "<group>"; };
+		44E221860D8A42E30088D009 /* Database.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Database.m; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				1D3623EC0D0F72F000981E51 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				37FF4EEC0F36159E00AFE4C7 /* HelperFunctions.m */,
+				37E103BE0F22997F004B3BF8 /* Base64.m */,
+				37FF505B0F366F7B00AFE4C7 /* UIImageHelper.m */,
+				3776556C0E323DE900FB7D0C /* TableViewControllerUserPrefs.m */,
+				371C4F7D0DAC495B00C1A98B /* RecipesTable.m */,
+				3723ED030DAC43F0009B4570 /* Recipe.m */,
+				4462FE000DA1E000006A12DD /* GroceryItemsTable.m */,
+				37585D290D863B0F00AA18F3 /* GroceryItem.m */,
+				441D46010D9A79AF00C9488D /* AislesTable.m */,
+				4415CD4E0D96830300BA1E6E /* Aisle.m */,
+				44E221860D8A42E30088D009 /* Database.m */,
+				373037730E7C69950016AB3A /* ItemQuantity.m */,
+				1D3623250D0F684500981E51 /* RubberbandAppDelegate.m */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1D3623EB0D0F72F000981E51 /* CoreGraphics.framework */,
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* Rubberband.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				37429A100E20475400E71C87 /* Header files */,
+				44E3F2260DB0FCD400C1B691 /* Data Sources */,
+				37A9AA810D8D985C00FBCA2D /* View Controllers */,
+				37AA88D80D95674100E4FFCE /* Table View Cells */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				3759B5C10D8C344C0050E08A /* Images */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+				37D908900E496B8A00D25516 /* dist.plist */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				37E1038D0F228F95004B3BF8 /* EmailRecipe.html */,
+				3745FB240E3B6E1000AEE411 /* SampleData.xls */,
+				3757734D0EC79032001BC69B /* Localizable.strings */,
+				377EAB4C0DF334F700101188 /* Default.png */,
+				3731BC8E0DC3E0CE00D79468 /* Aisles.plist */,
+				3731BC750DC3DD8600D79468 /* GroceryItems.plist */,
+				8D1107310486CEB800E47090 /* Info.plist */,
+				448288B60DED1314004570D5 /* Recipes.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		37429A100E20475400E71C87 /* Header files */ = {
+			isa = PBXGroup;
+			children = (
+				37FF50A80F3678FB00AFE4C7 /* EmailRecipeViewController.h */,
+				37FF505A0F366F7B00AFE4C7 /* UIImageHelper.h */,
+				37FF4EED0F36159E00AFE4C7 /* HelperFunctions.h */,
+				37E103BD0F22997F004B3BF8 /* Base64.h */,
+				37D772DA0E9814AE00709F4F /* ItemQtyTableViewCell.h */,
+				3741DF170DF21A3E00CD5855 /* Protocols.h */,
+				374B0EB70E7F535400A62054 /* QuantityTableViewCell.h */,
+				374B0EB50E7F535300A62054 /* QuantityViewController.h */,
+				4452280D0E7E25D1000F2640 /* ShareViewController.h */,
+				3789C0BD0E4E4AE6009CFE5B /* SearchBarCell.h */,
+				374FFC9E0E3D2F150023329F /* NewNameAndLinkViewController.h */,
+				3776556B0E323DE900FB7D0C /* TableViewControllerUserPrefs.h */,
+				373037720E7C69950016AB3A /* ItemQuantity.h */,
+				32CA4F630368D1EE00C91783 /* Rubberband_Prefix.pch */,
+				371C4F7C0DAC495B00C1A98B /* RecipesTable.h */,
+				3723ED020DAC43F0009B4570 /* Recipe.h */,
+				4462FDFF0DA1E000006A12DD /* GroceryItemsTable.h */,
+				37585D2A0D863B0F00AA18F3 /* GroceryItem.h */,
+				441D46000D9A79AF00C9488D /* AislesTable.h */,
+				4415CD4D0D96830300BA1E6E /* Aisle.h */,
+				44E221850D8A42E30088D009 /* Database.h */,
+				1D3623240D0F684500981E51 /* RubberbandAppDelegate.h */,
+				37EFC2930DF8F7AA009959BB /* AddObjectTableViewCell.h */,
+				378C3C970D96DB0500B782E3 /* ItemTableViewCell.h */,
+				447E01610DE18AF100F313AA /* RecipeTableViewCell.h */,
+				376977380D9EA86A0043B9CA /* AisleTableViewCell.h */,
+				3759B6960D8C65370050E08A /* TextTableViewCell.h */,
+				37AA88D30D95671C00E4FFCE /* SmallNumberTableViewCell.h */,
+				44597FF40DE1871A00F908DA /* NotesTableViewCell.h */,
+				44597FF70DE1875F00F908DA /* ItemsTableViewCell.h */,
+				37EDD9C90DE0C31B00D5180A /* NameAndPictureView.h */,
+				4415B6FE0DAC5F530052313F /* ShopViewDataSource.h */,
+				37D7297C0DB155BD0047BBE8 /* ItemsViewDataSource.h */,
+				37C333E40DAC4DC40007F5B9 /* RecipesViewController.h */,
+				37B2D4AA0DA816FC0072A9EB /* ShopViewController.h */,
+				3759B5F60D8C378D0050E08A /* NewItemViewController.h */,
+				37CBBC070DE0E4620005FADE /* NewRecipeViewController.h */,
+				37E22B720DE89A7200168288 /* AddIngredientsViewController.h */,
+				3733539F0DF8EE3B00BA56BD /* AddRecipesViewController.h */,
+				379BB73E0D9F1C1600F7F58A /* AislesViewController.h */,
+				376E26760DBD7CAC004F6DF2 /* NewTextFieldViewController.h */,
+				374299D80E20416200E71C87 /* NotesViewController.h */,
+				44D6F4850DB1022E00BDB50E /* ShoppingAisle.h */,
+				442E8BA50DEECCEE00D7398F /* RecipesViewDataSource.h */,
+				44500ACF0DFCCF3900A3B8B2 /* RecipeViewController.h */,
+				376896AA0D8612D500E271A2 /* ItemsViewController.h */,
+			);
+			name = "Header files";
+			sourceTree = "<group>";
+		};
+		3759B5C10D8C344C0050E08A /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				37E9922D0F3B64C9007DFFB2 /* gray_selection.png */,
+				44949FE40E8EF514008A1EDA /* tab_share.png */,
+				37DB4F590E2A56F4009DD3BA /* strikethrough.png */,
+				372242090E05D742006846B1 /* image_overlay.png */,
+				37EDDA690DE0D2C500D5180A /* add_photo.png */,
+				37067E230DC629150018CEB6 /* glow.png */,
+				37F784A30DB7892200741059 /* RecipeNone.png */,
+				3745FB4E0E3B722900AEE411 /* recipe1.png */,
+				374FFBA30E3BD5050023329F /* recipe2.png */,
+				374FFBA20E3BD5050023329F /* recipe3.png */,
+				37290B560DE5B44700383ABD /* icon.png */,
+				37C333E70DAC4E310007F5B9 /* tab_recipes.png */,
+				37B2D56A0DA81DF40072A9EB /* tab_items.png */,
+				37B2D56B0DA81DF40072A9EB /* tab_shop.png */,
+				37290ACA0DE52D7F00383ABD /* edit_overlay.png */,
+				37C3B1C70D9B37C3006722A2 /* checkbox_dontneed.png */,
+				377EAACA0DF32C7000101188 /* checkbox_need.png */,
+				37C3B1C30D9B367D006722A2 /* checkbox_have.png */,
+				37AA88F10D956B0100E4FFCE /* segment_arrow.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		37A9AA810D8D985C00FBCA2D /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				37E22B730DE89A7200168288 /* AddIngredientsViewController.m */,
+				373353A00DF8EE3B00BA56BD /* AddRecipesViewController.m */,
+				379BB73F0D9F1C1600F7F58A /* AislesViewController.m */,
+				37FF50A90F3678FB00AFE4C7 /* EmailRecipeViewController.m */,
+				376896AB0D8612D500E271A2 /* ItemsViewController.m */,
+				3759B5F70D8C378D0050E08A /* NewItemViewController.m */,
+				37CBBC080DE0E4620005FADE /* NewRecipeViewController.m */,
+				3721FFD70DBBE7C300C76BB2 /* NewTextFieldViewController.m */,
+				374FFC9F0E3D2F150023329F /* NewNameAndLinkViewController.m */,
+				374299D90E20416200E71C87 /* NotesViewController.m */,
+				374B0EB60E7F535400A62054 /* QuantityViewController.m */,
+				44500AD00DFCCF3900A3B8B2 /* RecipeViewController.m */,
+				37C333E50DAC4DC40007F5B9 /* RecipesViewController.m */,
+				4452280E0E7E25EA000F2640 /* ShareViewController.m */,
+				37B2D4AB0DA816FC0072A9EB /* ShopViewController.m */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		37AA88D80D95674100E4FFCE /* Table View Cells */ = {
+			isa = PBXGroup;
+			children = (
+				374B0EB80E7F535400A62054 /* QuantityTableViewCell.m */,
+				3789C0BE0E4E4AE6009CFE5B /* SearchBarCell.m */,
+				37EFC2920DF8F7AA009959BB /* AddObjectTableViewCell.m */,
+				378C3C980D96DB0500B782E3 /* ItemTableViewCell.m */,
+				37D772DB0E9814AE00709F4F /* ItemQtyTableViewCell.m */,
+				447E01620DE18AF100F313AA /* RecipeTableViewCell.m */,
+				376977390D9EA86A0043B9CA /* AisleTableViewCell.m */,
+				3759B6970D8C65370050E08A /* TextTableViewCell.m */,
+				37AA88D40D95671C00E4FFCE /* SmallNumberTableViewCell.m */,
+				44597FF50DE1874100F908DA /* NotesTableViewCell.m */,
+				44597FF80DE1877600F908DA /* ItemsTableViewCell.m */,
+				37EDD9CA0DE0C31B00D5180A /* NameAndPictureView.m */,
+			);
+			name = "Table View Cells";
+			sourceTree = "<group>";
+		};
+		44E3F2260DB0FCD400C1B691 /* Data Sources */ = {
+			isa = PBXGroup;
+			children = (
+				449854CF0DAF050700E3A430 /* ShoppingAisle.m */,
+				4415B6FF0DAC5F530052313F /* ShopViewDataSource.m */,
+				44597FF20DE186EA00F908DA /* ItemsViewDataSource.m */,
+				442E8BA60DEECCEE00D7398F /* RecipesViewDataSource.m */,
+			);
+			name = "Data Sources";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* Rubberband */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Rubberband" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Rubberband;
+			productName = Rubberband;
+			productReference = 1D6058910D05DD3D006BFB54 /* Rubberband.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Rubberband" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+				de,
+				it,
+				nl,
+				Dutch,
+				spa,
+				es,
+				sp,
+				spm,
+				es_MX,
+				aps,
+				sp_MX,
+				"es-MX",
+				"es-ES",
+				Danish,
+				Swedish,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* Rubberband */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37AA88D50D95671C00E4FFCE /* SmallNumberTableViewCell.m in Resources */,
+				37AA88F20D956B0100E4FFCE /* segment_arrow.png in Resources */,
+				37C3B1C50D9B367D006722A2 /* checkbox_have.png in Resources */,
+				37C3B1CA0D9B37C3006722A2 /* checkbox_dontneed.png in Resources */,
+				37B2D56C0DA81DF40072A9EB /* tab_items.png in Resources */,
+				37B2D56D0DA81DF40072A9EB /* tab_shop.png in Resources */,
+				37C333E80DAC4E310007F5B9 /* tab_recipes.png in Resources */,
+				37F784A40DB7892200741059 /* RecipeNone.png in Resources */,
+				3731BC760DC3DD8600D79468 /* GroceryItems.plist in Resources */,
+				3731BC8F0DC3E0CE00D79468 /* Aisles.plist in Resources */,
+				37067E240DC629150018CEB6 /* glow.png in Resources */,
+				37EDDA6A0DE0D2C500D5180A /* add_photo.png in Resources */,
+				37290ACB0DE52D7F00383ABD /* edit_overlay.png in Resources */,
+				37290B570DE5B44700383ABD /* icon.png in Resources */,
+				448288B80DED1314004570D5 /* Recipes.plist in Resources */,
+				377EAACB0DF32C7000101188 /* checkbox_need.png in Resources */,
+				377EAB4D0DF334F700101188 /* Default.png in Resources */,
+				3722420A0E05D742006846B1 /* image_overlay.png in Resources */,
+				37DB4F5A0E2A56F4009DD3BA /* strikethrough.png in Resources */,
+				3745FB4F0E3B722900AEE411 /* recipe1.png in Resources */,
+				374FFBA40E3BD5050023329F /* recipe3.png in Resources */,
+				374FFBA50E3BD5050023329F /* recipe2.png in Resources */,
+				37D908910E496B8A00D25516 /* dist.plist in Resources */,
+				44949FE50E8EF514008A1EDA /* tab_share.png in Resources */,
+				3757734E0EC79032001BC69B /* Localizable.strings in Resources */,
+				37E1038E0F228F95004B3BF8 /* EmailRecipe.html in Resources */,
+				37E9922E0F3B64C9007DFFB2 /* gray_selection.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3759B5F80D8C378D0050E08A /* NewItemViewController.m in Sources */,
+				37AA88F40D956B4300E4FFCE /* SmallNumberTableViewCell.m in Sources */,
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* RubberbandAppDelegate.m in Sources */,
+				376896AC0D8612D500E271A2 /* ItemsViewController.m in Sources */,
+				37585D2B0D863B0F00AA18F3 /* GroceryItem.m in Sources */,
+				44E221870D8A42E30088D009 /* Database.m in Sources */,
+				3759B6980D8C65370050E08A /* TextTableViewCell.m in Sources */,
+				4415CD4F0D96830300BA1E6E /* Aisle.m in Sources */,
+				378C3C990D96DB0500B782E3 /* ItemTableViewCell.m in Sources */,
+				441D46020D9A79AF00C9488D /* AislesTable.m in Sources */,
+				3769773A0D9EA86A0043B9CA /* AisleTableViewCell.m in Sources */,
+				379BB7400D9F1C1600F7F58A /* AislesViewController.m in Sources */,
+				4462FE010DA1E000006A12DD /* GroceryItemsTable.m in Sources */,
+				37B2D4AC0DA816FC0072A9EB /* ShopViewController.m in Sources */,
+				3723ED040DAC43F0009B4570 /* Recipe.m in Sources */,
+				371C4F7E0DAC495B00C1A98B /* RecipesTable.m in Sources */,
+				37C333E60DAC4DC40007F5B9 /* RecipesViewController.m in Sources */,
+				4415B7000DAC5F530052313F /* ShopViewDataSource.m in Sources */,
+				449854D00DAF050700E3A430 /* ShoppingAisle.m in Sources */,
+				3721FFD80DBBE7C300C76BB2 /* NewTextFieldViewController.m in Sources */,
+				37EDD9CB0DE0C31B00D5180A /* NameAndPictureView.m in Sources */,
+				37CBBC090DE0E4620005FADE /* NewRecipeViewController.m in Sources */,
+				44597FF30DE186EA00F908DA /* ItemsViewDataSource.m in Sources */,
+				44597FF60DE1874100F908DA /* NotesTableViewCell.m in Sources */,
+				44597FF90DE1877600F908DA /* ItemsTableViewCell.m in Sources */,
+				447E01630DE18AF100F313AA /* RecipeTableViewCell.m in Sources */,
+				37E22B740DE89A7200168288 /* AddIngredientsViewController.m in Sources */,
+				442E8BA70DEECCEE00D7398F /* RecipesViewDataSource.m in Sources */,
+				373353A10DF8EE3B00BA56BD /* AddRecipesViewController.m in Sources */,
+				37EFC2940DF8F7AA009959BB /* AddObjectTableViewCell.m in Sources */,
+				44500AD10DFCCF3900A3B8B2 /* RecipeViewController.m in Sources */,
+				374299DA0E20416200E71C87 /* NotesViewController.m in Sources */,
+				3776556D0E323DE900FB7D0C /* TableViewControllerUserPrefs.m in Sources */,
+				374FFCA00E3D2F150023329F /* NewNameAndLinkViewController.m in Sources */,
+				3789C0BF0E4E4AE6009CFE5B /* SearchBarCell.m in Sources */,
+				373037740E7C69950016AB3A /* ItemQuantity.m in Sources */,
+				4452280F0E7E25EA000F2640 /* ShareViewController.m in Sources */,
+				374B0EB90E7F535400A62054 /* QuantityViewController.m in Sources */,
+				374B0EBA0E7F535400A62054 /* QuantityTableViewCell.m in Sources */,
+				37D772DC0E9814AE00709F4F /* ItemQtyTableViewCell.m in Sources */,
+				37E103BF0F22997F004B3BF8 /* Base64.m in Sources */,
+				37FF4EEE0F36159E00AFE4C7 /* HelperFunctions.m in Sources */,
+				37FF505C0F366F7B00AFE4C7 /* UIImageHelper.m in Sources */,
+				37FF50AA0F3678FB00AFE4C7 /* EmailRecipeViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3731BC750DC3DD8600D79468 /* GroceryItems.plist */ = {
+			isa = PBXVariantGroup;
+			children = (
+				373D36510DC3D9C000BD75D2 /* English */,
+				37A58C540E997C00007234A7 /* it */,
+				3757735E0EC79120001BC69B /* Dutch */,
+				3748EF9F0F34DAF900BC0306 /* de */,
+				37E6F8F6111AA93500153B37 /* es */,
+				37E3615A113F7B2300A2892D /* Danish */,
+				37ACDA0F12903FBD00129B4D /* Swedish */,
+			);
+			name = GroceryItems.plist;
+			sourceTree = "<group>";
+		};
+		3731BC8E0DC3E0CE00D79468 /* Aisles.plist */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3731BC8C0DC3E0C800D79468 /* English */,
+				37A58C510E997BF3007234A7 /* it */,
+				3757735D0EC79115001BC69B /* Dutch */,
+				3748EF9E0F34DAEE00BC0306 /* de */,
+				37E6F8F5111AA92F00153B37 /* es */,
+				37E3615B113F7B2C00A2892D /* Danish */,
+				37ACDA0E12903FB200129B4D /* Swedish */,
+			);
+			name = Aisles.plist;
+			sourceTree = "<group>";
+		};
+		3757734D0EC79032001BC69B /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				37D325450E9087570014FF9B /* English */,
+				3757734F0EC79045001BC69B /* it */,
+				375773500EC7904B001BC69B /* Dutch */,
+				3748EF9D0F34DADC00BC0306 /* de */,
+				37E6F8E8111AA88500153B37 /* es */,
+				376573A3113F6568002C91B0 /* Danish */,
+				37ACD9D312903C6700129B4D /* Swedish */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		448288B60DED1314004570D5 /* Recipes.plist */ = {
+			isa = PBXVariantGroup;
+			children = (
+				448288B70DED1314004570D5 /* English */,
+				37A58C560E997C11007234A7 /* it */,
+				375773640EC7928D001BC69B /* Dutch */,
+				3748EFA00F34DB0200BC0306 /* de */,
+				37E6F8F7111AA94000153B37 /* es */,
+				37E3615C113F7B3300A2892D /* Danish */,
+				37ACDA1012903FC500129B4D /* Swedish */,
+			);
+			name = Recipes.plist;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Greg Bernhardt (VRJCE9RJ9Q)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Rubberband_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				PREBINDING = NO;
+				PRODUCT_NAME = Rubberband;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "D2BC6CB9-7875-4CE8-AC17-DDD85BC76C41";
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Rubberband_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				PREBINDING = NO;
+				PRODUCT_NAME = Rubberband;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		373C80E40E4904870071A11F /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Greg Bernhardt";
+				PREBINDING = NO;
+				PROVISIONING_PROFILE = "12393112-09E0-4A37-8790-033D1810036E";
+				SDKROOT = iphoneos4.1;
+			};
+			name = Distribution;
+		};
+		373C80E50E4904870071A11F /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Rubberband_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				PREBINDING = NO;
+				PRODUCT_NAME = Rubberband;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Distribution;
+		};
+		37CC23A60E495F8D0032F92C /* DistributionAdHoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CODE_SIGN_ENTITLEMENTS = dist.plist;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Greg Bernhardt";
+				PREBINDING = NO;
+				PROVISIONING_PROFILE = "3DA589EA-0C11-4ECE-8B9F-1ABA68A52027";
+				SDKROOT = iphoneos4.1;
+			};
+			name = DistributionAdHoc;
+		};
+		37CC23A70E495F8D0032F92C /* DistributionAdHoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Greg Bernhardt";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Rubberband_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				PREBINDING = NO;
+				PRODUCT_NAME = Rubberband;
+				PROVISIONING_PROFILE = "3DA589EA-0C11-4ECE-8B9F-1ABA68A52027";
+				WRAPPER_EXTENSION = app;
+			};
+			name = DistributionAdHoc;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_ENTITLEMENTS = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Greg Bernhardt (VRJCE9RJ9Q)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "D2BC6CB9-7875-4CE8-AC17-DDD85BC76C41";
+				SDKROOT = iphoneos4.1;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				PREBINDING = NO;
+				SDKROOT = iphoneos4.1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Rubberband" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+				373C80E50E4904870071A11F /* Distribution */,
+				37CC23A70E495F8D0032F92C /* DistributionAdHoc */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Rubberband" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+				373C80E40E4904870071A11F /* Distribution */,
+				37CC23A60E495F8D0032F92C /* DistributionAdHoc */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

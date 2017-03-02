@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+
+<!-- supported quantities are: 1 lb, 0.5 lb, 0.25 lb, 2 lb
+<!-- if you want to add a new quantity, modify Database.m, populateRecipesSampleData -->
+<!-- right now they are hardcoded to the string -->
+
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Name</key>
+		<string>In Parmezaanse Ham Gerolde Garnalen met Zwarte Bessen-Mint Saus</string>
+		<key>Notes</key>
+		<string>Maakt: 4 zelf-verdedigings prikkers 
+		Totale bereidingstijd: 20 minuten
+		Van: seattlefoodgeek.com</string>
+		<key>Link</key>
+		<string>http://seattlefoodgeek.com/2008/04/27/proscuitto-wrapped-shrimp-with-blackberry-mint-sauce/</string>
+		<key>Image</key>
+		<string>recipe1.png</string>
+
+		<key>Ingredients</key>
+		<array>		
+			<dict><key>Name</key><string>Garnalen</string><key>Amount</key><string>1 lb</string></dict>
+			<dict><key>Name</key><string>Parmesaanse ham</string><key>Amount</key><string>0.25 lb</string></dict>
+			<dict><key>Name</key><string>Sate prikkers</string></dict>
+			<dict><key>Name</key><string>Foelie</string></dict>
+			<dict><key>Name</key><string>Witte peper</string></dict>
+			<dict><key>Name</key><string>Geconserveerde zwarte bessen </string></dict>
+			<dict><key>Name</key><string>Mint blaadjes</string></dict>
+			<dict><key>Name</key><string>Port wijn</string></dict>
+			<dict><key>Name</key><string>Zeezout</string></dict>
+		</array>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Aziatische Zalm Schaaltjes met Frisse Dressing</string>
+		<key>Notes</key>
+		<string>Maakt: 4 verrukkelijke voorgerechten van vreugde
+		Totale bereidingstijd: 30 minuten
+		Van: seattlefoodgeek.com</string>
+		<key>Link</key>
+		<string>http://seattlefoodgeek.com/2008/06/01/asian-salmon-cups-with-fresh-aromatics/</string>
+		<key>Image</key>
+		<string>recipe2.png</string>
+
+		<key>Ingredients</key>
+		<array>
+			<dict><key>Name</key><string>Zalm</string><key>Amount</key><string>1 lb</string></dict>
+			<dict><key>Name</key><string>Soja saus</string></dict>
+			<dict><key>Name</key><string>Teriyaki marinade</string></dict>
+			<dict><key>Name</key><string>Spaanse peper olie</string></dict>
+			<dict><key>Name</key><string>Sjalotten</string></dict>
+			<dict><key>Name</key><string>Knoflook</string></dict>
+			<dict><key>Name</key><string>Gember</string></dict>
+			<dict><key>Name</key><string>Waterkastanjes</string></dict>
+			<dict><key>Name</key><string>Limoen</string></dict>
+			<dict><key>Name</key><string>Sesam zaad</string></dict>
+			<dict><key>Name</key><string>Noten olie</string></dict>
+			<dict><key>Name</key><string>Rijstwijn azijn</string></dict>
+			<dict><key>Name</key><string>Kool</string></dict>
+			<dict><key>Name</key><string>Chinese BBQ saus</string></dict>
+		</array>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Geroosterde Aardappels salade met Dijon Vinaigrette</string>
+		<key>Notes</key>
+		<string>Totale bereidingstijd: 1 uur
+		Maakt: 8 porties
+		Van: seattlefoodgeek.com</string>
+		<key>Link</key>
+		<string>http://seattlefoodgeek.com/2008/06/30/roasted-potato-salad-with-dijon-vinaigrette/</string>
+		<key>Image</key>
+		<string>recipe3.png</string>
+
+		<key>Ingredients</key>
+		<array>
+			<dict><key>Name</key><string>Rode aardappel</string><key>Amount</key><string>2 lb</string></dict>
+			<dict><key>Name</key><string>Witte ui</string></dict>
+			<dict><key>Name</key><string>Rode peper</string></dict>
+			<dict><key>Name</key><string>Knoflook</string></dict>
+			<dict><key>Name</key><string>Olijfolie</string></dict>
+			<dict><key>Name</key><string>Champagne-azijn</string></dict>
+			<dict><key>Name</key><string>Dijon mosterd</string></dict>
+			<dict><key>Name</key><string>Honing</string></dict>
+			<dict><key>Name</key><string>Kappertjes</string></dict>
+			<dict><key>Name</key><string>Provençaalse kruiden</string></dict>
+			<dict><key>Name</key><string>Zeezout</string></dict>
+		</array>
+	</dict>
+	
+</array>
+</plist>

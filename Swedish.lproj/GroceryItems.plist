@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+
+<!-- supported quantities are: 1 lb, 0.5 lb, 5 lb, 1 gal, 1 pt, 8 oz -->
+<!-- if you want to add a new quantity, modify Database.m, populateItemsSampleData -->
+<!-- right now they are hardcoded to the string -->
+
+<!--generated from SampleData.xls-->
+<dict><key>Name</key><string>Allkrydda</string><key>Aisle</key><string>Kryddor</string></dict>
+<dict><key>Name</key><string>Mandlar</string><key>Aisle</key><string>Bakning</string></dict>
+<dict><key>Name</key><string>Aluminiumfolie</string><key>Aisle</key><string>Kemtekniskt</string></dict>
+<dict><key>Name</key><string>Ansjovis</string><key>Aisle</key><string>Snabbmat</string></dict>
+<dict><key>Name</key><string>Äpplen</string><key>Aisle</key><string>Frukt och grönt</string></dict>
+<dict><key>Name</key><string>Ruccola</string><key>Aisle</key><string>Frukt och grönt</string></dict>
+<dict><key>Name</key><string>Sparris</string><key>Aisle</key><string>Frukt och grönt</string></dict>
+<dict><key>Name</key><string>Avokado</string><key>Aisle</key><string>Frukt och grönt</string></dict>
+<dict><key>Name</key><string>Barnmat</string><key>Aisle</key><string>Barnartiklar</string></dict>
+<dict><key>Name</key><string>Bacon</string><key>Aisle</key><string>Kött</string><key>Usual</key><string>1 lb</string></dict>
+<dict><key>Name</key><string>Bagels</string><key>Aisle</key><string>Bröd</string></dict>
+<dict><key>Name</key><string>Baguette</string><key>Aisle</key><string>Bröd</string></dict>
+<dict><key>Name</key><string>Bakpulver</string><key>Aisle</key><string>Bakning</string></dict>
+<dict><key>Name</key><string>Hjorthornssalt</string><key>Aisle</key><string>Bakning</string></dict>
+<dict><key>Name</key><string>Balsamvinäger</string><key>Aisle</key><string>Specerier</string></dict>
+<dict><key>Name</key><string>Grillspett av trä</string><key>Aisle</key><string>Etnisk mat</string></dict>
+<dict><key>Name</key><string>Bananer</string><key>Aisle</key><string>Frukt och grönt</string></dict>
+<dict><key>Name</key><string>Plåster</string><key>Aisle</key><string>Hygienartiklar</string></dict>
+<dict><key>Name</key><string>Grillsås</string><key>Aisle</key><string>Specerier</string></dict>
+<dict><key>Name</key><string>Basilika</string><key>Aisle</key><string>Frukt och grönt</string></dict>
+<dict><key>Name</key><string>Basmatiris</string><key>Aisle</key><string>Etnisk mat</string></dict>
+<dict><key>Name</key><string>Batterier</string><key>Aisle</key><string>Kassan</string></dict>
+<dict><key>Name</key><string>Lagerblad</string><key>Aisle</key><string>Kryddor</string></dict>
+<dict><key>Name</key><string>Köttbuljong</string><key>Aisle</key><string>Snabbmat</string></dict>
+<dict><key>Name</key><string>Öl</string><key>Aisle</key><string>Drycker</string></dict>
+<dict><key>Name</key><string>Rödbetor</string><key>Aisle</key><string>Frukt och grönt</string></dict>
+<dict><key>Name</key><string>Mörk choklad</string><key>Aisle</key><string>Bakning</string></dict>
+<dict><key>Name</key><string>Konserverade björnbär</string><key>Aisle</key><string>Specerier</string></dict>
+<dict><key>Name</key><string>Blåmögelost</string><key>Aisle</key><string>Chark och ost</string><key>Usual</key><string>0.5 lb</string></dict>
+<dict><key>Name</key><string>Duschtvål</string><key>Aisle</key><string>Hygienartiklar</string></dict>
+<dict><key>Name</key><string>Bröd</string><key>Aisle</key><string>Bröd</string></dict>
+<dict><key>Name</key><string>Vetemjöl</string><key>Aisle</key><string>Bakning</string></dict>
+<dict><key>Name</key><string>Broccoli</string><key>Aisle</key><string>Frukt och grönt</string></dict>
+<dict><key>Name</key><string>Farinsocker</string><key>Aisle</key><string>Bakning</string></dict>
+<dict><key>Name</key><string>Smör</string><key>Aisle</key><string>Mejeriprodukter</string><key>Usual</key><string>1 lb</string></dict>
+<dict><key>Name</key><string>Vitkål</string><key>Aisle</key><string>Frukt och grönt</string></dict>
+<dict><key>Name</key><string>Majskonserv</string><key>Aisle</key><string>Grönsakskonserver</string></dict>
+<dict><key>Name</key><string>Rapsolja</string><key>Aisle</key><string>Specerier</string></dict>
+<dict><key>Name</key><string>Honungsmelon</string><key>Aisle</key><string>Frukt och grönt</string></dict>
+<dict><key>Name</key><string>Kapris</string><key>Aisle</key><string>Snabbmat</string></dict>
+<dict><key>Name</key><string>Medvurst</string><key>Aisle</key><string>Chark och ost</string><key>Usual</key><string>0.5 lb</string></dict>
+<dict><key>Name</key><string>Kardemumma</string><key>Aisle</key><string>Kryddor</string></dict>
+<dict><key>Name</key><string>Morötter</string><key>Aisle</key><string>Frukt och grönt</string></dict>
+<dict><key>Name</key><string>Cashewnötter</string><key>Aisle</key><string>Bakning</string></dict>
+<dict><key>Name</key><string>Kattmat</string><key>Aisle</key><string>Husdjur</string></dict>
+<dict><key>Name</key><string>Blomkål</string><key>Aisle</key><string>Frukt och grönt</string></dict>
+<dict><key>Name</key><string>Selleri</string><key>Aisle</key><string>Frukt och grönt</string></dict>
+<dict><key>Name</key><string>Frukostflingor</string><key>Aisle</key><string>Torrvaror</string></dict>
+<dict><key>Name</key><string>Champagne</string><key>Aisle</key><string>* Detaljhandel</string></dict>
+<dict><key>Name</key><string>Cheddar</string><key>Aisle</key><string>Chark och ost</string><key>Usual</key><string>0.5 lb</string></dict>
+<dict><key>Name</key><string>Ost</string><key>Aisle</key><string>Chark och ost</string><key>Usual</key><string>0.5 lb</string></dict>
+<dict><key>Name</key><string>Körsbär</string><key>Aisle</key><string>Chark och ost</string></dict>
+<dict><key>Name</key><string>Kyckling</string><key>Aisle</key><string>Kött</string><key>Usual</key><string>1 lb</string></dict>
+<dict><key>Name</key><string>Kycklingbuljong</string><key>Aisle</key><string>Snabbmat</string></dict>
+<dict><key>Name</key><string>Kycklinglår</string><key>Aisle</key><string>Kött</string><key>Usual</key><string>1 lb</string></dict>
+<dict><key>Name</key><string>Sweet chili-sås</string><key>Aisle</key><string>Etnisk mat</string></dict>
+<dict><key>Name</key><string>Chiliolja</string><key>Aisle</key><string>Etnisk mat</string></dict>
+<dict><key>Name</key><string>Chilipulver</string><key>Aisle</key><string>Kryddor</string></dict>
+<dict><key>Name</key><string>Kinesisk BBQ-sås</string><key>Aisle</key><string>Etnisk mat</string></dict>
+<dict><key>Name</key><string>Chipotle-chilipeppar</string><key>Aisle</key><string>Etnisk mat</string></dict>
+<dict><key>Name</key><string>Chips</string><key>Aisle</key><string>Snacks</string></dict>
+<dict><key>Name</key><string>Kakaopulver</string><key>Aisle</key><string>Bakning</string></dict>
+<dict><key>Name</key><string>Chorizo</string><key>Aisle</key><string>Kött</string><key>Usual</key><string>1 lb</string></dict>
+<dict><key>Name</key><string>Färsk koriander</string><key>Aisle</key><string>Frukt och grönt</string></dict>
+<dict><key>Name</key><string>Kanelstänger</string><key>Aisle</key><string>Kryddor</string></dict>
+<dict><key>Name</key><string>Musslor</string><key>Aisle</key><string>* Fiskaffären</string><key>Usual</key><string>1 lb</string></dict>
+<dict><key>Name</key><string>Kaffe</string><key>Aisle</key><string>Torrvaror</string></dict>
+<dict><key>Name</key><string>Coca-cola</string><key>Aisle</key><string>Drycker</string></dict>
+<dict><key>Name</key><string>Kakor</string><key>Aisle</key><string>Snacks</string></dict>
+<dict><key>Name</key><string>Koriander</string><key>Aisle</key><string>Kryddor</string></dict>
+<dict><key>Name</key><string>Majs</string><key>Aisle</key><string>Frukt och grönt</string></dict>
+<dict><key>Name</key><string>Majsmjöl</string><key>Aisle</key><string>Bakning</string></dict>
+<dict><key>Name</key><string>Tortilla</string><key>Aisle</key><string>Etnisk mat</string></dict>
+<dict><key>Name</key><string>Kesella</string><key>Aisle</key><string>Mejeriprodukter</string><key>Usual</key><string>8 oz</string></dict>
+<dict><key>Name</key><string>Cous-cous</string><key>Aisle</key><string>Etnisk mat</string></dict>
+<dict><key>Name</key><string>Krabbkött</string><key>Aisle</key><string>* Fiskaffären</string><key>Usual</key><string>0.5 lb</string></dict>
+<dict><key>Name</key><string>Kex</string><key>Aisle</key><string>Snacks</string></dict>
+<dict><key>Name</key><string>Grädde</string><key>Aisle</key><string>Mejeriprodukter</string><key>Usual</key><string>1 pt</string></dict>
+<dict><key>Name</key><string>Gräddost</string><key>Aisle</key><string>Chark och ost</string><key>Usual</key><string>8 oz</string></dict>
+<dict><key>Name</key><string>Krossade tomater</string><key>Aisle</key><string>Grönsakskonserver</string></dict>
+<dict><key>Name</key><string>Gurka</string><key>Aisle</key><string>Frukt och grönt</string></dict>
+<dict><key>Name</key><string>Kummin</string><key>Aisle</key><string>Kryddor</string></dict>
+<dict><key>Name</key><string>Currypasta</string><key>Aisle</key><string>Etnisk mat</string></dict>
+<dict><key>Name</key><string>Curry</string><key>Aisle</key><string>Kryddor</string></dict>
+<dict><key>Name</key><string>Kött</string><key>Aisle</key><string>Chark och ost</string><key>Usual</key><string>0.5 lb</string></dict>
+<dict><key>Name</key><string>Deodorant</string><key>Aisle</key><string>Hygienartiklar</string></dict>
+<dict><key>Name</key><string>Blöjor</string><key>Aisle</key><string>Barnartiklar</string></dict>
+<dict><key>Name</key><string>Passerade tomater</string><key>Aisle</key><string>Grönsakskonserver</string></dict>
+<dict><key>Name</key><string>Dijonsenap</string><key>Aisle</key><string>Specerier</string></dict>
+<dict><key>Name</key><string>Dill</string><key>Aisle</key><string>Kryddor</string></dict>
+<dict><key>Name</key><string>Handtvål</string><key>Aisle</key><string>Kemtekniskt</string></dict>
+<dict><key>Name</key><string>Diskmedel</string><key>Aisle</key><string>Kemtekniskt</string></dict>
+<dict><key>Name</key><string>Hundmat</string><key>Aisle</key><string>Husdjur</string></dict>
+<dict><key>Name</key><string>Fläskfilé</string><key>Aisle</key><string>Kött</string></dict>
+<dict><key>Name</key><string>Äggnudlar</string><key>Aisle</key><string>Etnisk mat</string></dict>
+<dict><key>Name</key><string>Aubergine</string><key>Aisle</key><string>Frukt och grönt</string></dict>
+<dict><key>Name</key><string>Ägg</string><key>Aisle</key><string>Mejeriprodukter</string></dict>
+<dict><key>Name</key><string>Fänkål</string><key>Aisle</key><string>Kryddor</string></dict>
+<dict><key>Name</key><string>Fikon</string><key>Aisle</key><string>Frukt och grönt</string></dict>
+<dict><key>Name</key><string>Fisk</string><key>Aisle</key><string>* Fiskaffären</string><key>Usual</key><string>1 lb</string></dict>
+<dict><key>Name</key><string>Fisksås</string><key>Aisle</key><string>Etnisk mat</string></dict>
+<dict><key>Name</key><string>Kotlett</string><key>Aisle</key><string>Kött</string><key>Usual</key><string>1 lb</string></dict>
+<dict><key>Name</key><string>Mjöl</string><key>Aisle</key><string>Bakning</string></dict>
+<dict><key>Name</key><string>Vetetortilla</string><key>Aisle</key><string>Etnisk mat</string></dict>
+<dict><key>Name</key><string>Snittblommor</string><key>Aisle</key><string>Kassan</string></dict>
+<dict><key>Name</key><string>Djupfryst majs</string><key>Aisle</key><string>Frysvaror</string></dict>
+<dict><key>Name</key><string>Djupfrysta ärtor</string><key>Aisle</key><string>Frysvaror</string></dict>
+<dict><key>Name</key><string>Soppåsar</string><key>Aisle</key><string>Kemtekniskt</string></dict>
+<dict><key>Name</key><string>Vitlök</string><key>Aisle</key><string>Frukt och grönt</string></dict>
+<dict><key>Name</key><string>Ingefära</string><key>Aisle</key><string>Frukt och grönt</string></dict>
+<dict><key>Name</key><string>Druvor</string><key>Aisle</key><string>Frukt och grönt</string></dict>
+<dict><key>Name</key><string>Haricot Vers</string><key>Aisle</key><string>Frukt och grönt</string></dict>
+<dict><key>Name</key><string>Paprika</string><key>Aisle</key><string>Frukt och grönt</string></dict>
+<dict><key>Name</key><string>Nötfärs</string><key>Aisle</key><string>Kött</string><key>Usual</key><string>1 lb</string></dict>
+<dict><key>Name</key><string>Fläskfärs</string><key>Aisle</key><string>Kött</string><key>Usual</key><string>1 lb</string></dict>
+<dict><key>Name</key><string>Rödspätta</string><key>Aisle</key><string>* Fiskaffären</string><key>Usual</key><string>1 lb</string></dict>
+<dict><key>Name</key><string>Hasselnötter</string><key>Aisle</key><string>Bakning</string></dict>
+<dict><key>Name</key><string>Fransk örtkryddblandning</string><key>Aisle</key><string>* Detaljhandel</string></dict>
+<dict><key>Name</key><string>Hoisinsås</string><key>Aisle</key><string>Etnisk mat</string></dict>
+<dict><key>Name</key><string>Honung</string><key>Aisle</key><string>Bakning</string></dict>
+<dict><key>Name</key><string>Pepparrot</string><key>Aisle</key><string>Specerier</string></dict>
+<dict><key>Name</key><string>Is</string><key>Aisle</key><string>Kassan</string><key>Usual</key><string>5 lb</string></dict>
+<dict><key>Name</key><string>Glass</string><key>Aisle</key><string>Frysvaror</string></dict>
+<dict><key>Name</key><string>Salami</string><key>Aisle</key><string>Kött</string><key>Usual</key><string>1 lb</string></dict>
+<dict><key>Name</key><string>Spansk peppar</string><key>Aisle</key><string>Frukt och grönt</string></dict>
+<dict><key>Name</key><string>Sylt</string><key>Aisle</key><string>Specerier</string></dict>
+<dict><key>Name</key><string>Gelé</string><key>Aisle</key><string>Specerier</string></dict>
+<dict><key>Name</key><string>Palsternacka</string><key>Aisle</key><string>Frukt och grönt</string></dict>
+<dict><key>Name</key><string>Juice</string><key>Aisle</key><string>Drycker</string></dict>
+<dict><key>Name</key><string>Ketchup</string><key>Aisle</key><string>Specerier</string></dict>
+<dict><key>Name</key><string>Lammkött</string><key>Aisle</key><string>Kött</string><key>Usual</key><string>1 lb</string></dict>
+<dict><key>Name</key><string>Grytbitar av lamm</string><key>Aisle</key><string>Kött</string><key>Usual</key><string>1 lb</string></dict>
+<dict><key>Name</key><string>Lasagne</string><key>Aisle</key><string>Grönsakskonserver</string></dict>
+<dict><key>Name</key><string>Tvättmedel</string><key>Aisle</key><string>Kemtekniskt</string></dict>
+<dict><key>Name</key><string>Citron</string><key>Aisle</key><string>Frukt och grönt</string></dict>
+<dict><key>Name</key><string>Citronjuice</string><key>Aisle</key><string>Fruktkonserver</string></dict>
+<dict><key>Name</key><string>Citrongräs</string><key>Aisle</key><string>Frukt och grönt</string></dict>
+<dict><key>Name</key><string>Sallad</string><key>Aisle</key><string>Frukt och grönt</string></dict>
+<dict><key>Name</key><string>Lime</string><key>Aisle</key><string>Frukt och grönt</string></dict>
+<dict><key>Name</key><string>Lotion</string><key>Aisle</key><string>Hygienartiklar</string></dict>
+<dict><key>Name</key><string>Muskotblomma</string><key>Aisle</key><string>Kryddor</string></dict>
+<dict><key>Name</key><string>Mango</string><key>Aisle</key><string>Frukt och grönt</string></dict>
+<dict><key>Name</key><string>Majonnäs</string><key>Aisle</key><string>Specerier</string></dict>
+<dict><key>Name</key><string>Mjölk</string><key>Aisle</key><string>Mejeriprodukter</string><key>Usual</key><string>1 gal</string></dict>
+<dict><key>Name</key><string>Färsk mynta</string><key>Aisle</key><string>Frukt och grönt</string></dict>
+<dict><key>Name</key><string>Mozarella</string><key>Aisle</key><string>Chark och ost</string><key>Usual</key><string>0.5 lb</string></dict>
+<dict><key>Name</key><string>Champinjoner</string><key>Aisle</key><string>Frukt och grönt</string></dict>
+<dict><key>Name</key><string>Senap</string><key>Aisle</key><string>Specerier</string></dict>
+<dict><key>Name</key><string>Senapsfrö</string><key>Aisle</key><string>Kryddor</string></dict>
+<dict><key>Name</key><string>Servetter</string><key>Aisle</key><string>Kemtekniskt</string></dict>
+<dict><key>Name</key><string>Muskotnöt</string><key>Aisle</key><string>Kryddor</string></dict>
+<dict><key>Name</key><string>Nötter</string><key>Aisle</key><string>Bakning</string></dict>
+<dict><key>Name</key><string>Havregryn</string><key>Aisle</key><string>Torrvaror</string></dict>
+<dict><key>Name</key><string>Olivolja</string><key>Aisle</key><string>Specerier</string></dict>
+<dict><key>Name</key><string>Apelsiner</string><key>Aisle</key><string>Frukt och grönt</string></dict>
+<dict><key>Name</key><string>Apelsinjuice</string><key>Aisle</key><string>Mejeriprodukter</string></dict>
+<dict><key>Name</key><string>Oregano</string><key>Aisle</key><string>Kryddor</string></dict>
+<dict><key>Name</key><string>Frityrsmet</string><key>Aisle</key><string>* Detaljhandel</string></dict>
+<dict><key>Name</key><string>Hushållspapper</string><key>Aisle</key><string>Kemtekniskt</string></dict>
+<dict><key>Name</key><string>Parmesanost</string><key>Aisle</key><string>Chark och ost</string><key>Usual</key><string>0.5 lb</string></dict>
+<dict><key>Name</key><string>Persilja</string><key>Aisle</key><string>Frukt och grönt</string></dict>
+<dict><key>Name</key><string>Pastasås</string><key>Aisle</key><string>Grönsakskonserver</string></dict>
+<dict><key>Name</key><string>Persikor</string><key>Aisle</key><string>Frukt och grönt</string></dict>
+<dict><key>Name</key><string>Jordnötssmör</string><key>Aisle</key><string>Specerier</string></dict>
+<dict><key>Name</key><string>Jordnötsolja</string><key>Aisle</key><string>Specerier</string></dict>
+<dict><key>Name</key><string>Jordnötter</string><key>Aisle</key><string>Bakning</string></dict>
+<dict><key>Name</key><string>Päron</string><key>Aisle</key><string>Frukt och grönt</string></dict>
+<dict><key>Name</key><string>Ärtor</string><key>Aisle</key><string>Frukt och grönt</string></dict>
+<dict><key>Name</key><string>Pecannötter</string><key>Aisle</key><string>Bakning</string></dict>
+<dict><key>Name</key><string>Penne-pasta</string><key>Aisle</key><string>Grönsakskonserver</string></dict>
+<dict><key>Name</key><string>Peppar</string><key>Aisle</key><string>Kryddor</string></dict>
+<dict><key>Name</key><string>Pepperonikorv</string><key>Aisle</key><string>Kött</string></dict>
+<dict><key>Name</key><string>Pickles</string><key>Aisle</key><string>Specerier</string></dict>
+<dict><key>Name</key><string>Pinjenötter</string><key>Aisle</key><string>Bakning</string></dict>
+<dict><key>Name</key><string>Djupfryst pizza</string><key>Aisle</key><string>Frysvaror</string></dict>
+<dict><key>Name</key><string>Pizzasås</string><key>Aisle</key><string>Grönsakskonserver</string></dict>
+<dict><key>Name</key><string>Matbananer</string><key>Aisle</key><string>Frukt och grönt</string></dict>
+<dict><key>Name</key><string>Habanero</string><key>Aisle</key><string>Frukt och grönt</string></dict>
+<dict><key>Name</key><string>Fläskkött</string><key>Aisle</key><string>Kött</string><key>Usual</key><string>1 lb</string></dict>
+<dict><key>Name</key><string>Grytbitar av fläsk</string><key>Aisle</key><string>Kött</string><key>Usual</key><string>1 lb</string></dict>
+<dict><key>Name</key><string>Rostbiff</string><key>Aisle</key><string>Kött</string><key>Usual</key><string>1 lb</string></dict>
+<dict><key>Name</key><string>Fläskkotlett</string><key>Aisle</key><string>Kött</string><key>Usual</key><string>1 lb</string></dict>
+<dict><key>Name</key><string>Portvin</string><key>Aisle</key><string>Drycker</string></dict>
+<dict><key>Name</key><string>Portabellasvamp</string><key>Aisle</key><string>Frukt och grönt</string></dict>
+<dict><key>Name</key><string>Potatis</string><key>Aisle</key><string>Frukt och grönt</string><key>Usual</key><string>1 lb</string></dict>
+<dict><key>Name</key><string>Florsocker</string><key>Aisle</key><string>Bakning</string></dict>
+<dict><key>Name</key><string>Salta pinnar</string><key>Aisle</key><string>Snacks</string></dict>
+<dict><key>Name</key><string>Prosciutto</string><key>Aisle</key><string>Chark och ost</string><key>Usual</key><string>0.5 lb</string></dict>
+<dict><key>Name</key><string>Russin</string><key>Aisle</key><string>Bakning</string></dict>
+<dict><key>Name</key><string>Rödlök</string><key>Aisle</key><string>Frukt och grönt</string></dict>
+<dict><key>Name</key><string>Röd paprika</string><key>Aisle</key><string>Frukt och grönt</string></dict>
+<dict><key>Name</key><string>Potatis med rött skal</string><key>Aisle</key><string>Frukt och grönt</string><key>Usual</key><string>1 lb</string></dict>
+<dict><key>Name</key><string>Lättöl</string><key>Aisle</key><string>Drycker</string></dict>
+<dict><key>Name</key><string>Rödvinsvinäger</string><key>Aisle</key><string>Specerier</string></dict>
+<dict><key>Name</key><string>Ris</string><key>Aisle</key><string>Snabbmat</string></dict>
+<dict><key>Name</key><string>Risnudlar</string><key>Aisle</key><string>Etnisk mat</string></dict>
+<dict><key>Name</key><string>Risvinäger</string><key>Aisle</key><string>Etnisk mat</string></dict>
+<dict><key>Name</key><string>Saffran</string><key>Aisle</key><string>Kryddor</string></dict>
+<dict><key>Name</key><string>Salvia</string><key>Aisle</key><string>Kryddor</string></dict>
+<dict><key>Name</key><string>Salladsdressing</string><key>Aisle</key><string>Specerier</string></dict>
+<dict><key>Name</key><string>Lax</string><key>Aisle</key><string>* Fiskaffären</string><key>Usual</key><string>1 lb</string></dict>
+<dict><key>Name</key><string>Salta pinnar</string><key>Aisle</key><string>Kryddor</string></dict>
+<dict><key>Name</key><string>Korv</string><key>Aisle</key><string>Kött</string><key>Usual</key><string>1 lb</string></dict>
+<dict><key>Name</key><string>Gräslök</string><key>Aisle</key><string>Frukt och grönt</string></dict>
+<dict><key>Name</key><string>Pilgrimsmusslor</string><key>Aisle</key><string>* Fiskaffären</string><key>Usual</key><string>1 lb</string></dict>
+<dict><key>Name</key><string>Havssalt</string><key>Aisle</key><string>Kryddor</string></dict>
+<dict><key>Name</key><string>Chilifrukter</string><key>Aisle</key><string>Frukt och grönt</string></dict>
+<dict><key>Name</key><string>Sesampasta</string><key>Aisle</key><string>Etnisk mat</string></dict>
+<dict><key>Name</key><string>Sesamfrön</string><key>Aisle</key><string>Kryddor</string></dict>
+<dict><key>Name</key><string>Schampo</string><key>Aisle</key><string>Hygienartiklar</string></dict>
+<dict><key>Name</key><string>Räkor</string><key>Aisle</key><string>* Fiskaffären</string><key>Usual</key><string>1 lb</string></dict>
+<dict><key>Name</key><string>Ryggbiff</string><key>Aisle</key><string>Kött</string><key>Usual</key><string>1 lb</string></dict>
+<dict><key>Name</key><string>Rökt lax</string><key>Aisle</key><string>* Fiskaffären</string><key>Usual</key><string>1 lb</string></dict>
+<dict><key>Name</key><string>Soppa</string><key>Aisle</key><string>Soppor</string></dict>
+<dict><key>Name</key><string>Gräddfil</string><key>Aisle</key><string>Mejeriprodukter</string></dict>
+<dict><key>Name</key><string>Soja</string><key>Aisle</key><string>Specerier</string></dict>
+<dict><key>Name</key><string>Spagetti</string><key>Aisle</key><string>Grönsakskonserver</string></dict>
+<dict><key>Name</key><string>Spenat</string><key>Aisle</key><string>Frukt och grönt</string></dict>
+<dict><key>Name</key><string>Squash</string><key>Aisle</key><string>Frukt och grönt</string></dict>
+<dict><key>Name</key><string>Biffstek</string><key>Aisle</key><string>Kött</string><key>Usual</key><string>1 lb</string></dict>
+<dict><key>Name</key><string>Jordgubbar</string><key>Aisle</key><string>Frukt och grönt</string></dict>
+<dict><key>Name</key><string>Socker</string><key>Aisle</key><string>Bakning</string></dict>
+<dict><key>Name</key><string>Soltorkade tomater</string><key>Aisle</key><string>Grönsakskonserver</string></dict>
+<dict><key>Name</key><string>Sötpotatis</string><key>Aisle</key><string>Frukt och grönt</string><key>Usual</key><string>1 lb</string></dict>
+<dict><key>Name</key><string>Tabasco</string><key>Aisle</key><string>Specerier</string></dict>
+<dict><key>Name</key><string>Dragon</string><key>Aisle</key><string>Kryddor</string></dict>
+<dict><key>Name</key><string>Te</string><key>Aisle</key><string>Torrvaror</string></dict>
+<dict><key>Name</key><string>Teriyakimarinad</string><key>Aisle</key><string>Etnisk mat</string></dict>
+<dict><key>Name</key><string>Timjan</string><key>Aisle</key><string>Kryddor</string></dict>
+<dict><key>Name</key><string>Tofu</string><key>Aisle</key><string>Frukt och grönt</string></dict>
+<dict><key>Name</key><string>Toalettpapper</string><key>Aisle</key><string>Kemtekniskt</string></dict>
+<dict><key>Name</key><string>Cocktailtomater</string><key>Aisle</key><string>Frukt och grönt</string></dict>
+<dict><key>Name</key><string>Tomater</string><key>Aisle</key><string>Frukt och grönt</string></dict>
+<dict><key>Name</key><string>Tomatpuré</string><key>Aisle</key><string>Grönsakskonserver</string></dict>
+<dict><key>Name</key><string>Tomatsås</string><key>Aisle</key><string>Grönsakskonserver</string></dict>
+<dict><key>Name</key><string>Tandkräm</string><key>Aisle</key><string>Hygienartiklar</string></dict>
+<dict><key>Name</key><string>Gurkmeja</string><key>Aisle</key><string>Kryddor</string></dict>
+<dict><key>Name</key><string>Tonfisk</string><key>Aisle</key><string>* Fiskaffären</string><key>Usual</key><string>1 lb</string></dict>
+<dict><key>Name</key><string>Blockchoklad</string><key>Aisle</key><string>Bakning</string></dict>
+<dict><key>Name</key><string>Vaniljstång</string><key>Aisle</key><string>Kryddor</string></dict>
+<dict><key>Name</key><string>Vaniljpulver</string><key>Aisle</key><string>Bakning</string></dict>
+<dict><key>Name</key><string>Matolja</string><key>Aisle</key><string>Specerier</string></dict>
+<dict><key>Name</key><string>Vinäger</string><key>Aisle</key><string>Specerier</string></dict>
+<dict><key>Name</key><string>Mineralvatten</string><key>Aisle</key><string>Drycker</string><key>Usual</key><string>1 gal</string></dict>
+<dict><key>Name</key><string>Vattenkastanjer</string><key>Aisle</key><string>Etnisk mat</string></dict>
+<dict><key>Name</key><string>Rågmjöl</string><key>Aisle</key><string>Bakning</string></dict>
+<dict><key>Name</key><string>Silverlök</string><key>Aisle</key><string>Frukt och grönt</string></dict>
+<dict><key>Name</key><string>Vitpeppar</string><key>Aisle</key><string>Kryddor</string></dict>
+<dict><key>Name</key><string>Folköl</string><key>Aisle</key><string>Drycker</string></dict>
+<dict><key>Name</key><string>Konserverade tomater</string><key>Aisle</key><string>Grönsakskonserver</string></dict>
+<dict><key>Name</key><string>Jäst</string><key>Aisle</key><string>Bakning</string></dict>
+<dict><key>Name</key><string>Gul lök</string><key>Aisle</key><string>Frukt och grönt</string></dict>
+<dict><key>Name</key><string>Gul paprika</string><key>Aisle</key><string>Frukt och grönt</string></dict>
+<dict><key>Name</key><string>Yoghurt</string><key>Aisle</key><string>Mejeriprodukter</string></dict>
+<dict><key>Name</key><string>Zucchini</string><key>Aisle</key><string>Frukt och grönt</string></dict>
+
+</array>
+</plist>

@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+
+<!-- supported quantities are: 1 lb, 0.5 lb, 0.25 lb, 2 lb
+<!-- if you want to add a new quantity, modify Database.m, populateRecipesSampleData -->
+<!-- right now they are hardcoded to the string -->
+
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Name</key>
+		<string>Involtini di gamberetti con salsa di menta e mirtilli</string>
+		<key>Notes</key>
+		<string>Ingredienti per: 4 spiedini da autodifesa 
+		Tempo totale di preparazione: 20 minuti
+		Da: seattlefoodgeek.com</string>
+		<key>Link</key>
+		<string>http://seattlefoodgeek.com/2008/04/27/proscuitto-wrapped-shrimp-with-blackberry-mint-sauce/</string>
+		<key>Image</key>
+		<string>recipe1.png</string>
+
+		<key>Ingredients</key>
+		<array>
+		
+<dict><key>Name</key><string>Gamberetti</string><key>Amount</key><string>1 lb</string></dict>
+<dict><key>Name</key><string>Prosciutto</string><key>Amount</key><string>0.25 lb</string></dict>
+			<dict>
+				<key>Name</key>
+				<string>Spiedini di bambù</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>Macis</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>Pepe bianco</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>Confettura di mirtilli</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>Foglie di menta</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>Vino Porto</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>Sale marino</string>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Coppette asiatiche di salmone con spezie fresche</string>
+		<key>Notes</key>
+		<string>Ingredienti per: 4 porzioni 
+		Tempo totale di preparazione: 30 minuti
+		Da: seattlefoodgeek.com</string>
+		<key>Link</key>
+		<string>http://seattlefoodgeek.com/2008/06/01/asian-salmon-cups-with-fresh-aromatics/</string>
+		<key>Image</key>
+		<string>recipe2.png</string>
+
+		<key>Ingredients</key>
+		<array>
+			<dict>
+				<key>Name</key>
+				<string>Salmone</string><key>Amount</key><string>1 lb</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>Salsa di soia</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>Salsa Teriyaki</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>Olio al peperoncino</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>Cipollotti</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>Aglio</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>Zenzero</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>Castagne d'acqua</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>Lime</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>Semi di sesamo</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>Olio di arachidi</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>Aceto di vino di riso</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>Cavolo</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>Salsa barbecue cinese</string>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Insalata di patate arrosto con salsa Vinaigrette Dijon</string>
+		<key>Notes</key>
+		<string>Tempo totale di preparazione: 1 ora. 
+		Ingredienti per: 8 piatti.
+		Da: seattlefoodgeek.com</string>
+		<key>Link</key>
+		<string>http://seattlefoodgeek.com/2008/06/30/roasted-potato-salad-with-dijon-vinaigrette/</string>
+		<key>Image</key>
+		<string>recipe3.png</string>
+
+		<key>Ingredients</key>
+		<array>
+			<dict><key>Name</key><string>Patata rossa</string><key>Amount</key><string>2 lb</string></dict>
+			<dict><key>Name</key><string>Cipolla bianca</string></dict>
+			<dict><key>Name</key><string>Pepe rosso</string></dict>
+			<dict><key>Name</key><string>Aglio</string></dict>
+			<dict><key>Name</key><string>Olio d'oliva</string></dict>
+			<dict><key>Name</key><string>Aceto di champagne</string></dict>
+			<dict><key>Name</key><string>Mostarda Dijon</string></dict>
+			<dict><key>Name</key><string>Miele</string></dict>
+			<dict><key>Name</key><string>Capperi</string></dict>
+			<dict><key>Name</key><string>Erbe provenzali</string></dict>
+			<dict><key>Name</key><string>Sale marino</string></dict>
+		</array>
+	</dict>
+	
+</array>
+</plist>

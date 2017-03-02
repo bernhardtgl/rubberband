@@ -1,0 +1,34 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version = "1.0">
+<array>
+<!--generated from SampleData.xls-->
+
+<dict><key>Name</key><string>Groenten en Fruit</string></dict>
+<dict><key>Name</key><string>Delicatessen/kaas</string></dict>
+<dict><key>Name</key><string>Vlees</string></dict>
+<dict><key>Name</key><string>Ontbijtproducten</string></dict>
+<dict><key>Name</key><string>Bakproducten</string></dict>
+<dict><key>Name</key><string>Specerijen</string></dict>
+<dict><key>Name</key><string>Soep</string></dict>
+<dict><key>Name</key><string>Diepvries</string></dict>
+<dict><key>Name</key><string>Huishoud</string></dict>
+<dict><key>Name</key><string>Voorbereid</string></dict>
+<dict><key>Name</key><string>Conserven Groenten</string></dict>
+<dict><key>Name</key><string>Conserven Fruit</string></dict>
+<dict><key>Name</key><string>Kruiden</string></dict>
+<dict><key>Name</key><string>Buitenlands etens</string></dict>
+<dict><key>Name</key><string>Baby</string></dict>
+<dict><key>Name</key><string>Persoonlijke Verzorging</string></dict>
+<dict><key>Name</key><string>Huisdieren</string></dict>
+<dict><key>Name</key><string>Snacks</string></dict>
+<dict><key>Name</key><string>Drinken</string></dict>
+<dict><key>Name</key><string>Melkproducten</string></dict>
+<dict><key>Name</key><string>Brood en Banket</string></dict>
+<dict><key>Name</key><string>Balie</string></dict>
+<dict><key>Name</key><string>* Vis afdeling</string></dict>
+<dict><key>Name</key><string>* Bijzondere producten</string></dict>
+
+
+</array>
+</plist>

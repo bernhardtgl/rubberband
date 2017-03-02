@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+
+<!-- supported quantities are: 1 lb, 0.5 lb, 0.25 lb, 2 lb
+<!-- if you want to add a new quantity, modify Database.m, populateRecipesSampleData -->
+<!-- right now they are hardcoded to the string -->
+
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Name</key>
+		<string>Proscuitto-Wrapped Shrimp with Blackberry Mint Sauce</string>
+		<key>Notes</key>
+		<string>Makes: 4 self-defense skewers. 
+		Total kitchen time: 20 minutes.
+		From: seattlefoodgeek.com</string>
+		<key>Link</key>
+		<string>http://seattlefoodgeek.com/2008/04/27/proscuitto-wrapped-shrimp-with-blackberry-mint-sauce/</string>
+		<key>Image</key>
+		<string>recipe1.png</string>
+
+		<key>Ingredients</key>
+		<array>		
+			<dict><key>Name</key><string>Shrimp</string><key>Amount</key><string>1 lb</string></dict>
+			<dict><key>Name</key><string>Prosciutto</string><key>Amount</key><string>0.25 lb</string></dict>
+			<dict><key>Name</key><string>Bamboo skewers</string></dict>
+			<dict><key>Name</key><string>Mace</string></dict>
+			<dict><key>Name</key><string>White pepper</string></dict>
+			<dict><key>Name</key><string>Blackberry preserves</string></dict>
+			<dict><key>Name</key><string>Mint leaves</string></dict>
+			<dict><key>Name</key><string>Port wine</string></dict>
+			<dict><key>Name</key><string>Sea salt</string></dict>
+		</array>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Asian Salmon Cups with Fresh Aromatics</string>
+		<key>Notes</key>
+		<string>Makes: 4 entree-sized delights of joy 
+		Total kitchen time: 30 minutes
+		From: seattlefoodgeek.com</string>
+		<key>Link</key>
+		<string>http://seattlefoodgeek.com/2008/06/01/asian-salmon-cups-with-fresh-aromatics/</string>
+		<key>Image</key>
+		<string>recipe2.png</string>
+
+		<key>Ingredients</key>
+		<array>
+			<dict><key>Name</key><string>Salmon</string><key>Amount</key><string>1 lb</string></dict>
+			<dict><key>Name</key><string>Soy sauce</string></dict>
+			<dict><key>Name</key><string>Teriyaki marinade</string></dict>
+			<dict><key>Name</key><string>Chili oil</string></dict>
+			<dict><key>Name</key><string>Scallions</string></dict>
+			<dict><key>Name</key><string>Garlic</string></dict>
+			<dict><key>Name</key><string>Ginger</string></dict>
+			<dict><key>Name</key><string>Water chestnuts</string></dict>
+			<dict><key>Name</key><string>Lime</string></dict>
+			<dict><key>Name</key><string>Sesame seeds</string></dict>
+			<dict><key>Name</key><string>Peanut oil</string></dict>
+			<dict><key>Name</key><string>Rice wine vinegar</string></dict>
+			<dict><key>Name</key><string>Cabbage</string></dict>
+			<dict><key>Name</key><string>Chinese BBQ sauce</string></dict>
+		</array>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Roasted Potato Salad with Dijon Vinaigrette</string>
+		<key>Notes</key>
+		<string>Total kitchen time: 1 hour 
+		Makes: 8 servings
+		From: seattlefoodgeek.com</string>
+		<key>Link</key>
+		<string>http://seattlefoodgeek.com/2008/06/30/roasted-potato-salad-with-dijon-vinaigrette/</string>
+		<key>Image</key>
+		<string>recipe3.png</string>
+
+		<key>Ingredients</key>
+		<array>
+			<dict><key>Name</key><string>Red potato</string><key>Amount</key><string>2 lb</string></dict>
+			<dict><key>Name</key><string>White onion</string></dict>
+			<dict><key>Name</key><string>Red pepper</string></dict>
+			<dict><key>Name</key><string>Garlic</string></dict>
+			<dict><key>Name</key><string>Olive oil</string></dict>
+			<dict><key>Name</key><string>Champagne vinegar</string></dict>
+			<dict><key>Name</key><string>Dijon mustard</string></dict>
+			<dict><key>Name</key><string>Honey</string></dict>
+			<dict><key>Name</key><string>Capers</string></dict>
+			<dict><key>Name</key><string>Herbs de provençe</string></dict>
+			<dict><key>Name</key><string>Sea salt</string></dict>
+		</array>
+	</dict>
+	
+</array>
+</plist>

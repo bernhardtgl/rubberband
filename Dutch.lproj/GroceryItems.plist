@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+
+<!-- supported quantities are: 1 lb, 0.5 lb, 5 lb, 1 gal, 1 pt, 8 oz -->
+<!-- if you want to add a new quantity, modify Database.m, populateItemsSampleData -->
+<!-- right now they are hardcoded to the string -->
+
+<!--generated from SampleData.xls-->
+<dict><key>Name</key><string>Aardappel schijfjes</string><key>Aisle</key><string>Groenten en Fruit</string></dict>
+<dict><key>Name</key><string>Aardappel</string><key>Aisle</key><string>Groenten en Fruit</string><key>Usual</key><string>1 lb</string></dict>
+<dict><key>Name</key><string>Aardbeien</string><key>Aisle</key><string>Groenten en Fruit</string></dict>
+<dict><key>Name</key><string>Afwasmiddel</string><key>Aisle</key><string>Huishoudelijk</string></dict>
+<dict><key>Name</key><string>Aluminium Folie</string><key>Aisle</key><string>Huishoudelijk</string></dict>
+<dict><key>Name</key><string>Amandelen</string><key>Aisle</key><string>Bakproducten</string></dict>
+<dict><key>Name</key><string>Ansjovis</string><key>Aisle</key><string>Voorbereid</string></dict>
+<dict><key>Name</key><string>Appel</string><key>Aisle</key><string>Groenten en Fruit</string></dict>
+<dict><key>Name</key><string>Appelstroop</string><key>Aisle</key><string>Ontbijtproducten</string></dict>
+<dict><key>Name</key><string>Asperges</string><key>Aisle</key><string>Groenten en Fruit</string></dict>
+<dict><key>Name</key><string>Aubergine</string><key>Aisle</key><string>Groenten en Fruit</string></dict>
+<dict><key>Name</key><string>Augurken</string><key>Aisle</key><string>Specerijen</string></dict>
+<dict><key>Name</key><string>Avocado</string><key>Aisle</key><string>Groenten en Fruit</string></dict>
+<dict><key>Name</key><string>Azijn</string><key>Aisle</key><string>Specerijen</string></dict>
+<dict><key>Name</key><string>Babyvoeding</string><key>Aisle</key><string>Baby</string></dict>
+<dict><key>Name</key><string>Bakmeel</string><key>Aisle</key><string>Bakproducten</string></dict>
+<dict><key>Name</key><string>Balsamico azijn</string><key>Aisle</key><string>Specerijen</string></dict>
+<dict><key>Name</key><string>Bananen</string><key>Aisle</key><string>Groenten en Fruit</string></dict>
+<dict><key>Name</key><string>Barbeque saus</string><key>Aisle</key><string>Specerijen</string></dict>
+<dict><key>Name</key><string>Basilicum</string><key>Aisle</key><string>Groenten en Fruit</string></dict>
+<dict><key>Name</key><string>Batterijen</string><key>Aisle</key><string>Balie</string></dict>
+<dict><key>Name</key><string>Beschuit</string><key>Aisle</key><string>Brood en Banket</string></dict>
+<dict><key>Name</key><string>Biefstuk</string><key>Aisle</key><string>Vlees</string><key>Usual</key><string>1 lb</string></dict>
+<dict><key>Name</key><string>Bier</string><key>Aisle</key><string>Drinken</string></dict>
+<dict><key>Name</key><string>Bittere chocolade</string><key>Aisle</key><string>Bakproducten</string></dict>
+<dict><key>Name</key><string>Bitterzoete chocolade</string><key>Aisle</key><string>Bakproducten</string></dict>
+<dict><key>Name</key><string>Blauwe kaas</string><key>Aisle</key><string>Delicatessen/kaas</string><key>Usual</key><string>0.5 lb</string></dict>
+<dict><key>Name</key><string>Bloem</string><key>Aisle</key><string>Bakproducten</string></dict>
+<dict><key>Name</key><string>Bloemen</string><key>Aisle</key><string>Balie</string></dict>
+<dict><key>Name</key><string>Bloemkool</string><key>Aisle</key><string>Groenten en Fruit</string></dict>
+<dict><key>Name</key><string>Bloem-tortilla</string><key>Aisle</key><string>Buitenlands etens</string></dict>
+<dict><key>Name</key><string>Body Soap</string><key>Aisle</key><string>Persoonlijke Verzorging</string></dict>
+<dict><key>Name</key><string>Boerenkool</string><key>Aisle</key><string>Groenten en Fruit</string></dict>
+<dict><key>Name</key><string>Boter</string><key>Aisle</key><string>Melkproducten</string><key>Usual</key><string>1 lb</string></dict>
+<dict><key>Name</key><string>Broccoli</string><key>Aisle</key><string>Groenten en Fruit</string></dict>
+<dict><key>Name</key><string>Brood</string><key>Aisle</key><string>Bakery</string></dict>
+<dict><key>Name</key><string>Bruine suiker</string><key>Aisle</key><string>Bakproducten</string></dict>
+<dict><key>Name</key><string>Capicola ham</string><key>Aisle</key><string>Delicatessen/kaas</string><key>Usual</key><string>0.5 lb</string></dict>
+<dict><key>Name</key><string>Cashew</string><key>Aisle</key><string>Bakproducten</string></dict>
+<dict><key>Name</key><string>Champagne-azijn</string><key>Aisle</key><string>* Bijzondere producten</string></dict>
+<dict><key>Name</key><string>Cheddar kaas</string><key>Aisle</key><string>Delicatessen/kaas</string><key>Usual</key><string>0.5 lb</string></dict>
+<dict><key>Name</key><string>Chinese BBQ saus</string><key>Aisle</key><string>Buitenlands etens</string></dict>
+<dict><key>Name</key><string>Chipotle peper</string><key>Aisle</key><string>Buitenlands etens</string></dict>
+<dict><key>Name</key><string>Chips</string><key>Aisle</key><string>Snacks</string></dict>
+<dict><key>Name</key><string>Chorizo</string><key>Aisle</key><string>Vlees</string><key>Usual</key><string>1 lb</string></dict>
+<dict><key>Name</key><string>Citroen</string><key>Aisle</key><string>Groenten en Fruit</string></dict>
+<dict><key>Name</key><string>Citroengras</string><key>Aisle</key><string>Groenten en Fruit</string></dict>
+<dict><key>Name</key><string>Citroensap</string><key>Aisle</key><string>Canned fruit</string></dict>
+<dict><key>Name</key><string>Cola</string><key>Aisle</key><string>Drinken</string></dict>
+<dict><key>Name</key><string>Courgette</string><key>Aisle</key><string>Groenten en Fruit</string></dict>
+<dict><key>Name</key><string>Couscous</string><key>Aisle</key><string>Buitenlands etens</string></dict>
+<dict><key>Name</key><string>Crackers</string><key>Aisle</key><string>Snacks</string></dict>
+<dict><key>Name</key><string>Deoderant</string><key>Aisle</key><string>Persoonlijke Verzorging</string></dict>
+<dict><key>Name</key><string>Dijon mosterd</string><key>Aisle</key><string>Specerijen</string></dict>
+<dict><key>Name</key><string>Dille</string><key>Aisle</key><string>Kruiden</string></dict>
+<dict><key>Name</key><string>Dragon</string><key>Aisle</key><string>Kruiden</string></dict>
+<dict><key>Name</key><string>Druiven</string><key>Aisle</key><string>Groenten en Fruit</string></dict>
+<dict><key>Name</key><string>Eier noedels</string><key>Aisle</key><string>Buitenlands etens</string></dict>
+<dict><key>Name</key><string>Eieren</string><key>Aisle</key><string>Melkproducten</string></dict>
+<dict><key>Name</key><string>Erwten</string><key>Aisle</key><string>Groenten en Fruit</string></dict>
+<dict><key>Name</key><string>Foelie</string><key>Aisle</key><string>Kruiden</string></dict>
+<dict><key>Name</key><string>Galia meloen</string><key>Aisle</key><string>Groenten en Fruit</string></dict>
+<dict><key>Name</key><string>Gamba's</string><key>Aisle</key><string>Diepvries</string></dict>
+<dict><key>Name</key><string>Garnalen</string><key>Aisle</key><string>* Vis afdeling</string><key>Usual</key><string>1 lb</string></dict>
+<dict><key>Name</key><string>Gechoclateerde chips</string><key>Aisle</key><string>Bakproducten</string></dict>
+<dict><key>Name</key><string>Geconserveerde zwarte bessen </string><key>Aisle</key><string>Specerijen</string></dict>
+<dict><key>Name</key><string>Gehakt HOH</string><key>Aisle</key><string>Vlees</string><key>Usual</key><string>1 lb</string></dict>
+<dict><key>Name</key><string>Gele peper</string><key>Aisle</key><string>Groenten en Fruit</string></dict>
+<dict><key>Name</key><string>Gele ui</string><key>Aisle</key><string>Groenten en Fruit</string></dict>
+<dict><key>Name</key><string>Gelei</string><key>Aisle</key><string>Ontbijtproducten</string></dict>
+<dict><key>Name</key><string>Gember</string><key>Aisle</key><string>Groenten en Fruit</string></dict>
+<dict><key>Name</key><string>Geperste tomaten</string><key>Aisle</key><string>Conserven Groenten</string></dict>
+<dict><key>Name</key><string>Gerookte Zalm</string><key>Aisle</key><string>* Vis afdeling</string><key>Usual</key><string>1 lb</string></dict>
+<dict><key>Name</key><string>Gist</string><key>Aisle</key><string>Bakproducten</string></dict>
+<dict><key>Name</key><string>Groene peper</string><key>Aisle</key><string>Groenten en Fruit</string></dict>
+<dict><key>Name</key><string>Hagelslag</string><key>Aisle</key><string>Ontbijtproducten</string></dict>
+<dict><key>Name</key><string>Havermout</string><key>Aisle</key><string>Ontbijtproducten</string></dict>
+<dict><key>Name</key><string>Hazelnoten</string><key>Aisle</key><string>Bakproducten</string></dict>
+<dict><key>Name</key><string>Heilbot</string><key>Aisle</key><string>* Vis afdeling</string><key>Usual</key><string>1 lb</string></dict>
+<dict><key>Name</key><string>Hele tomaten</string><key>Aisle</key><string>Conserven Groenten</string></dict>
+<dict><key>Name</key><string>Hondenvoer</string><key>Aisle</key><string>Huisdieren</string></dict>
+<dict><key>Name</key><string>Honing</string><key>Aisle</key><string>Ontbijtproducten</string></dict>
+<dict><key>Name</key><string>Hüttenkäse</string><key>Aisle</key><string>Melkproducten</string><key>Usual</key><string>8 oz</string></dict>
+<dict><key>Name</key><string>Ingevroren erwten</string><key>Aisle</key><string>Diepvries</string></dict>
+<dict><key>Name</key><string>Ingevroren mais</string><key>Aisle</key><string>Diepvries</string></dict>
+<dict><key>Name</key><string>Italiaanse saus</string><key>Aisle</key><string>Vlees</string><key>Usual</key><string>1 lb</string></dict>
+<dict><key>Name</key><string>Jalapeno peper</string><key>Aisle</key><string>Groenten en Fruit</string></dict>
+<dict><key>Name</key><string>Jam</string><key>Aisle</key><string>Ontbijtproducten</string></dict>
+<dict><key>Name</key><string>Jus</string><key>Aisle</key><string>Voorbereid</string></dict>
+<dict><key>Name</key><string>Kaas</string><key>Aisle</key><string>Delicatessen/kaas</string><key>Usual</key><string>0.5 lb</string></dict>
+<dict><key>Name</key><string>Kaneel staafje</string><key>Aisle</key><string>Kruiden</string></dict>
+<dict><key>Name</key><string>Kappertjes</string><key>Aisle</key><string>Voorbereid</string></dict>
+<dict><key>Name</key><string>Karnemelk</string><key>Aisle</key><string>Melkproducten</string></dict>
+<dict><key>Name</key><string>Kattenvoer</string><key>Aisle</key><string>Huisdieren</string></dict>
+<dict><key>Name</key><string>Kerrie pasta</string><key>Aisle</key><string>Buitenlands etens</string></dict>
+<dict><key>Name</key><string>Kerrie poeder</string><key>Aisle</key><string>Kruiden</string></dict>
+<dict><key>Name</key><string>Kersen</string><key>Aisle</key><string>Delicatessen/kaas</string></dict>
+<dict><key>Name</key><string>Ketchup</string><key>Aisle</key><string>Specerijen</string></dict>
+<dict><key>Name</key><string>Keukenrol</string><key>Aisle</key><string>Huishoudelijk</string></dict>
+<dict><key>Name</key><string>Kip</string><key>Aisle</key><string>Vlees</string><key>Usual</key><string>1 lb</string></dict>
+<dict><key>Name</key><string>Kipbouillon</string><key>Aisle</key><string>Voorbereid</string></dict>
+<dict><key>Name</key><string>Kippenpootjes</string><key>Aisle</key><string>Vlees</string><key>Usual</key><string>1 lb</string></dict>
+<dict><key>Name</key><string>Knoflook</string><key>Aisle</key><string>Groenten en Fruit</string></dict>
+<dict><key>Name</key><string>Koekjes</string><key>Aisle</key><string>Snacks</string></dict>
+<dict><key>Name</key><string>Koffie</string><key>Aisle</key><string>Drinken</string></dict>
+<dict><key>Name</key><string>Komijn</string><key>Aisle</key><string>Kruiden</string></dict>
+<dict><key>Name</key><string>Komkommer</string><key>Aisle</key><string>Groenten en Fruit</string></dict>
+<dict><key>Name</key><string>Kool</string><key>Aisle</key><string>Groenten en Fruit</string></dict>
+<dict><key>Name</key><string>Koolraap</string><key>Aisle</key><string>Groenten en Fruit</string></dict>
+<dict><key>Name</key><string>Koriander</string><key>Aisle</key><string>Groenten en Fruit</string></dict>
+<dict><key>Name</key><string>Koriander</string><key>Aisle</key><string>Kruiden</string></dict>
+<dict><key>Name</key><string>Krentenbrood</string><key>Aisle</key><string>Brood en Banket</string></dict>
+<dict><key>Name</key><string>Kroketten</string><key>Aisle</key><string>Diepvries</string></dict>
+<dict><key>Name</key><string>Lam</string><key>Aisle</key><string>Vlees</string><key>Usual</key><string>1 lb</string></dict>
+<dict><key>Name</key><string>Lamslende karbonade</string><key>Aisle</key><string>Vlees</string><key>Usual</key><string>1 lb</string></dict>
+<dict><key>Name</key><string>Lasagne</string><key>Aisle</key><string>Conserven Groenten</string></dict>
+<dict><key>Name</key><string>Laurier blaadjes</string><key>Aisle</key><string>Kruiden</string></dict>
+<dict><key>Name</key><string>Lendelapje</string><key>Aisle</key><string>Vlees</string><key>Usual</key><string>1 lb</string></dict>
+<dict><key>Name</key><string>Limoen</string><key>Aisle</key><string>Groenten en Fruit</string></dict>
+<dict><key>Name</key><string>Lotion</string><key>Aisle</key><string>Persoonlijke Verzorging</string></dict>
+<dict><key>Name</key><string>Luiers</string><key>Aisle</key><string>Baby</string></dict>
+<dict><key>Name</key><string>Magnetronfolie</string><key>Aisle</key><string>Huishoudelijk</string></dict>
+<dict><key>Name</key><string>Mais in blik</string><key>Aisle</key><string>Conserven Groenten</string></dict>
+<dict><key>Name</key><string>Mais tortillas</string><key>Aisle</key><string>Buitenlands etens</string></dict>
+<dict><key>Name</key><string>Mais</string><key>Aisle</key><string>Groenten en Fruit</string></dict>
+<dict><key>Name</key><string>Maizena</string><key>Aisle</key><string>Bakproducten</string></dict>
+<dict><key>Name</key><string>Mango</string><key>Aisle</key><string>Groenten en Fruit</string></dict>
+<dict><key>Name</key><string>Mayonaise</string><key>Aisle</key><string>Specerijen</string></dict>
+<dict><key>Name</key><string>Melk</string><key>Aisle</key><string>Melkproducten</string><key>Usual</key><string>1 gal</string></dict>
+<dict><key>Name</key><string>Mint blaadjes</string><key>Aisle</key><string>Groenten en Fruit</string></dict>
+<dict><key>Name</key><string>Mosterd</string><key>Aisle</key><string>Specerijen</string></dict>
+<dict><key>Name</key><string>Mozzarella kaas</string><key>Aisle</key><string>Delicatessen/kaas</string><key>Usual</key><string>0.5 lb</string></dict>
+<dict><key>Name</key><string>Muesli</string><key>Aisle</key><string>Ontbijtproducten</string></dict>
+<dict><key>Name</key><string>Nootmuskaat</string><key>Aisle</key><string>Kruiden</string></dict>
+<dict><key>Name</key><string>Noten olie</string><key>Aisle</key><string>Specerijen</string></dict>
+<dict><key>Name</key><string>Noten</string><key>Aisle</key><string>Bakproducten</string></dict>
+<dict><key>Name</key><string>Oliebollen mix</string><key>Aisle</key><string>Bakproducten</string></dict>
+<dict><key>Name</key><string>Olijfolie</string><key>Aisle</key><string>Specerijen</string></dict>
+<dict><key>Name</key><string>Ontbijtspek</string><key>Aisle</key><string>Vlees</string><key>Usual</key><string>1 lb</string></dict>
+<dict><key>Name</key><string>Oregano</string><key>Aisle</key><string>Kruiden</string></dict>
+<dict><key>Name</key><string>Paddenstoelen</string><key>Aisle</key><string>Groenten en Fruit</string></dict>
+<dict><key>Name</key><string>Pannenkoek mix</string><key>Aisle</key><string>Bakproducten</string></dict>
+<dict><key>Name</key><string>Parmesaanse ham</string><key>Aisle</key><string>Delicatessen/kaas</string><key>Usual</key><string>0.5 lb</string></dict>
+<dict><key>Name</key><string>Parmezaanse kaas</string><key>Aisle</key><string>Delicatessen/kaas</string><key>Usual</key><string>0.5 lb</string></dict>
+<dict><key>Name</key><string>Pasta saus</string><key>Aisle</key><string>Conserven Groenten</string></dict>
+<dict><key>Name</key><string>Patat</string><key>Aisle</key><string>Diepvries</string></dict>
+<dict><key>Name</key><string>Pecannoten</string><key>Aisle</key><string>Bakproducten</string></dict>
+<dict><key>Name</key><string>Peer</string><key>Aisle</key><string>Groenten en Fruit</string></dict>
+<dict><key>Name</key><string>Penne pasta</string><key>Aisle</key><string>Conserven Groenten</string></dict>
+<dict><key>Name</key><string>Peper</string><key>Aisle</key><string>Kruiden</string></dict>
+<dict><key>Name</key><string>Pepperoni</string><key>Aisle</key><string>Vlees</string></dict>
+<dict><key>Name</key><string>Perziken</string><key>Aisle</key><string>Groenten en Fruit</string></dict>
+<dict><key>Name</key><string>Peterselie</string><key>Aisle</key><string>Groenten en Fruit</string></dict>
+<dict><key>Name</key><string>Peultjes</string><key>Aisle</key><string>Groenten en Fruit</string></dict>
+<dict><key>Name</key><string>Pijnboompitten</string><key>Aisle</key><string>Bakproducten</string></dict>
+<dict><key>Name</key><string>Pindakaas</string><key>Aisle</key><string>Specerijen</string></dict>
+<dict><key>Name</key><string>Pinda's</string><key>Aisle</key><string>Bakproducten</string></dict>
+<dict><key>Name</key><string>Pizza saus</string><key>Aisle</key><string>Conserven Groenten</string></dict>
+<dict><key>Name</key><string>Pizza</string><key>Aisle</key><string>Diepvries</string></dict>
+<dict><key>Name</key><string>Plantaardige olie</string><key>Aisle</key><string>Specerijen</string></dict>
+<dict><key>Name</key><string>Poedersuiker</string><key>Aisle</key><string>Bakproducten</string></dict>
+<dict><key>Name</key><string>Poffertjes mix</string><key>Aisle</key><string>Bakproducten</string></dict>
+<dict><key>Name</key><string>Pompoen</string><key>Aisle</key><string>Groenten en Fruit</string></dict>
+<dict><key>Name</key><string>Port wijn</string><key>Aisle</key><string>Drinken</string></dict>
+<dict><key>Name</key><string>Prei</string><key>Aisle</key><string>Groenten en Fruit</string></dict>
+<dict><key>Name</key><string>Pretzels</string><key>Aisle</key><string>Snacks</string></dict>
+<dict><key>Name</key><string>Provençaalse kruiden</string><key>Aisle</key><string>Kruiden</string></dict>
+<dict><key>Name</key><string>Rijst noodles</string><key>Aisle</key><string>Buitenlands etens</string></dict>
+<dict><key>Name</key><string>Rijst</string><key>Aisle</key><string>Voorbereid</string></dict>
+<dict><key>Name</key><string>Rijstwijn azijn</string><key>Aisle</key><string>Buitenlands etens</string></dict>
+<dict><key>Name</key><string>Rode aardappel</string><key>Aisle</key><string>Groenten en Fruit</string><key>Usual</key><string>1 lb</string></dict>
+<dict><key>Name</key><string>Rode bieten</string><key>Aisle</key><string>Groenten en Fruit</string></dict>
+<dict><key>Name</key><string>Rode peper</string><key>Aisle</key><string>Groenten en Fruit</string></dict>
+<dict><key>Name</key><string>Rode ui</string><key>Aisle</key><string>Groenten en Fruit</string></dict>
+<dict><key>Name</key><string>Rode wijn azijn</string><key>Aisle</key><string>Specerijen</string></dict>
+<dict><key>Name</key><string>Rode wijn</string><key>Aisle</key><string>Drinken</string></dict>
+<dict><key>Name</key><string>Roggebrood</string><key>Aisle</key><string>Brood en Banket</string></dict>
+<dict><key>Name</key><string>Rookworst</string><key>Aisle</key><string>Vlees</string></dict>
+<dict><key>Name</key><string>Room</string><key>Aisle</key><string>Melkproducten</string><key>Usual</key><string>1 pt</string></dict>
+<dict><key>Name</key><string>Roomijs</string><key>Aisle</key><string>Diepvries</string></dict>
+<dict><key>Name</key><string>Roomkaas</string><key>Aisle</key><string>Delicatessen/kaas</string><key>Usual</key><string>8 oz</string></dict>
+<dict><key>Name</key><string>Rozijnen</string><key>Aisle</key><string>Bakproducten</string></dict>
+<dict><key>Name</key><string>Rucola sla</string><key>Aisle</key><string>Groenten en Fruit</string></dict>
+<dict><key>Name</key><string>Rundergehakt</string><key>Aisle</key><string>Vlees</string><key>Usual</key><string>1 lb</string></dict>
+<dict><key>Name</key><string>Saffraan</string><key>Aisle</key><string>Kruiden</string></dict>
+<dict><key>Name</key><string>Salie</string><key>Aisle</key><string>Kruiden</string></dict>
+<dict><key>Name</key><string>Sap</string><key>Aisle</key><string>Drinken</string></dict>
+<dict><key>Name</key><string>Sate prikkers</string><key>Aisle</key><string>Buitenlands etens</string></dict>
+<dict><key>Name</key><string>Scheermesjes</string><key>Aisle</key><string>Balie</string></dict>
+<dict><key>Name</key><string>Schelpdieren</string><key>Aisle</key><string>* Vis afdeling</string><key>Usual</key><string>1 lb</string></dict>
+<dict><key>Name</key><string>Schouderkarbonade</string><key>Aisle</key><string>Vlees</string><key>Usual</key><string>1 lb</string></dict>
+<dict><key>Name</key><string>Selderij</string><key>Aisle</key><string>Groenten en Fruit</string></dict>
+<dict><key>Name</key><string>Serrano peper</string><key>Aisle</key><string>Groenten en Fruit</string></dict>
+<dict><key>Name</key><string>Servetten</string><key>Aisle</key><string>Huishoudelijk</string></dict>
+<dict><key>Name</key><string>Sesam pasta</string><key>Aisle</key><string>Buitenlands etens</string></dict>
+<dict><key>Name</key><string>Sesam zaad</string><key>Aisle</key><string>Kruiden</string></dict>
+<dict><key>Name</key><string>Shampoo</string><key>Aisle</key><string>Persoonlijke Verzorging</string></dict>
+<dict><key>Name</key><string>Sinaasappels</string><key>Aisle</key><string>Groenten en Fruit</string></dict>
+<dict><key>Name</key><string>Sinaasappelsap</string><key>Aisle</key><string>Melkproducten</string></dict>
+<dict><key>Name</key><string>Sjalotten</string><key>Aisle</key><string>Groenten en Fruit</string></dict>
+<dict><key>Name</key><string>Sla dressing</string><key>Aisle</key><string>Specerijen</string></dict>
+<dict><key>Name</key><string>Sla</string><key>Aisle</key><string>Groenten en Fruit</string></dict>
+<dict><key>Name</key><string>Slabonen</string><key>Aisle</key><string>Groenten en Fruit</string></dict>
+<dict><key>Name</key><string>Soep</string><key>Aisle</key><string>Soup</string></dict>
+<dict><key>Name</key><string>Soja saus</string><key>Aisle</key><string>Specerijen</string></dict>
+<dict><key>Name</key><string>Spaanse peper olie</string><key>Aisle</key><string>Buitenlands etens</string></dict>
+<dict><key>Name</key><string>Spaanse peper poeder</string><key>Aisle</key><string>Kruiden</string></dict>
+<dict><key>Name</key><string>Spaanse peper saus</string><key>Aisle</key><string>Buitenlands etens</string></dict>
+<dict><key>Name</key><string>Spaghetti</string><key>Aisle</key><string>Conserven Groenten</string></dict>
+<dict><key>Name</key><string>Spinazie</string><key>Aisle</key><string>Groenten en Fruit</string></dict>
+<dict><key>Name</key><string>Spliterwten</string><key>Aisle</key><string>Groenten en Fruit</string></dict>
+<dict><key>Name</key><string>Spruitjes</string><key>Aisle</key><string>Groenten en Fruit</string></dict>
+<dict><key>Name</key><string>Stokbrood</string><key>Aisle</key><string>Bakery</string></dict>
+<dict><key>Name</key><string>Stroopwafels</string><key>Aisle</key><string>Snacks</string></dict>
+<dict><key>Name</key><string>Suiker</string><key>Aisle</key><string>Bakproducten</string></dict>
+<dict><key>Name</key><string>Tabasco</string><key>Aisle</key><string>Specerijen</string></dict>
+<dict><key>Name</key><string>Tandpasta</string><key>Aisle</key><string>Persoonlijke Verzorging</string></dict>
+<dict><key>Name</key><string>Teriyaki marinade</string><key>Aisle</key><string>Buitenlands etens</string></dict>
+<dict><key>Name</key><string>Thee</string><key>Aisle</key><string>Drinken</string></dict>
+<dict><key>Name</key><string>Tijm</string><key>Aisle</key><string>Kruiden</string></dict>
+<dict><key>Name</key><string>Tofu</string><key>Aisle</key><string>Groenten en Fruit</string></dict>
+<dict><key>Name</key><string>Toiletpapier</string><key>Aisle</key><string>Huishoudelijk</string></dict>
+<dict><key>Name</key><string>Tomaat</string><key>Aisle</key><string>Groenten en Fruit</string></dict>
+<dict><key>Name</key><string>Tomaten pasta</string><key>Aisle</key><string>Conserven Groenten</string></dict>
+<dict><key>Name</key><string>Tomaten saus</string><key>Aisle</key><string>Conserven Groenten</string></dict>
+<dict><key>Name</key><string>Tomaten schijfjes</string><key>Aisle</key><string>Conserven Groenten</string></dict>
+<dict><key>Name</key><string>Tomatillos</string><key>Aisle</key><string>Groenten en Fruit</string></dict>
+<dict><key>Name</key><string>Tonijn</string><key>Aisle</key><string>* Vis afdeling</string><key>Usual</key><string>1 lb</string></dict>
+<dict><key>Name</key><string>Vaatwas middel</string><key>Aisle</key><string>Huishoudelijk</string></dict>
+<dict><key>Name</key><string>Vanille stokje</string><key>Aisle</key><string>Kruiden</string></dict>
+<dict><key>Name</key><string>Vanille suiker</string><key>Aisle</key><string>Bakproducten</string></dict>
+<dict><key>Name</key><string>Varkenskoteletten</string><key>Aisle</key><string>Vlees</string><key>Usual</key><string>1 lb</string></dict>
+<dict><key>Name</key><string>Varkensrollade</string><key>Aisle</key><string>Vlees</string><key>Usual</key><string>1 lb</string></dict>
+<dict><key>Name</key><string>Varkensvlees</string><key>Aisle</key><string>Vlees</string><key>Usual</key><string>1 lb</string></dict>
+<dict><key>Name</key><string>Venkel</string><key>Aisle</key><string>Kruiden</string></dict>
+<dict><key>Name</key><string>Verband</string><key>Aisle</key><string>Persoonlijke Verzorging</string></dict>
+<dict><key>Name</key><string>Vershoudfolie</string><key>Aisle</key><string>Huishoudelijk</string></dict>
+<dict><key>Name</key><string>Vijgen</string><key>Aisle</key><string>Groenten en Fruit</string></dict>
+<dict><key>Name</key><string>Vis saus</string><key>Aisle</key><string>Buitenlands etens</string></dict>
+<dict><key>Name</key><string>Vis</string><key>Aisle</key><string>* Vis afdeling</string><key>Usual</key><string>1 lb</string></dict>
+<dict><key>Name</key><string>Vleeswaren</string><key>Aisle</key><string>Delicatessen/kaas</string><key>Usual</key><string>0.5 lb</string></dict>
+<dict><key>Name</key><string>Vuilniszakken</string><key>Aisle</key><string>Huishoudelijk</string></dict>
+<dict><key>Name</key><string>Wasmiddel</string><key>Aisle</key><string>Huishoudelijk</string></dict>
+<dict><key>Name</key><string>Wasverzachter</string><key>Aisle</key><string>Huishoudelijk</string></dict>
+<dict><key>Name</key><string>Water</string><key>Aisle</key><string>Drinken</string><key>Usual</key><string>1 gal</string></dict>
+<dict><key>Name</key><string>Waterkastanjes</string><key>Aisle</key><string>Buitenlands etens</string></dict>
+<dict><key>Name</key><string>Watermeloen</string><key>Aisle</key><string>Groenten en Fruit</string></dict>
+<dict><key>Name</key><string>Witte peper</string><key>Aisle</key><string>Kruiden</string></dict>
+<dict><key>Name</key><string>Witte ui</string><key>Aisle</key><string>Groenten en Fruit</string></dict>
+<dict><key>Name</key><string>Witte wijn</string><key>Aisle</key><string>Drinken</string></dict>
+<dict><key>Name</key><string>Worst</string><key>Aisle</key><string>Vlees</string><key>Usual</key><string>1 lb</string></dict>
+<dict><key>Name</key><string>Wortel</string><key>Aisle</key><string>Groenten en Fruit</string></dict>
+<dict><key>Name</key><string>Yoghurt</string><key>Aisle</key><string>Melkproducten</string></dict>
+<dict><key>Name</key><string>Zalm</string><key>Aisle</key><string>* Vis afdeling</string><key>Usual</key><string>1 lb</string></dict>
+<dict><key>Name</key><string>Zeezout</string><key>Aisle</key><string>Kruiden</string></dict>
+<dict><key>Name</key><string>Zon-gedroogde tomaten</string><key>Aisle</key><string>Conserven Groenten</string></dict>
+<dict><key>Name</key><string>Zout</string><key>Aisle</key><string>Kruiden</string></dict>
+<dict><key>Name</key><string>Zure room</string><key>Aisle</key><string>Melkproducten</string></dict>
+
+
+</array>
+</plist>
