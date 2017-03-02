@@ -563,8 +563,7 @@ ShareViewController* App_shareViewController;
 	// make sure the badge gets updated
 	[self handleNeedCountChanged:nil];
 	
-	[window addSubview:tabBarController.view];
-//    [window setRootViewController:tabBarController]; // GLB
+    [window setRootViewController:tabBarController]; // GLB
 	[window makeKeyAndVisible];
 
 	[self loadUserPreferenceSettings];
