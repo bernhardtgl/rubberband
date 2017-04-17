@@ -237,7 +237,7 @@
 	{
 		case 0:
 		{
-			UITableViewCell* cell = [[[UITableViewCell alloc] initWithFrame:CGRectZero reuseIdentifier:nil] autorelease];
+			UITableViewCell* cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:nil] autorelease];
 			[cell addSubview:nameAndPictureHeader];
 			cell.selectionStyle = UITableViewCellSelectionStyleNone;
 			return cell;
@@ -246,7 +246,7 @@
 		{
 			if (indexPath.row == 0)
 			{
-				UITableViewCell* cell = [[[UITableViewCell alloc] initWithFrame:CGRectZero reuseIdentifier:nil] autorelease];
+				UITableViewCell* cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:nil] autorelease];
 				cell.textLabel.text = NSLocalizedString(@"Add all ingredients", @"Add all ingredients to recipe");			
 				cell.indentationWidth = 16;
 				cell.indentationLevel = 1; // iPhone SDK 3.x
@@ -272,8 +272,8 @@
 		if (item == nil)
 		{
 			// Add all ingredients
-			int count = [recipe.itemsInRecipe count];
-			int n;
+			NSUInteger count = [recipe.itemsInRecipe count];
+			NSUInteger n;
 			NSString* msg = NSLocalizedString(@"You're trying to use two different units of measurement. Couldn't add these ingredients:\r\n",
 											  @"Message when can't add two things together like pounds + liters");
 			BOOL showMessage = NO;

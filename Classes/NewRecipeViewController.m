@@ -264,7 +264,7 @@
 		{
 			if (indexPath.row == recipe.itemsInRecipe.count)
 			{
-				UITableViewCell* cell = [[[UITableViewCell alloc] initWithFrame:CGRectZero reuseIdentifier:nil] autorelease];
+				UITableViewCell* cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:nil] autorelease];
 				cell.textLabel.text = NSLocalizedString(@"Add ingredients", @"Add item to recipe");			
 				cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
 				cell.editingAccessoryType = UITableViewCellAccessoryDisclosureIndicator;
@@ -277,7 +277,7 @@
 				if (cell == nil)
 				{
 					cell = [[[ItemQtyTableViewCell alloc] 
-											  initWithFrame:CGRectZero 
+											  initWithStyle:UITableViewCellStyleDefault
 											reuseIdentifier:@"GBCBItemQty"] autorelease];
 					cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
 					cell.editingAccessoryType = UITableViewCellAccessoryDisclosureIndicator;

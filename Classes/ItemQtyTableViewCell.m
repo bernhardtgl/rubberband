@@ -12,31 +12,35 @@
 
 @implementation ItemQtyTableViewCell
 
-- (id)initWithFrame:(CGRect)frame reuseIdentifier:(NSString *)reuseIdentifier 
+- (id)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier
 {
-	if (self = [super initWithFrame:frame reuseIdentifier:reuseIdentifier]) 
-	{
-		nameLabel = [[UILabel alloc] initWithFrame:CGRectZero];
-		nameLabel.font = [UIFont boldSystemFontOfSize:17];		
-		nameLabel.highlightedTextColor = [UIColor whiteColor];
-		[self addSubview:nameLabel];
-		
-		quantityLabel = [[UILabel alloc] initWithFrame:CGRectZero];
-		quantityLabel.font = [UIFont systemFontOfSize:16];
-		quantityLabel.textAlignment = NSTextAlignmentRight;
-		quantityLabel.textColor = [UIColor grayColor];
-		quantityLabel.highlightedTextColor = [UIColor whiteColor];
-		[self addSubview:quantityLabel];
-		
-		// For debugging
-		//quantityLabel.backgroundColor = [UIColor redColor];
-		//nameLabel.backgroundColor = [UIColor blueColor];
-
-		self.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
-		self.editingAccessoryType = UITableViewCellAccessoryDisclosureIndicator;
-	}
+    if (self = [super initWithStyle:style reuseIdentifier:reuseIdentifier])
+    {
+        nameLabel = [[UILabel alloc] initWithFrame:CGRectZero];
+        nameLabel.font = [UIFont boldSystemFontOfSize:17];
+        nameLabel.highlightedTextColor = [UIColor whiteColor];
+        [self addSubview:nameLabel];
+        
+        quantityLabel = [[UILabel alloc] initWithFrame:CGRectZero];
+        quantityLabel.font = [UIFont systemFontOfSize:16];
+        quantityLabel.textAlignment = NSTextAlignmentRight;
+        quantityLabel.textColor = [UIColor grayColor];
+        quantityLabel.highlightedTextColor = [UIColor whiteColor];
+        [self addSubview:quantityLabel];
+        
+        // For debugging
+        //quantityLabel.backgroundColor = [UIColor redColor];
+        //nameLabel.backgroundColor = [UIColor blueColor];
+        
+        self.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
+        self.editingAccessoryType = UITableViewCellAccessoryDisclosureIndicator;
+    }
     return self;
+
 }
+//- (id)initWithFrame:(CGRect)frame reuseIdentifier:(NSString *)reuseIdentifier 
+//{
+//}
 
 - (void)dealloc
 {

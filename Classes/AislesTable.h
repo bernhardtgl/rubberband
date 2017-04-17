@@ -21,12 +21,12 @@
 - (bool) isDirty;
 - (void) markDirty;
 - (NSUInteger) count;
-- (Aisle*) aisleAtIndex:(int)index;
+- (Aisle*) aisleAtIndex:(NSInteger)index;
 - (Aisle*) aisleForUid: (NSString*)uid;
 - (NSUInteger) indexOfAisle:(Aisle*)aisle;
 
 - (void) addAisle:(Aisle*)newAisle;
-- (Aisle*) removeAisleAtIndex:(int)index;
+- (Aisle*) removeAisleAtIndex:(NSInteger)index;
 - (void) moveAisleAtIndex:(NSUInteger)fromIndex toIndex:(NSUInteger)toIndex;
 
 @end

@@ -45,10 +45,6 @@
 												 selector:@selector(handleAisleChange:)
 													 name:@"GBCBAisleChangeNotification"
 												   object:nil];
-		[[NSNotificationCenter defaultCenter] addObserver:self
-												 selector:@selector(handleWantQuantityView:)
-													 name:@"GBCBWantNumberView"
-												   object:nil];
 		
 		NSLog(@"init NewItemViewController");
 	}

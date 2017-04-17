@@ -32,14 +32,14 @@
 	NewTextFieldViewController* aisleNameVC;
 	
 	// used so we know which cell to "uncheck" when the user selects a new cell
-	int lastCheckRow;
+	NSInteger lastCheckRow;
 	
 	// remember what's being deleted
 	NSIndexPath* deleteAisleIndexPath;
 	
 	// in Edit mode, keep track of what Aisle the user chose to edit, so we can
 	// update the correct one once the Edit dialog does away
-	int editedAisleIndex;
+	NSInteger editedAisleIndex;
 	
 	// save to disk if the user edits, on exiting the view
 	BOOL saveOnExit;

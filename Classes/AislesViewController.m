@@ -161,7 +161,7 @@
 
 - (NSInteger)tableView:(UITableView *)tv numberOfRowsInSection:(NSInteger)section 
 {
-	int aisleCount = aisles.count;
+	NSUInteger aisleCount = aisles.count;
 	aisleCount += (editOnlyMode ? 0 : 1); // +1 for "None", not used in edit only mode
 	aisleCount += 1; // +1 for "Add Aisle"
 	return aisleCount;
@@ -200,8 +200,8 @@
 - (void)tableView:(UITableView *)tv moveRowAtIndexPath:(NSIndexPath *)fromIndexPath 
 	  toIndexPath:(NSIndexPath *)toIndexPath
 {
-	int idxFrom = [self aisleIndexForRow:fromIndexPath.row];
-	int idxTo = [self aisleIndexForRow:toIndexPath.row];
+	NSInteger idxFrom = [self aisleIndexForRow:fromIndexPath.row];
+	NSInteger idxTo = [self aisleIndexForRow:toIndexPath.row];
 	
 	[aisles moveAisleAtIndex:idxFrom toIndex:idxTo];
 }
@@ -230,7 +230,7 @@
 		ret = UITableViewCellAccessoryDisclosureIndicator;
 	} 
 
-	int row = indexPath.row;
+	NSInteger row = indexPath.row;
 	if (row == [self rowForNoneAisle]) 
 	{
 		if ((selectedAisle == nil) && (!self.editing)) 
@@ -249,7 +249,7 @@
 	} 
 	else // it's a real aisle
 	{
-		int aisleIndex = [self aisleIndexForRow:row];
+		NSInteger aisleIndex = [self aisleIndexForRow:row];
 		Aisle* aisle = [aisles aisleAtIndex:aisleIndex];
 		if ((aisle == selectedAisle) && (!self.editing)) 
 		{
@@ -266,13 +266,13 @@
 	
 	if (cell == nil)
 	{
-		cell = [[[UITableViewCell alloc] initWithFrame:CGRectZero 
+		cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault
 									   reuseIdentifier:@"GBCBAisle"] autorelease];
 		cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
 		cell.editingAccessoryType = UITableViewCellAccessoryDisclosureIndicator;
 	}
 		
-	int row = indexPath.row;
+	NSInteger row = indexPath.row;
 	if (row == [self rowForNoneAisle]) 
 	{
 		cell.textLabel.text = NSLocalizedString(@"None", "No aisle");
@@ -293,7 +293,7 @@
 	} 
 	else // it's a real aisle
 	{
-		int aisleIndex = [self aisleIndexForRow:row];
+		NSInteger aisleIndex = [self aisleIndexForRow:row];
 		Aisle* aisle = [aisles aisleAtIndex:aisleIndex];
 		cell.textLabel.text = [aisle name];
 		if (aisle == selectedAisle) 
@@ -312,7 +312,7 @@
 - (NSIndexPath *)tableView:(UITableView *)tv 
 	willSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-	int row = indexPath.row;
+	NSInteger row = indexPath.row;
 	if (row == [self rowForAddAisle]) 
 	{
 		// show the New Aisle name dialog

@@ -16,7 +16,6 @@
 {
 	if (self = [super initWithFrame:aRect])
 	{
-		
 		// Create label views to contain the various pieces of text that make up the cell.
 		// Add these as subviews.
 		textField = [[UITextField alloc] initWithFrame:CGRectZero]; // layoutSubViews will decide the final frame

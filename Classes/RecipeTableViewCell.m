@@ -14,41 +14,46 @@
 
 @implementation RecipeTableViewCell
 
-//
-//	Initializes our table view objects frame and style
-//
-- (id)initWithFrame:(CGRect)frame reuseIdentifier:(NSString *)reuseIdentifier 
+- (id)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier
 {
-	if (self = [super initWithFrame:frame reuseIdentifier:reuseIdentifier]) 
-	{
-		UIView* parentView = [self contentView];
-		// thumbnail image
-		recipeImageView = [[UIImageView alloc] init];
-		recipeImageView.image = App_recipeEmptyImage;
-		[parentView addSubview:recipeImageView];
-		
-		// recipe title text
-		nameLabel = [[UILabel alloc] init];
-		nameLabel.font = [UIFont boldSystemFontOfSize:16];
-		nameLabel.textAlignment = NSTextAlignmentLeft;
-		nameLabel.numberOfLines = 2;
-		nameLabel.lineBreakMode = NSLineBreakByTruncatingTail;
-		nameLabel.highlightedTextColor = [UIColor whiteColor];
-		nameLabel.backgroundColor = [UIColor clearColor];
-		[parentView addSubview:nameLabel];
-				
-		// preview of recipe notes text
-		notesPreviewLabel = [[UILabel alloc] init];
-		notesPreviewLabel.font = [UIFont systemFontOfSize:14];
-		notesPreviewLabel.textAlignment = NSTextAlignmentLeft;
-		notesPreviewLabel.textColor = [UIColor darkGrayColor];
-		notesPreviewLabel.backgroundColor = [UIColor clearColor];
-		[parentView addSubview:notesPreviewLabel];		
-		
-		[self setAccessoryType:UITableViewCellAccessoryDisclosureIndicator];		
-	}
-	return self;
+   	if (self = [super initWithStyle:style reuseIdentifier:reuseIdentifier])
+    {
+        UIView* parentView = [self contentView];
+        // thumbnail image
+        recipeImageView = [[UIImageView alloc] init];
+        recipeImageView.image = App_recipeEmptyImage;
+        [parentView addSubview:recipeImageView];
+        
+        // recipe title text
+        nameLabel = [[UILabel alloc] init];
+        nameLabel.font = [UIFont boldSystemFontOfSize:16];
+        nameLabel.textAlignment = NSTextAlignmentLeft;
+        nameLabel.numberOfLines = 2;
+        nameLabel.lineBreakMode = NSLineBreakByTruncatingTail;
+        nameLabel.highlightedTextColor = [UIColor whiteColor];
+        nameLabel.backgroundColor = [UIColor clearColor];
+        [parentView addSubview:nameLabel];
+        
+        // preview of recipe notes text
+        notesPreviewLabel = [[UILabel alloc] init];
+        notesPreviewLabel.font = [UIFont systemFontOfSize:14];
+        notesPreviewLabel.textAlignment = NSTextAlignmentLeft;
+        notesPreviewLabel.textColor = [UIColor darkGrayColor];
+        notesPreviewLabel.backgroundColor = [UIColor clearColor];
+        [parentView addSubview:notesPreviewLabel];
+        
+        [self setAccessoryType:UITableViewCellAccessoryDisclosureIndicator];		
+    }
+    return self;
 }
+
+////
+////	Initializes our table view objects frame and style
+////
+//- (id)initWithFrame:(CGRect)frame reuseIdentifier:(NSString *)reuseIdentifier 
+//{
+//
+//}
 
 
 //
@@ -116,6 +121,7 @@
 	// GLB: decided I don't like the notes in this view
 	notesPreviewLabel.hidden = YES;
 }
+
 
 //
 //	Sets the recipe to be displayed by this cell.

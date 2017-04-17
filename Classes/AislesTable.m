@@ -96,7 +96,7 @@
 //	Gets the aisle at the specified index within
 //	the collection.
 //
-- (Aisle*) aisleAtIndex:(int)index
+- (Aisle*) aisleAtIndex:(NSInteger)index
 {
 	Aisle* aisle = nil;
 	if ((index >= 0) && (index < [aislesArray count]))
@@ -111,7 +111,7 @@
 //	collection.
 //	Returns the items removed from the collection.
 //
-- (Aisle*) removeAisleAtIndex:(int)index
+- (Aisle*) removeAisleAtIndex:(NSInteger)index
 {
 	Aisle* aisle = nil;
 	if ((index >= 0) && (index < [aislesArray count]))

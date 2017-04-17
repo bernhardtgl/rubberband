@@ -18,7 +18,9 @@
 	// UI Controls
 	UIImageView* recipeImageView;	
 	UILabel* nameLabel;
-	UILabel* notesPreviewLabel;		
+	UILabel* notesPreviewLabel;
+    
+    UITableViewCellAccessoryType editingAccessoryType;
 }
 
 - (void) configureRecipe:(Recipe*)aRecipe;

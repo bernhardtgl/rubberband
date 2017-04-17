@@ -360,7 +360,7 @@
 	
 	if (cell == nil)
 	{
-		cell = [[[AddObjectTableViewCell alloc] initWithFrame:CGRectZero 
+		cell = [[[AddObjectTableViewCell alloc] initWithStyle:UITableViewCellStyleDefault
 										 reuseIdentifier:@"GBCBIngredientSearch"] autorelease];
 	}
 	

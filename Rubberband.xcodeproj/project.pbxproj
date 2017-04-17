@@ -73,7 +73,6 @@
 		4452280F0E7E25EA000F2640 /* ShareViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4452280E0E7E25EA000F2640 /* ShareViewController.m */; };
 		44597FF30DE186EA00F908DA /* ItemsViewDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 44597FF20DE186EA00F908DA /* ItemsViewDataSource.m */; };
 		44597FF60DE1874100F908DA /* NotesTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 44597FF50DE1874100F908DA /* NotesTableViewCell.m */; };
-		44597FF90DE1877600F908DA /* ItemsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 44597FF80DE1877600F908DA /* ItemsTableViewCell.m */; };
 		4462FE010DA1E000006A12DD /* GroceryItemsTable.m in Sources */ = {isa = PBXBuildFile; fileRef = 4462FE000DA1E000006A12DD /* GroceryItemsTable.m */; };
 		447E01630DE18AF100F313AA /* RecipeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 447E01620DE18AF100F313AA /* RecipeTableViewCell.m */; };
 		448288B80DED1314004570D5 /* Recipes.plist in Resources */ = {isa = PBXBuildFile; fileRef = 448288B60DED1314004570D5 /* Recipes.plist */; };
@@ -216,8 +215,6 @@
 		44597FF20DE186EA00F908DA /* ItemsViewDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ItemsViewDataSource.m; path = Classes/ItemsViewDataSource.m; sourceTree = "<group>"; };
 		44597FF40DE1871A00F908DA /* NotesTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NotesTableViewCell.h; path = Classes/NotesTableViewCell.h; sourceTree = "<group>"; };
 		44597FF50DE1874100F908DA /* NotesTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NotesTableViewCell.m; path = Classes/NotesTableViewCell.m; sourceTree = "<group>"; };
-		44597FF70DE1875F00F908DA /* ItemsTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ItemsTableViewCell.h; path = Classes/ItemsTableViewCell.h; sourceTree = "<group>"; };
-		44597FF80DE1877600F908DA /* ItemsTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ItemsTableViewCell.m; path = Classes/ItemsTableViewCell.m; sourceTree = "<group>"; };
 		4462FDFF0DA1E000006A12DD /* GroceryItemsTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GroceryItemsTable.h; path = Classes/GroceryItemsTable.h; sourceTree = "<group>"; };
 		4462FE000DA1E000006A12DD /* GroceryItemsTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GroceryItemsTable.m; sourceTree = "<group>"; };
 		447E01610DE18AF100F313AA /* RecipeTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RecipeTableViewCell.h; path = Classes/RecipeTableViewCell.h; sourceTree = "<group>"; };
@@ -365,7 +362,6 @@
 				376977380D9EA86A0043B9CA /* AisleTableViewCell.h */,
 				3759B6960D8C65370050E08A /* TextTableViewCell.h */,
 				44597FF40DE1871A00F908DA /* NotesTableViewCell.h */,
-				44597FF70DE1875F00F908DA /* ItemsTableViewCell.h */,
 				37EDD9C90DE0C31B00D5180A /* NameAndPictureView.h */,
 				4415B6FE0DAC5F530052313F /* ShopViewDataSource.h */,
 				37D7297C0DB155BD0047BBE8 /* ItemsViewDataSource.h */,
@@ -446,7 +442,6 @@
 				376977390D9EA86A0043B9CA /* AisleTableViewCell.m */,
 				3759B6970D8C65370050E08A /* TextTableViewCell.m */,
 				44597FF50DE1874100F908DA /* NotesTableViewCell.m */,
-				44597FF80DE1877600F908DA /* ItemsTableViewCell.m */,
 				37EDD9CA0DE0C31B00D5180A /* NameAndPictureView.m */,
 			);
 			name = "Table View Cells";
@@ -591,7 +586,6 @@
 				37CBBC090DE0E4620005FADE /* NewRecipeViewController.m in Sources */,
 				44597FF30DE186EA00F908DA /* ItemsViewDataSource.m in Sources */,
 				44597FF60DE1874100F908DA /* NotesTableViewCell.m in Sources */,
-				44597FF90DE1877600F908DA /* ItemsTableViewCell.m in Sources */,
 				447E01630DE18AF100F313AA /* RecipeTableViewCell.m in Sources */,
 				37E22B740DE89A7200168288 /* AddIngredientsViewController.m in Sources */,
 				442E8BA70DEECCEE00D7398F /* RecipesViewDataSource.m in Sources */,

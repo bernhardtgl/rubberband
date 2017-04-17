@@ -7,8 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "AddIngredientsViewController.h";
-#import "NotesViewController.h";
+#import "AddIngredientsViewController.h"//
+#import "NotesViewController.h"//
 #import "Protocols.h"
 
 @class Recipe;
