@@ -25,7 +25,7 @@
 		itemsLabel = [[UILabel alloc] init];
 		itemsLabel.text = NSLocalizedString(@"None", @"Items text if none are selected");
 		itemsLabel.font = [UIFont systemFontOfSize:18];
-		itemsLabel.textAlignment = UITextAlignmentRight;
+		itemsLabel.textAlignment = NSTextAlignmentRight;
 		itemsLabel.textColor = [UIColor darkGrayColor];
 		itemsLabel.backgroundColor = [UIColor clearColor];
 		[self addSubview:itemsLabel];		

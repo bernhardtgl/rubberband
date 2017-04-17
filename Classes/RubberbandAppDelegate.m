@@ -136,7 +136,7 @@ ShareViewController* App_shareViewController;
 	urlParts = [[urlInfo componentsSeparatedByString:@"&"] retain];
 
 	// there are 4 parts to the URL for each item to be added. 
-	int totalItems = urlParts.count / 4;
+	NSUInteger totalItems = urlParts.count / 4;
 
 	if (totalItems == 0) {
 		return NO;
@@ -177,7 +177,7 @@ ShareViewController* App_shareViewController;
 	}
 	
 	// there are 6 parts to the URL for each item to be added after the blank aisle
-	int totalItems = (urlParts.count - totalAisles - 1) / 6;
+	NSUInteger totalItems = (urlParts.count - totalAisles - 1) / 6;
 	
 	if (totalItems == 0) {
 		return NO;
@@ -347,8 +347,8 @@ ShareViewController* App_shareViewController;
 	}
 	
 	// loop through the newly received aisles, and merge them with the existing aisles
-	int newPos = 0;
-	int mergePos = 0;
+	NSInteger newPos = 0;
+	NSInteger mergePos = 0;
 	AislesTable* tbl = [App_database aisles];
 	
 	for (newPos = 0; newPos < totalAisles; newPos++)
@@ -357,7 +357,7 @@ ShareViewController* App_shareViewController;
 		Aisle* existingAisle = [aisleByNameDict objectForKey:newAisleName];
 		if (existingAisle != nil)
 		{
-			int currentIndex = [tbl indexOfAisle:existingAisle];
+			NSUInteger currentIndex = [tbl indexOfAisle:existingAisle];
 			if (currentIndex < mergePos)
 			{
 				[tbl moveAisleAtIndex:currentIndex toIndex:mergePos];
@@ -563,7 +563,7 @@ ShareViewController* App_shareViewController;
 	// make sure the badge gets updated
 	[self handleNeedCountChanged:nil];
 	
-    [window setRootViewController:tabBarController]; // GLB
+    [window setRootViewController:tabBarController];
 	[window makeKeyAndVisible];
 
 	[self loadUserPreferenceSettings];
@@ -659,12 +659,12 @@ ShareViewController* App_shareViewController;
 	database = nil;
 	App_database = nil;
 		
-	NSLog(@"term tbc :%d", [tabBarController retainCount]);
+	NSLog(@"term tbc :%lu", (unsigned long)[tabBarController retainCount]);
     [tabBarController release];    
-	NSLog(@"term win :%d", [window retainCount]);
+	NSLog(@"term win :%lu", (unsigned long)[window retainCount]);
     [window release];
 
-	NSLog(@"term img :%d", [App_dontNeedImage retainCount]);
+	NSLog(@"term img :%lu", (unsigned long)[App_dontNeedImage retainCount]);
 	[App_dontNeedImage release];
 	[App_needImage release];
 	[App_haveImage release];
@@ -683,9 +683,9 @@ ShareViewController* App_shareViewController;
 	// to test for memory leaks.
 	//
 	// Only the currently active tab will have a retainCount of 2
-	int nCount;
+	NSUInteger nCount;
 	
-	NSLog(@"term itemsController:%d", [itemsController retainCount]);
+	NSLog(@"term itemsController:%lu", (unsigned long)[itemsController retainCount]);
 	nCount = [itemsController retainCount];
 	int n;
 	for (n = 0; n < nCount; n++) {
@@ -693,21 +693,21 @@ ShareViewController* App_shareViewController;
 	}
 	itemsController = nil;
 	
-	NSLog(@"term shopController:%d", [shopController retainCount]);
+	NSLog(@"term shopController:%lu", (unsigned long)[shopController retainCount]);
 	nCount = [shopController retainCount];
 	for (n = 0; n < nCount; n++) {
 		[shopController release];
 	}
 	shopController = nil;
 	
-	NSLog(@"term recipesController:%d", [recipesController retainCount]);
+	NSLog(@"term recipesController:%lu", (unsigned long)[recipesController retainCount]);
 	nCount = [recipesController retainCount];
 	for (n = 0; n < nCount; n++) {
 		[recipesController release];
 	}
 	recipesController = nil;
 
-	NSLog(@"term shareController:%d", [shareController retainCount]);
+	NSLog(@"term shareController:%lu", (unsigned long)[shareController retainCount]);
 	nCount = [shareController retainCount];
 	for (n = 0; n < nCount; n++) {
 		[shareController release];
@@ -715,7 +715,7 @@ ShareViewController* App_shareViewController;
 	shareController = nil;
 	
 	// suicide. If we don't do this our dealloc never gets called
-	NSLog(@"term self:%d", [self retainCount]);
+	NSLog(@"term self:%lu", (unsigned long)[self retainCount]);
     [self release];
 }
 
@@ -732,11 +732,11 @@ ShareViewController* App_shareViewController;
 - (void) handleNeedCountChanged:(NSNotification*)notification
 {
 	UIViewController* vcWithBadge = [shopController navigationController];
-	int count = [[database groceryItems] countOfNeededItems]; 
+	NSUInteger count = [[database groceryItems] countOfNeededItems];
 
 	if (count > 0) 
 	{
-		[[vcWithBadge tabBarItem] setBadgeValue:[NSString stringWithFormat:@"%d", count]];
+		[[vcWithBadge tabBarItem] setBadgeValue:[NSString stringWithFormat:@"%lu", count]];
 		[UIApplication sharedApplication].applicationIconBadgeNumber = count;
 	} 
 	else 
@@ -755,7 +755,7 @@ ShareViewController* App_shareViewController;
 {
 	// save user preferences
     NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
-	int selectedAppTab = tabBarController.selectedIndex;
+	NSUInteger selectedAppTab = tabBarController.selectedIndex;
 	[defaults setInteger:selectedAppTab forKey:UserPrefSelectedAppTab];
 		
 	// save the last remembered scroll position
@@ -797,7 +797,7 @@ ShareViewController* App_shareViewController;
 {
 	// remember the last selected tab
     NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
-    int selectedAppTab = [defaults integerForKey:UserPrefSelectedAppTab];
+    NSInteger selectedAppTab = [defaults integerForKey:UserPrefSelectedAppTab];
 	if ((selectedAppTab < 0) || (selectedAppTab >= [[tabBarController viewControllers] count]))
 	{
 		selectedAppTab = 0;
@@ -812,8 +812,8 @@ ShareViewController* App_shareViewController;
 	// unless special case launch in "Add New Recipe" mode
 	if (!App_newRecipeLaunch)
 	{
-		int rowScrollPosition = [defaults integerForKey:UserPrefRowScrollPos];
-		int sectionScrollPosition = [defaults integerForKey:UserPrefSectionScrollPos];
+		NSInteger rowScrollPosition = [defaults integerForKey:UserPrefRowScrollPos];
+		NSInteger sectionScrollPosition = [defaults integerForKey:UserPrefSectionScrollPos];
 		NSIndexPath* initScrollIndexPath = [NSIndexPath indexPathForRow:rowScrollPosition inSection:sectionScrollPosition];
 
 		if([selectedRootVC conformsToProtocol:@protocol(TableViewUserPrefs)])

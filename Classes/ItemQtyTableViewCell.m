@@ -23,7 +23,7 @@
 		
 		quantityLabel = [[UILabel alloc] initWithFrame:CGRectZero];
 		quantityLabel.font = [UIFont systemFontOfSize:16];
-		quantityLabel.textAlignment = UITextAlignmentRight;
+		quantityLabel.textAlignment = NSTextAlignmentRight;
 		quantityLabel.textColor = [UIColor grayColor];
 		quantityLabel.highlightedTextColor = [UIColor whiteColor];
 		[self addSubview:quantityLabel];

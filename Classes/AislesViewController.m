@@ -117,7 +117,7 @@
 
 - (void)doneEditOnlyModeAction:(id)sender
 {
-	[self dismissModalViewControllerAnimated:YES];
+	[self dismissViewControllerAnimated:YES completion: nil];
 }
 
 #pragma mark Helper functions to determine whether in Edit-Only mode or not

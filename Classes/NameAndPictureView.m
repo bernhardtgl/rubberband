@@ -35,9 +35,9 @@
 		pictureLabel = [[UILabel alloc] initWithFrame:CGRectZero];
 		pictureLabel.backgroundColor = [UIColor clearColor];
 		pictureLabel.font = [UIFont boldSystemFontOfSize:13];
-		pictureLabel.lineBreakMode = UILineBreakModeWordWrap;
+		pictureLabel.lineBreakMode = NSLineBreakByWordWrapping;
 		pictureLabel.textColor = [UIColor colorWithRed:0.195 green:0.309 blue:0.520 alpha:1.0];
-		pictureLabel.textAlignment = UITextAlignmentCenter;
+		pictureLabel.textAlignment = NSTextAlignmentCenter;
 		pictureLabel.numberOfLines = 3;
 		[self addSubview:pictureLabel];		
 		
@@ -80,7 +80,7 @@
 		editImageLabel.textColor = [UIColor whiteColor];
 		editImageLabel.shadowColor = [UIColor darkGrayColor];
 		editImageLabel.shadowOffset = CGSizeMake(0,1);
-		editImageLabel.textAlignment = UITextAlignmentCenter;
+		editImageLabel.textAlignment = NSTextAlignmentCenter;
 		editImageLabel.hidden = YES;
 		editImageLabel.backgroundColor = [UIColor clearColor];
 		editImageLabel.font = [UIFont boldSystemFontOfSize:11]; 
@@ -192,7 +192,7 @@
 							  (hasLink ? 41.0 : 58.0));	
 	nameLabel.frame = controlFrame;
 	nameLabel.numberOfLines = (hasLink ? 2 : 3);
-	nameLabel.lineBreakMode = UILineBreakModeTailTruncation;
+	nameLabel.lineBreakMode = NSLineBreakByTruncatingTail;
 
 	// either show a gray placeholder or the name, depending on the value
 	if ((name == nil) || ([name isEqual:@""]))
@@ -386,7 +386,7 @@
 
 - (void)imagePickerControllerDidCancel:(UIImagePickerController *)picker
 {
-	[parentVC dismissModalViewControllerAnimated:YES];
+	[parentVC dismissViewControllerAnimated:YES completion: nil];
 }
 
 - (void)imagePickerController:(UIImagePickerController *)picker 
@@ -402,7 +402,7 @@
 	// TODO: animate this into the Edit button like the New Contact screen 
 	// does
 	NSLog(@"%@", editingInfo);
-	[parentVC dismissModalViewControllerAnimated:YES];
+	[parentVC dismissViewControllerAnimated:YES completion: nil];
 }
 
 - (void) createImageVCIfNeeded
@@ -420,14 +420,14 @@
 {
 	[self createImageVCIfNeeded];
 	imageVC.sourceType = UIImagePickerControllerSourceTypePhotoLibrary;
-	[parentVC presentModalViewController:imageVC animated:YES];
+	[parentVC presentViewController:imageVC animated:YES completion: nil];
 }
 
 - (void) takePhoto
 {
 	[self createImageVCIfNeeded];
 	imageVC.sourceType = UIImagePickerControllerSourceTypeCamera;
-	[parentVC presentModalViewController:imageVC animated:YES];
+	[parentVC presentViewController:imageVC animated:YES completion: nil];
 }
 
 // ============================================================================

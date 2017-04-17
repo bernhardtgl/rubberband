@@ -30,9 +30,9 @@
 		// recipe title text
 		nameLabel = [[UILabel alloc] init];
 		nameLabel.font = [UIFont boldSystemFontOfSize:16];
-		nameLabel.textAlignment = UITextAlignmentLeft;
+		nameLabel.textAlignment = NSTextAlignmentLeft;
 		nameLabel.numberOfLines = 2;
-		nameLabel.lineBreakMode = UILineBreakModeTailTruncation;
+		nameLabel.lineBreakMode = NSLineBreakByTruncatingTail;
 		nameLabel.highlightedTextColor = [UIColor whiteColor];
 		nameLabel.backgroundColor = [UIColor clearColor];
 		[parentView addSubview:nameLabel];
@@ -40,7 +40,7 @@
 		// preview of recipe notes text
 		notesPreviewLabel = [[UILabel alloc] init];
 		notesPreviewLabel.font = [UIFont systemFontOfSize:14];
-		notesPreviewLabel.textAlignment = UITextAlignmentLeft;
+		notesPreviewLabel.textAlignment = NSTextAlignmentLeft;
 		notesPreviewLabel.textColor = [UIColor darkGrayColor];
 		notesPreviewLabel.backgroundColor = [UIColor clearColor];
 		[parentView addSubview:notesPreviewLabel];		

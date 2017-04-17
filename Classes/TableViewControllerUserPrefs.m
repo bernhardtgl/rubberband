@@ -41,12 +41,12 @@
 	BOOL ret = NO;
 	if ((testIndexPath != nil) && ([testIndexPath length] == 2))
 	{
-		int testSectionIndex = [testIndexPath indexAtPosition:0];
-		int testRowIndex = [testIndexPath indexAtPosition:1];
-		int numberOfSections = [tableView numberOfSections];
+		NSInteger testSectionIndex = [testIndexPath indexAtPosition:0];
+		NSInteger testRowIndex = [testIndexPath indexAtPosition:1];
+		NSInteger numberOfSections = [tableView numberOfSections];
 		if ((testSectionIndex >= 0) && (testSectionIndex < numberOfSections))
 		{
-			int numberOfRowsinSection = [tableView numberOfRowsInSection:testSectionIndex];
+			NSInteger numberOfRowsinSection = [tableView numberOfRowsInSection:testSectionIndex];
 			if ((testRowIndex >= 0) && (testRowIndex < numberOfRowsinSection))
 			{
 				ret = YES;

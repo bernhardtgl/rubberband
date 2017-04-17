@@ -42,9 +42,7 @@
 		3789C0BF0E4E4AE6009CFE5B /* SearchBarCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3789C0BE0E4E4AE6009CFE5B /* SearchBarCell.m */; };
 		378C3C990D96DB0500B782E3 /* ItemTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 378C3C980D96DB0500B782E3 /* ItemTableViewCell.m */; };
 		379BB7400D9F1C1600F7F58A /* AislesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 379BB73F0D9F1C1600F7F58A /* AislesViewController.m */; };
-		37AA88D50D95671C00E4FFCE /* SmallNumberTableViewCell.m in Resources */ = {isa = PBXBuildFile; fileRef = 37AA88D40D95671C00E4FFCE /* SmallNumberTableViewCell.m */; };
 		37AA88F20D956B0100E4FFCE /* segment_arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 37AA88F10D956B0100E4FFCE /* segment_arrow.png */; };
-		37AA88F40D956B4300E4FFCE /* SmallNumberTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 37AA88D40D95671C00E4FFCE /* SmallNumberTableViewCell.m */; };
 		37B2D4AC0DA816FC0072A9EB /* ShopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37B2D4AB0DA816FC0072A9EB /* ShopViewController.m */; };
 		37B2D56C0DA81DF40072A9EB /* tab_items.png in Resources */ = {isa = PBXBuildFile; fileRef = 37B2D56A0DA81DF40072A9EB /* tab_items.png */; };
 		37B2D56D0DA81DF40072A9EB /* tab_shop.png in Resources */ = {isa = PBXBuildFile; fileRef = 37B2D56B0DA81DF40072A9EB /* tab_shop.png */; };
@@ -156,8 +154,6 @@
 		37A58C510E997BF3007234A7 /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = it; path = it.lproj/Aisles.plist; sourceTree = "<group>"; };
 		37A58C540E997C00007234A7 /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = it; path = it.lproj/GroceryItems.plist; sourceTree = "<group>"; };
 		37A58C560E997C11007234A7 /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = it; path = it.lproj/Recipes.plist; sourceTree = "<group>"; };
-		37AA88D30D95671C00E4FFCE /* SmallNumberTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SmallNumberTableViewCell.h; path = Classes/SmallNumberTableViewCell.h; sourceTree = "<group>"; };
-		37AA88D40D95671C00E4FFCE /* SmallNumberTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SmallNumberTableViewCell.m; path = Classes/SmallNumberTableViewCell.m; sourceTree = "<group>"; };
 		37AA88F10D956B0100E4FFCE /* segment_arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = segment_arrow.png; sourceTree = "<group>"; };
 		37ACD9D312903C6700129B4D /* Swedish */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Swedish; path = Swedish.lproj/Localizable.strings; sourceTree = "<group>"; };
 		37ACDA0E12903FB200129B4D /* Swedish */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Swedish; path = Swedish.lproj/Aisles.plist; sourceTree = "<group>"; };
@@ -368,7 +364,6 @@
 				447E01610DE18AF100F313AA /* RecipeTableViewCell.h */,
 				376977380D9EA86A0043B9CA /* AisleTableViewCell.h */,
 				3759B6960D8C65370050E08A /* TextTableViewCell.h */,
-				37AA88D30D95671C00E4FFCE /* SmallNumberTableViewCell.h */,
 				44597FF40DE1871A00F908DA /* NotesTableViewCell.h */,
 				44597FF70DE1875F00F908DA /* ItemsTableViewCell.h */,
 				37EDD9C90DE0C31B00D5180A /* NameAndPictureView.h */,
@@ -450,7 +445,6 @@
 				447E01620DE18AF100F313AA /* RecipeTableViewCell.m */,
 				376977390D9EA86A0043B9CA /* AisleTableViewCell.m */,
 				3759B6970D8C65370050E08A /* TextTableViewCell.m */,
-				37AA88D40D95671C00E4FFCE /* SmallNumberTableViewCell.m */,
 				44597FF50DE1874100F908DA /* NotesTableViewCell.m */,
 				44597FF80DE1877600F908DA /* ItemsTableViewCell.m */,
 				37EDD9CA0DE0C31B00D5180A /* NameAndPictureView.m */,
@@ -536,7 +530,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				37AA88D50D95671C00E4FFCE /* SmallNumberTableViewCell.m in Resources */,
 				37AA88F20D956B0100E4FFCE /* segment_arrow.png in Resources */,
 				37C3B1C50D9B367D006722A2 /* checkbox_have.png in Resources */,
 				37C3B1CA0D9B37C3006722A2 /* checkbox_dontneed.png in Resources */,
@@ -575,7 +568,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				3759B5F80D8C378D0050E08A /* NewItemViewController.m in Sources */,
-				37AA88F40D956B4300E4FFCE /* SmallNumberTableViewCell.m in Sources */,
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
 				1D3623260D0F684500981E51 /* RubberbandAppDelegate.m in Sources */,
 				376896AC0D8612D500E271A2 /* ItemsViewController.m in Sources */,

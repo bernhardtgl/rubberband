@@ -22,7 +22,7 @@
 		quantityLabel = [[UILabel alloc] initWithFrame:CGRectZero];
 		quantityLabel.font = [UIFont boldSystemFontOfSize:16];
 		quantityLabel.textColor = [UIColor colorWithRed:0.016 green:0.561 blue:0.004 alpha:1.0];
-		quantityLabel.textAlignment = UITextAlignmentCenter;
+		quantityLabel.textAlignment = NSTextAlignmentCenter;
 		quantityLabel.highlightedTextColor = [UIColor whiteColor];
 		[self addSubview:quantityLabel];
 	}

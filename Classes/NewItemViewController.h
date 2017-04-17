@@ -9,7 +9,6 @@
 #import <UIKit/UIKit.h>
 #import "AddRecipesViewController.h"
 #import "NewTextFieldViewController.h"
-#import "SmallNumberTableViewCell.h"
 #import "Protocols.h"
 
 @class GroceryItem;

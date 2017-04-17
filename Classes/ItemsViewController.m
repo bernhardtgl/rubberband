@@ -122,7 +122,7 @@
 	NewItemViewController* newView = [[NewItemViewController alloc] init];
 	UINavigationController* nc = [[UINavigationController alloc] 
 								  initWithRootViewController:newView];
-	[self presentModalViewController:nc animated:YES];
+    [self presentViewController:nc animated:YES completion:nil];
 	[nc release];
 	[newView release];
 }
@@ -273,7 +273,7 @@
 
 		UINavigationController* nc = [[UINavigationController alloc] 
 									  initWithRootViewController:editView];
-		[self presentModalViewController:nc animated:YES];
+        [self presentViewController:nc animated:YES completion:nil];
 		[nc release];
 		[editView release];
 	}
@@ -444,7 +444,7 @@
 	
 	if (cell == nil)
 	{
-		cell = [[[ItemTableViewCell alloc] initWithFrame:CGRectZero 
+		cell = [[[ItemTableViewCell alloc] initWithStyle:UITableViewCellStyleDefault
 										 reuseIdentifier:@"GBCBItemSearch"] autorelease];
 	}
 	

@@ -50,7 +50,7 @@
 
 - (void)cancelAction:(id)sender
 {
-	[self dismissModalViewControllerAnimated:YES];	
+	[self dismissViewControllerAnimated:YES completion: nil];
 }
 
 - (void)didReceiveMemoryWarning 
@@ -73,7 +73,7 @@
 	{
 		[delegate didSave:self];
 	}
-	[self dismissModalViewControllerAnimated:YES];	
+	[self dismissViewControllerAnimated:YES completion: nil];	
 }
 
 - (UITableViewCellAccessoryType)tableView:(UITableView *)tv 

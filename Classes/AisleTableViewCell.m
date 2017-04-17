@@ -25,7 +25,7 @@
 		aisleLabel = [[UILabel alloc] init];
 		aisleLabel.text = NSLocalizedString(@"None", @"Aisle name if not selected");
 		aisleLabel.font = [UIFont systemFontOfSize:18];
-		aisleLabel.textAlignment = UITextAlignmentRight;
+		aisleLabel.textAlignment = NSTextAlignmentRight;
 		aisleLabel.textColor = [UIColor darkGrayColor];
 		aisleLabel.highlightedTextColor = [UIColor whiteColor];
 		aisleLabel.backgroundColor = [UIColor clearColor];

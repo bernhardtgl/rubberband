@@ -110,7 +110,7 @@
 	titleRect.origin.y = titleRect.origin.y + 60; 
 	titleRect.size.height = 30;
 	UILabel* titleLabel = [[UILabel alloc] initWithFrame:titleRect];
-	[titleLabel setTextAlignment:UITextAlignmentCenter];
+	[titleLabel setTextAlignment:NSTextAlignmentCenter];
 	[titleLabel setText:NSLocalizedString(@"No ingredients", @"")];
 	UIFont* titleFont = [UIFont boldSystemFontOfSize:20];
 	[titleLabel setFont:titleFont];
@@ -122,9 +122,9 @@
 	subTitleRect.origin.y = subTitleRect.origin.y + 90; 
 	subTitleRect.size.height = 60;
 	UILabel* subTitleLabel = [[UILabel alloc] initWithFrame:subTitleRect];
-	[subTitleLabel setTextAlignment:UITextAlignmentCenter];
+	[subTitleLabel setTextAlignment:NSTextAlignmentCenter];
 	[subTitleLabel setNumberOfLines:2];
-	[subTitleLabel setLineBreakMode:UILineBreakModeWordWrap];
+	[subTitleLabel setLineBreakMode:NSLineBreakByWordWrapping];
 	[subTitleLabel setText:NSLocalizedString(@"Tap on 'Edit' to add some.", @"")];
 	UIFont* subTitleFont = [UIFont boldSystemFontOfSize:16];
 	[subTitleLabel setFont:subTitleFont];
@@ -347,7 +347,7 @@
 	
 	UINavigationController* nc = [[UINavigationController alloc] 
 								  initWithRootViewController:editView];
-	[self presentModalViewController:nc animated:YES];
+	[self presentViewController:nc animated:YES completion: nil];
 	[nc release];
 	[editView release];
 }

@@ -222,12 +222,12 @@
 		[[NSNotificationCenter defaultCenter] 
 			postNotificationName:@"GBCBEditRecipeNotification" object:self];		
 	}
-	[self dismissModalViewControllerAnimated:YES];
+	[self dismissViewControllerAnimated:YES completion: nil];
 }
 
 - (void)cancelAction:(id)sender
 {
-	[self dismissModalViewControllerAnimated:YES];	
+	[self dismissViewControllerAnimated:YES completion: nil];
 }
 
 #pragma mark UITableViewDelegate and data source

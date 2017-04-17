@@ -299,7 +299,7 @@
 	
 	UINavigationController* nc = [[UINavigationController alloc] 
 								  initWithRootViewController:newView];
-	[self presentModalViewController:nc animated:YES];
+	[self presentViewController:nc animated:YES completion: nil];
 	[nc release];
 	[newView release];
 	

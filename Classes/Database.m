@@ -65,11 +65,11 @@
 - (void) dealloc 
 {
 	NSLog(@"***** dealloc THE Database");
-	NSLog(@"  release aisles:  %d", [aisles retainCount]);
+	NSLog(@"  release aisles:  %lu", (unsigned long)[aisles retainCount]);
 	[aisles release];
-	NSLog(@"  release recipes: %d", [recipes retainCount]);
+	NSLog(@"  release recipes: %lu", (unsigned long)[recipes retainCount]);
 	[recipes release];
-	NSLog(@"  release items:   %d", [items retainCount]);
+	NSLog(@"  release items:   %lu", (unsigned long)[items retainCount]);
 	[items release];
 	
     [super dealloc];
@@ -286,17 +286,17 @@
 // get filepaths where we make a copy before we upgrade, for in case of a bad bug
 - (NSString*)groceryItemsFilePathArchiveForVersion:(NSInteger)version
 {
-	NSString* fileName = [NSString stringWithFormat:@"rbgroceryitems_backup_%d.dat", version];
+	NSString* fileName = [NSString stringWithFormat:@"rbgroceryitems_backup_%ld.dat", (long)version];
 	return [[self baseFilePath] stringByAppendingPathComponent:fileName];
 }
 - (NSString*)aislesFilePathArchiveForVersion:(NSInteger)version
 {
-	NSString* fileName = [NSString stringWithFormat:@"rbaisles_backup_%d.dat", version];
+	NSString* fileName = [NSString stringWithFormat:@"rbaisles_backup_%ld.dat", (long)version];
 	return [[self baseFilePath] stringByAppendingPathComponent:fileName];
 }
 - (NSString*)recipesFilePathArchiveForVersion:(NSInteger)version
 {
-	NSString* fileName = [NSString stringWithFormat:@"rbrecipes_backup_%d.dat", version];
+	NSString* fileName = [NSString stringWithFormat:@"rbrecipes_backup_%ld.dat", (long)version];
 	return [[self baseFilePath] stringByAppendingPathComponent:fileName];
 }
 

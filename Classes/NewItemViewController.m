@@ -227,12 +227,12 @@
 				postNotificationName:@"GBCBEditItemNotification" object:self];		
 		}
 	}
-	[self dismissModalViewControllerAnimated:YES];
+	[self dismissViewControllerAnimated:YES completion:nil];
 }
 
 - (void)cancelAction:(id)sender
 {
-	[self dismissModalViewControllerAnimated:YES];
+	[self dismissViewControllerAnimated:YES completion:nil];
 }
 
 // Standard table view data source and delegate methods
@@ -281,7 +281,7 @@
 		}
 		case SECTION_RECIPES:
 		{
-			UITableViewCell* cell = [[[UITableViewCell alloc] initWithFrame:CGRectZero reuseIdentifier:nil] autorelease];
+			UITableViewCell* cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:nil] autorelease];
 			if (indexPath.row == recipesContainingItem.count)
 			{
 				cell.textLabel.text = NSLocalizedString(@"Add to recipes",@"");

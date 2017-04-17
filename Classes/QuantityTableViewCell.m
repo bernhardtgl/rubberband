@@ -29,7 +29,7 @@
 		
 		qtyLabel = [[UILabel alloc] init];
 		qtyLabel.font = [UIFont systemFontOfSize:18];
-		qtyLabel.textAlignment = UITextAlignmentRight;
+		qtyLabel.textAlignment = NSTextAlignmentRight;
 		qtyLabel.textColor = [UIColor darkGrayColor];
 		qtyLabel.highlightedTextColor = [UIColor whiteColor];
 		qtyLabel.backgroundColor = [UIColor clearColor];

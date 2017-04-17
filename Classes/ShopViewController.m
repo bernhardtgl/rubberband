@@ -128,10 +128,11 @@
 	titleRect.origin.x = 10;
 	titleRect.size.width = 	titleRect.size.width - 20;	
 	UILabel* titleLabel = [[UILabel alloc] initWithFrame:titleRect];
-	[titleLabel setTextAlignment:UITextAlignmentCenter];
+
+    [titleLabel setTextAlignment:NSTextAlignmentCenter];
 	[titleLabel setText:NSLocalizedString(@"You're done shopping", @"")];
 	[titleLabel setNumberOfLines:2];
-	[titleLabel setLineBreakMode:UILineBreakModeWordWrap];
+	[titleLabel setLineBreakMode:NSLineBreakByWordWrapping];
 	UIFont* titleFont = [UIFont boldSystemFontOfSize:20];
 	[titleLabel setFont:titleFont];
 	[titleLabel setTextColor:[UIColor colorWithWhite:0.1 alpha:0.4]];
@@ -141,9 +142,9 @@
 	// add sub-title
 	titleRect.origin.y = titleRect.origin.y + titleRect.size.height;
 	UILabel* subTitleLabel = [[UILabel alloc] initWithFrame:titleRect];
-	[subTitleLabel setTextAlignment:UITextAlignmentCenter];
+	[subTitleLabel setTextAlignment:NSTextAlignmentCenter];
 	[subTitleLabel setNumberOfLines:2];
-	[subTitleLabel setLineBreakMode:UILineBreakModeWordWrap];
+	[subTitleLabel setLineBreakMode:NSLineBreakByWordWrapping];
 	[subTitleLabel setText:NSLocalizedString(@"Woohoo! You don't need anything\r\nelse today.", @"")];
 	UIFont* subTitleFont = [UIFont boldSystemFontOfSize:16];
 	[subTitleLabel setFont:subTitleFont];
@@ -327,7 +328,7 @@
 		
 		UINavigationController* nc = [[UINavigationController alloc] 
 									  initWithRootViewController:editView];
-		[self presentModalViewController:nc animated:YES];
+		[self presentViewController:nc animated:YES completion:nil];
 	}
 }
 
@@ -386,7 +387,7 @@
 	
 	UINavigationController* nc = [[UINavigationController alloc] 
 								  initWithRootViewController:aislesVC];
-	[self presentModalViewController:nc animated:YES];
+	[self presentViewController:nc animated:YES completion:nil];
 	[nc release];
 	[aislesVC release];
 	
