@@ -40,8 +40,8 @@ const CGFloat RIGHT_MARGIN = 30;
 		[navItem release];
 		
 		[self addSubview:navBar];
-		[self addSubview:theSearchBar];	
-		
+		[self addSubview:theSearchBar];
+        
 		// the gray semi-transparent "overlay", and the filter tableview (both are hidden now)
 		// will eventually added to a superview (the UITableView's parent)
 		searchOverlay = [[UIControl alloc] initWithFrame:CGRectMake(0, 44, 320, 400)];
@@ -83,10 +83,20 @@ const CGFloat RIGHT_MARGIN = 30;
 // ========================================================================================
 #pragma mark UISearchBarDelegate
 
+- (void)keyboardShown:(CGRect)keyboardFrame
+{
+    NSLog(@"keyboardFrame: %@", NSStringFromCGRect(keyboardFrame));
+    CGRect bounds = [self superview].bounds;
+    searchOverlay.frame = CGRectMake(0, 44, bounds.size.width, bounds.size.height - keyboardFrame.size.height - 44 - 44 - 20);
+    filterTableView.frame = searchOverlay.frame;
+
+}
+
 - (void)searchBarTextDidBeginEditing:(UISearchBar *)searchBar
 {
 	isSearching = YES;
-	
+//    [theSearchBar becomeFirstResponder];
+    
 	// only show the status bar's Add button while searching
 	[UIView beginAnimations:@"test" context:nil];
 	theSearchBar.frame = CGRectMake(0, 0, 320 - RIGHT_MARGIN - 8, 44);
@@ -94,22 +104,30 @@ const CGFloat RIGHT_MARGIN = 30;
 	addButton.enabled = NO;
 	[UIView commitAnimations];
 
-	UITableView* parentTV = (UITableView*)[self superview];
-	UIView* grandpaView = [parentTV superview];
-	
+	UIView* parentView = [self superview];
+	UITableView* grandpaView = (UITableView*)[parentView superview];
+//    UIView* ggv = [grandpaView superview];
+
+//    CGRect tableBounds1 = parentView.bounds;
+//    CGRect tableBounds2 = grandpaView.bounds;
+//    CGRect tableBounds3 = ggv.bounds;
+
 	// this is a bit hacky, to assume that the UITableView's parent is the parent
 	// we want, but the overlay and new view need to be added one level higher up 
 	// else it doesn't draw correctly
-	[grandpaView addSubview:searchOverlay];		
-	[grandpaView addSubview:filterTableView];		
+//    CGRect tableBounds = parentView.bounds;
+//    searchOverlay.frame = CGRectMake(tableBounds.origin.x, tableBounds.origin.y + 44, tableBounds.size.width, tableBounds.size.height - 44);
+	[grandpaView addSubview:searchOverlay];
+//    filterTableView.frame = searchOverlay.frame;
+	[grandpaView addSubview:filterTableView];
 
 	// show the gray box and set up the search control
 	searchOverlay.hidden = NO;
-	parentTV.scrollEnabled = NO;
-	[parentTV scrollToRowAtIndexPath:[NSIndexPath indexPathForRow:0 inSection:0]
-					   atScrollPosition:UITableViewScrollPositionTop animated:NO];
+	grandpaView.scrollEnabled = NO;
+//	[grandpaView scrollToRowAtIndexPath:[NSIndexPath indexPathForRow:0 inSection:0]
+//					   atScrollPosition:UITableViewScrollPositionTop animated:NO];
 	
-	filterTableView.editing = parentTV.editing;
+	filterTableView.editing = grandpaView.editing;
 	
 	if ((delegate) && ([delegate respondsToSelector:@selector(searchBarTextDidBeginEditing:)]))
 	{
@@ -142,7 +160,7 @@ const CGFloat RIGHT_MARGIN = 30;
 	[UIView commitAnimations];
 	
 	searchOverlay.hidden = YES;
-	UITableView* parentTV = (UITableView*)[self superview];
+	UITableView* parentTV = (UITableView*)[[self superview] superview];
 	parentTV.scrollEnabled = YES;
 	
 	isSearching = NO;
@@ -213,7 +231,7 @@ const CGFloat RIGHT_MARGIN = 30;
 	else
 	{
 		// reload the parent view because the user may have changed its state
-		UITableView* parentTV = (UITableView*)[self superview];
+		UITableView* parentTV = (UITableView*)[[self superview] superview];
 		[parentTV reloadData];
 	}
  

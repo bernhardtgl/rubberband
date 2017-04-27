@@ -44,6 +44,11 @@
 													 name:@"GBCBEditItemNotification"
 												   object:nil];
 		
+        [[NSNotificationCenter defaultCenter] addObserver:self
+                                                 selector:@selector(keyboardOnScreen:)
+                                                     name:UIKeyboardDidShowNotification
+                                                   object:nil];
+        
 		dataSource = [[ItemsViewDataSource alloc] init];		
 		dataSource.delegate = self;
 		dataSource.isDeleteStyle = YES;
@@ -51,7 +56,18 @@
 	return self;
 }
 
-- (void)dealloc 
+-(void)keyboardOnScreen:(NSNotification *)notification
+{
+    NSDictionary *info  = notification.userInfo;
+    NSValue      *value = info[UIKeyboardFrameEndUserInfoKey];
+    
+    CGRect rawFrame      = [value CGRectValue];
+    CGRect keyboardFrame = [self.view convertRect:rawFrame fromView:nil];
+    
+    [searchCell keyboardShown:keyboardFrame];
+}
+
+- (void)dealloc
 {	
 	NSLog(@"***** dealloc THE ItemViewController");
 	[[NSNotificationCenter defaultCenter] removeObserver:self];
@@ -76,6 +92,7 @@
 	// setup the parent content view to host the UITableView
 	UIView *contentView = [[UIView alloc] 
 						   initWithFrame:[[UIScreen mainScreen] applicationFrame]];
+    
 	[contentView setBackgroundColor:[UIColor blackColor]];
 	self.view = contentView;
 	[contentView autorelease];
