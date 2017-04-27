@@ -84,26 +84,24 @@
 													  style:UIBarButtonItemStyleDone
 													 target:self action:@selector(aisleEditAction:)];
 //!	navItem.leftBarButtonItem = aislesButton;   //TODO - figure how where this button should go.
-	
-	
+		
 	// Add the "Edit" button to the navigation bar
 	self.navigationItem.rightBarButtonItem = self.editButtonItem;
 
-	// this is the actual item view
-    tableView = [[UITableView alloc] initWithFrame:self.view.bounds 
+    tableView = [[UITableView alloc] initWithFrame:self.view.bounds
 											 style:UITableViewStylePlain];
 	tableView.delegate = self;
 	tableView.dataSource = shopViewDataSource;	
 	tableView.separatorStyle = UITableViewCellSeparatorStyleSingleLine;
+    tableView.autoresizingMask = (UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight);
 	tableView.allowsSelectionDuringEditing = YES;
 	
 	tableView.sectionIndexMinimumDisplayRowCount = 1;
-	tableView.autoresizingMask = (UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight);
-	[self.view addSubview: tableView];
-		
-	// create the "done shopping" view
-	doneShoppingView = [self createDoneShoppingView];
-	[self.view addSubview:doneShoppingView];
+//	[self.view addSubview: tableView];
+
+    // create the "done shopping" view
+    doneShoppingView = [self createDoneShoppingView];
+//    [self.view addSubview:doneShoppingView];
 
 	prefs = [[TableViewControllerUserPrefs alloc] initWithTableView:tableView];
 
@@ -165,12 +163,16 @@
 	
 	if (doneShopping)
 	{
+        [tableView removeFromSuperview];
+        [self.view addSubview: doneShoppingView];
 		[self.view bringSubviewToFront:doneShoppingView];
 		[self.editButtonItem setEnabled:NO];
 		[checkoutButton setEnabled:NO]; 
 	}
 	else
 	{
+        [doneShoppingView removeFromSuperview];
+        [self.view addSubview: tableView];
 		[self.view bringSubviewToFront:tableView];
 		[self.editButtonItem setEnabled:YES];
 		[checkoutButton setEnabled:haveItems];
@@ -364,16 +366,24 @@
 		msg = NSLocalizedString(@"This will reset all the items you have purchased.",@"");
 	}
 	
-	UIAlertView *alert = [[UIAlertView alloc]  
-						  initWithTitle:@"" 
-						  message:msg
-						  delegate:self 
-						  cancelButtonTitle:NSLocalizedString(@"Cancel", @"")
-						  otherButtonTitles:nil];
-	[alert addButtonWithTitle:NSLocalizedString(@"Check Out", @"Check out button")];
-	
-	[alert show];
-	[alert release];
+    UIAlertController *alert = [UIAlertController alertControllerWithTitle:@"" message:msg preferredStyle:UIAlertControllerStyleAlert];
+    UIAlertAction *cancel = [UIAlertAction
+                             actionWithTitle:NSLocalizedString(@"Cancel", @"")
+                             style:UIAlertActionStyleCancel
+                             handler:^(UIAlertAction * action) {}];
+    
+    UIAlertAction *checkout = [UIAlertAction
+                             actionWithTitle:NSLocalizedString(@"Check Out", @"Check out button")
+                             style:UIAlertActionStyleDefault
+                             handler:^(UIAlertAction * action)
+                             {
+                                 [shopViewDataSource checkout];
+                                 [self reloadAndReselect];
+                             }];
+    
+    [alert addAction:checkout];
+    [alert addAction:cancel];
+    [self presentViewController:alert animated:YES completion:nil];
 }
 
 //
@@ -406,27 +416,6 @@
 {
 	[shopViewDataSource clearList];
 	[self reloadAndReselect];
-}
-
-- (void)checkOut;
-{
-	[shopViewDataSource checkout];
-	[self reloadAndReselect];
-}
-//
-//	Called by the UIAlertView (confirmation dialog) that was launched when 
-//	the user tapped the checkout button. We displayed the confirmation 
-//	dialog and now the user has tapped either the "Check Out" or "Cancel" 
-//	buttons.
-//
-- (void)modalView:(UIAlertView *)modalView 
-		didDismissWithButtonIndex:(NSInteger)buttonIndex
-{
-	// if the user said "Check Out" (button 1), commit the delete
-	if (buttonIndex == 1)
-	{
-		[self checkOut];
-	}
 }
 
 // **************************************************************************************

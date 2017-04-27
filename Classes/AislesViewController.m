@@ -455,67 +455,7 @@
 
 	// TODO: The UIAlertView initWithTitle is crashing in Beta 6, try again in a 
 	// later beta. For now we'll just delete it without warning the user.
-	
-	/*
-	 Aisle* a = [aisles aisleAtIndex:indexPath.row - 1];
-	GroceryItemsTable* items = [App_database groceryItems];
-	
-	// keep the indexPath around, we'll need it if the user gets a message asking
-	// them to confirm
-	[indexPath retain];
-	[deleteAisleIndexPath release];
-	deleteAisleIndexPath = indexPath;
-	
-	int n = [items countItemsHavingAisle:a];
 
-	// for now just delete
-	if (n > 0)
-	{
-		NSString* msg;
-		if (n == 1) {
-			msg = [NSString stringWithFormat:
-				   @"There is one item in aisle \"%@\". We'll reset its aisle to \"None\"",
-				   a.name];
-		} else {
-			msg = [NSString stringWithFormat:
-				   @"There are %d items in aisle \"%@\". We'll reset their aisles to \"None\"",
-				   n, a.name];
-		}
-		UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Delete Aisle"
-														message:msg
-													   delegate:self
-											  cancelButtonTitle:@"Cancel"
-											  otherButtonTitles:@"Delete"];
-		
-		[alert show];
-		[alert release];
-		// when the user clicks a button, code resumes at didDismissWithButtonIndex
-	}
-	else
-	{
-		[self deleteAisle:indexPath];
-	}
-	 */
-}
-
-// relies on deleteAisleIndexPath to be set in the function above
-- (void)alertView:(UIAlertView *)alertView 
-	clickedButtonAtIndex:(NSInteger)buttonIndex
-{
-	// if the user said Delete (button 0), commit the delete
-	BOOL commit = (buttonIndex == 0);
-	
-	if (commit)
-	{
-		[self deleteAisle:deleteAisleIndexPath];
-	}
-	else // cancel it
-	{
-		// this should cause the cell to redraw if we don't end up deleting
-		// but right now it's not working unless we brute force call reloadData
-		AisleTableViewCell* cell = (AisleTableViewCell*)[tableView cellForRowAtIndexPath:deleteAisleIndexPath];
-		[cell setNeedsDisplay];		
-	}
 }
 
 - (void)deleteAisle:(NSIndexPath *)indexPath

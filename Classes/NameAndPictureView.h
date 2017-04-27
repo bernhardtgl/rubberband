@@ -17,7 +17,7 @@
 
 @interface NameAndPictureView : UIView 
 	<UIActionSheetDelegate, UINavigationControllerDelegate, UIImagePickerControllerDelegate,
-	NewNameAndLinkViewControllerDelegate, UIAlertViewDelegate>
+	NewNameAndLinkViewControllerDelegate>
 {
 	id <NameAndPictureViewDelegate> delegate;
 

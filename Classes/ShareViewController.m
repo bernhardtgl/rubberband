@@ -65,7 +65,7 @@
 	buttonRect.size.height = 40;
 	buttonRect.size.width = 280;
 	buttonRect.origin.x = bounds.size.width / 2 - buttonRect.size.width / 2;
-	buttonRect.origin.y = bounds.size.height * 0.10;  // 10% down from top
+	buttonRect.origin.y = bounds.size.height * 0.20;  // 10% down from top
 	emailListButton.frame = buttonRect;
 	[contentView addSubview:emailListButton];
 
@@ -132,7 +132,7 @@
 	NSString* listText = @"";
 	NSString* linkText = @"groceryzen://addlist?";
 	
-	int aisleCount = [sds shoppingAisleCount];
+	NSUInteger aisleCount = [sds shoppingAisleCount];
 	int i;
 	for (i = 0; i < aisleCount; i++)
 	{

@@ -15,8 +15,7 @@
 @class NewTextFieldViewController;
 
 @interface AislesViewController : UIViewController 
-	<UITableViewDelegate, UITableViewDataSource, UIAlertViewDelegate, 
-	NewTextFieldViewControllerDelegate>
+	<UITableViewDelegate, UITableViewDataSource, NewTextFieldViewControllerDelegate>
 {
 	// this dialog selects an aisle - this is it
 	Aisle* selectedAisle;

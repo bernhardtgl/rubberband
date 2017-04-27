@@ -314,31 +314,26 @@
 
 - (void)infoAction:(NSNotification*)notification
 {
-	// TODO: flip over the view, and show the notes
-	NSString* linkButtonTitle = NSLocalizedString(@"Email", @"THIS NEEDS TO BE SHORT! Button to email a specific recipe");
-	
-	UIAlertView *alert = [[UIAlertView alloc]  
-						  initWithTitle:name 
-						  message:notes
-						  delegate:self 
-						  cancelButtonTitle:NSLocalizedString(@"Close",@"button")
-						  otherButtonTitles:linkButtonTitle, nil];	
-	alert.delegate = self;
-	[alert show];
-	[alert release];
-}
-
-#pragma mark UIAlertViewDelegate
-// email the recipe
-- (void)alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex
-{
-	if (buttonIndex == 1)
-	{
-		if (delegate && [delegate respondsToSelector:@selector(didWantToEmail)]) 
-		{
-			[delegate didWantToEmail];
-		}
-	}
+    UIAlertController *alert = [UIAlertController alertControllerWithTitle:name message:notes preferredStyle:UIAlertControllerStyleAlert];
+    UIAlertAction *cancel = [UIAlertAction
+                             actionWithTitle:NSLocalizedString(@"Close",@"button")
+                             style:UIAlertActionStyleCancel
+                             handler:^(UIAlertAction * action) {}];
+    
+    UIAlertAction *email = [UIAlertAction
+                               actionWithTitle:NSLocalizedString(@"Email", @"THIS NEEDS TO BE SHORT! Button to email a specific recipe")
+                               style:UIAlertActionStyleDefault
+                               handler:^(UIAlertAction * action)
+                               {
+                                   if (delegate && [delegate respondsToSelector:@selector(didWantToEmail)])
+                                   {
+                                       [delegate didWantToEmail];
+                                   }
+                               }];
+    
+    [alert addAction:email];
+    [alert addAction:cancel];
+    [parentVC presentViewController:alert animated:YES completion:nil];
 }
 
 - (void)selectNewPicture

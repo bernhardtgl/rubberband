@@ -13,7 +13,7 @@
 @class TableViewControllerUserPrefs;
 
 @interface ItemsViewController : UIViewController 
-	<UITableViewDelegate, UIAlertViewDelegate, TableViewUserPrefs, SearchBarCellDelegate>
+	<UITableViewDelegate, TableViewUserPrefs, SearchBarCellDelegate>
 {
 	UITableView *tableView;	
 	ItemsViewDataSource* dataSource;

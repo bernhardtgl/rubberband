@@ -14,7 +14,7 @@
 @class AislesViewController;
 
 @interface ShopViewController : UIViewController 
-	<UITableViewDelegate, UIAlertViewDelegate, TableViewUserPrefs, ShopViewDataSourceDelegate>
+	<UITableViewDelegate, TableViewUserPrefs, ShopViewDataSourceDelegate>
 {
 	UITableView* tableView;
 	UIView* doneShoppingView;
