@@ -95,7 +95,6 @@ const CGFloat RIGHT_MARGIN = 30;
 - (void)searchBarTextDidBeginEditing:(UISearchBar *)searchBar
 {
 	isSearching = YES;
-//    [theSearchBar becomeFirstResponder];
     
 	// only show the status bar's Add button while searching
 	[UIView beginAnimations:@"test" context:nil];
@@ -106,26 +105,16 @@ const CGFloat RIGHT_MARGIN = 30;
 
 	UIView* parentView = [self superview];
 	UITableView* grandpaView = (UITableView*)[parentView superview];
-//    UIView* ggv = [grandpaView superview];
-
-//    CGRect tableBounds1 = parentView.bounds;
-//    CGRect tableBounds2 = grandpaView.bounds;
-//    CGRect tableBounds3 = ggv.bounds;
 
 	// this is a bit hacky, to assume that the UITableView's parent is the parent
 	// we want, but the overlay and new view need to be added one level higher up 
 	// else it doesn't draw correctly
-//    CGRect tableBounds = parentView.bounds;
-//    searchOverlay.frame = CGRectMake(tableBounds.origin.x, tableBounds.origin.y + 44, tableBounds.size.width, tableBounds.size.height - 44);
 	[grandpaView addSubview:searchOverlay];
-//    filterTableView.frame = searchOverlay.frame;
 	[grandpaView addSubview:filterTableView];
 
 	// show the gray box and set up the search control
 	searchOverlay.hidden = NO;
 	grandpaView.scrollEnabled = NO;
-//	[grandpaView scrollToRowAtIndexPath:[NSIndexPath indexPathForRow:0 inSection:0]
-//					   atScrollPosition:UITableViewScrollPositionTop animated:NO];
 	
 	filterTableView.editing = grandpaView.editing;
 	

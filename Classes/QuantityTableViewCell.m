@@ -51,7 +51,6 @@
 - (void)layoutSubviews
 {	
 	const CGFloat LEFT_INDENT = 18;
-	const CGFloat RIGHT_INDENT = 14;
 	
 	[super layoutSubviews];	
 	CGRect frame = [[self contentView] bounds];
@@ -60,18 +59,22 @@
 	[textLabel sizeToFit];
 	CGFloat labelWidth = textLabel.bounds.size.width;
 	
+    // when there is an accessory, the bounds already have a proper right indent included, so don't need to add that
+    int rightIndent = 0;
+    if (self.accessoryType == UITableViewCellAccessoryNone) rightIndent = 14;
+    
 	// Place the subviews appropriately.
-	CGRect textFrame = CGRectMake(frame.origin.x + LEFT_INDENT, 
-								  frame.origin.y + 2, 
-								  labelWidth, 
-								  frame.size.height - 4);
-	CGRect qtyFrame  = CGRectMake(frame.origin.x + LEFT_INDENT + labelWidth, 
+    CGRect textFrame = CGRectMake(frame.origin.x + LEFT_INDENT,
+                                  frame.origin.y + 2,
+                                  labelWidth,
+                                  frame.size.height - 4);
+	CGRect qtyFrame  = CGRectMake(frame.origin.x + LEFT_INDENT + labelWidth,
 								   frame.origin.y + 2, 
-								   frame.size.width - labelWidth - RIGHT_INDENT, 
+								   frame.size.width - labelWidth - LEFT_INDENT - rightIndent,
 								   frame.size.height - 4);
 	
 	textLabel.frame = textFrame;
-	qtyLabel.frame = qtyFrame;
+    qtyLabel.frame = qtyFrame;
 	
 // For debugging...
 //		textLabel.backgroundColor = [UIColor redColor];

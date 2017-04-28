@@ -35,5 +35,9 @@
 	</array>
 	<key>CFBundleVersion</key>
 	<string>1.8</string>
+	<key>NSCameraUsageDescription</key>
+	<string>Choose photos for recipes</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Choose photos for recipes</string>
 </dict>
 </plist>

@@ -28,21 +28,26 @@
 
 // create controls programmatically
 - (void)loadView 
-{	
-	UIView* contentView = [[UIView alloc] 
-						   initWithFrame:[[UIScreen mainScreen] applicationFrame]];
+{
+    UIView* contentView = [[UIView alloc]
+                           initWithFrame:[[UIScreen mainScreen] applicationFrame]];
 	[contentView setBackgroundColor:[UIColor groupTableViewBackgroundColor]];
 	self.view = contentView;
 	[contentView autorelease];
 
+    CGRect frame = self.view.frame;
+    
 	// button is just to give the rounded look
 	UIButton* buttonForBorder = [UIButton buttonWithType:UIButtonTypeRoundedRect];
-	buttonForBorder.frame = CGRectMake(8,8, 304, 184);
+    double height = frame.size.height - 300; // hack - space for the keyboard - need more major work on screen sizing than I want to do now
+    CGRect outer = CGRectMake(8, frame.origin.y + 44 + 8, 304, height);
+	buttonForBorder.frame = outer;
 	buttonForBorder.enabled = NO;
 	[self.view addSubview:buttonForBorder];
 
 	// text view holds the notes
-	textView = [[UITextView alloc] initWithFrame:CGRectMake(16, 16, 288, 168)];
+    CGRect inner = CGRectInset(outer, 8, 8);
+	textView = [[UITextView alloc] initWithFrame:inner];
 	textView.font = [UIFont systemFontOfSize:16];
 	textView.text = notes;
 	[self.view addSubview:textView];
