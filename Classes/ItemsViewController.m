@@ -43,11 +43,6 @@
 												 selector:@selector(handleEditItem:)
 													 name:@"GBCBEditItemNotification"
 												   object:nil];
-		
-        [[NSNotificationCenter defaultCenter] addObserver:self
-                                                 selector:@selector(keyboardOnScreen:)
-                                                     name:UIKeyboardDidShowNotification
-                                                   object:nil];
         
 		dataSource = [[ItemsViewDataSource alloc] init];		
 		dataSource.delegate = self;
@@ -64,7 +59,7 @@
     CGRect rawFrame      = [value CGRectValue];
     CGRect keyboardFrame = [self.view convertRect:rawFrame fromView:nil];
     
-    [searchCell keyboardShown:keyboardFrame];
+    [searchCell keyboardShown:keyboardFrame parentBounds:self.view.bounds];
 }
 
 - (void)dealloc
@@ -175,12 +170,18 @@
 											 selector:@selector(handleWantToIncreaseQuantity:)
 												 name:@"GBCBIncreaseItemQuantity"
 											   object:nil]; 
+    [[NSNotificationCenter defaultCenter] addObserver:self
+                                             selector:@selector(keyboardOnScreen:)
+                                                 name:UIKeyboardDidShowNotification
+                                               object:nil];
 }
 
 - (void)viewDidDisappear:(BOOL)animated
 {
-	[[NSNotificationCenter defaultCenter] removeObserver:self 
-													name:@"GBCBIncreaseItemQuantity" object:nil];	
+    [[NSNotificationCenter defaultCenter] removeObserver:self
+                                                    name:@"GBCBIncreaseItemQuantity" object:nil];
+    [[NSNotificationCenter defaultCenter] removeObserver:self
+                                                    name:UIKeyboardDidShowNotification object:nil];
 }
 
 //

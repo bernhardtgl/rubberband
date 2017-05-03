@@ -42,6 +42,10 @@
 												 selector:@selector(handleNewItem:)
 													 name:@"GBCBNewItemNotification"
 												   object:nil];
+        [[NSNotificationCenter defaultCenter] addObserver:self
+                                                 selector:@selector(keyboardOnScreen:)
+                                                     name:UIKeyboardDidShowNotification
+                                                   object:nil];
 	}
 	return self;
 }
@@ -135,6 +139,17 @@
 	{
 		[self signalIngredientsChanged];
 	}	
+}
+
+-(void)keyboardOnScreen:(NSNotification *)notification
+{
+    NSDictionary *info  = notification.userInfo;
+    NSValue      *value = info[UIKeyboardFrameEndUserInfoKey];
+    
+    CGRect rawFrame      = [value CGRectValue];
+    CGRect keyboardFrame = [self.view convertRect:rawFrame fromView:nil];
+    
+    [searchCell keyboardShown:keyboardFrame parentBounds:self.view.bounds];
 }
 
 - (UITableViewCellEditingStyle)tableView:(UITableView *)tv editingStyleForRowAtIndexPath:(NSIndexPath *)indexPath

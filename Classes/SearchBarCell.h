@@ -61,7 +61,7 @@
 // for quantity tapping to use delegates right before releasing 1.1.
 - (void) reloadData;
 
-- (void)keyboardShown:(CGRect)keyboardFrame;
+- (void)keyboardShown:(CGRect)keyboardFrame parentBounds:(CGRect)bounds;
 
 
 @end

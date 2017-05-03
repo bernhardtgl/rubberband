@@ -83,13 +83,17 @@ const CGFloat RIGHT_MARGIN = 30;
 // ========================================================================================
 #pragma mark UISearchBarDelegate
 
-- (void)keyboardShown:(CGRect)keyboardFrame
+- (void)keyboardShown:(CGRect)keyboardFrame parentBounds:(CGRect)bounds
 {
     NSLog(@"keyboardFrame: %@", NSStringFromCGRect(keyboardFrame));
-    CGRect bounds = [self superview].bounds;
-    searchOverlay.frame = CGRectMake(0, 44, bounds.size.width, bounds.size.height - keyboardFrame.size.height - 44 - 44 - 20);
+//    CGRect bounds = [self superview].bounds;
+    NSLog(@"SV Bounds: %@", NSStringFromCGRect(bounds));
+    
+    // hack, but I don't want to figure this our right now. The 2 places search come from have different frame sizes
+    double extraSize = 44 + 20;
+    
+    searchOverlay.frame = CGRectMake(0, 44, bounds.size.width, bounds.size.height - keyboardFrame.size.height - 44 - extraSize);
     filterTableView.frame = searchOverlay.frame;
-
 }
 
 - (void)searchBarTextDidBeginEditing:(UISearchBar *)searchBar
