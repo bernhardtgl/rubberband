@@ -12,6 +12,7 @@
 		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
 		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
 		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		27E3DEB41EBA3B2A00D1246C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27E3DEB31EBA3B2A00D1246C /* Images.xcassets */; };
 		37067E240DC629150018CEB6 /* glow.png in Resources */ = {isa = PBXBuildFile; fileRef = 37067E230DC629150018CEB6 /* glow.png */; };
 		371C4F7E0DAC495B00C1A98B /* RecipesTable.m in Sources */ = {isa = PBXBuildFile; fileRef = 371C4F7D0DAC495B00C1A98B /* RecipesTable.m */; };
 		3721FFD80DBBE7C300C76BB2 /* NewTextFieldViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3721FFD70DBBE7C300C76BB2 /* NewTextFieldViewController.m */; };
@@ -89,6 +90,7 @@
 		1D3623EB0D0F72F000981E51 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		1D6058910D05DD3D006BFB54 /* Rubberband.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rubberband.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		27E3DEB31EBA3B2A00D1246C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = Rubberband/Images.xcassets; sourceTree = "<group>"; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = ../main.m; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* Rubberband_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Rubberband_Prefix.pch; sourceTree = "<group>"; };
 		37067E230DC629150018CEB6 /* glow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = glow.png; sourceTree = "<group>"; };
@@ -310,6 +312,7 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				27E3DEB31EBA3B2A00D1246C /* Images.xcassets */,
 				37E1038D0F228F95004B3BF8 /* EmailRecipe.html */,
 				3745FB240E3B6E1000AEE411 /* SampleData.xls */,
 				3757734D0EC79032001BC69B /* Localizable.strings */,
@@ -540,6 +543,7 @@
 				37F784A40DB7892200741059 /* RecipeNone.png in Resources */,
 				3731BC760DC3DD8600D79468 /* GroceryItems.plist in Resources */,
 				3731BC8F0DC3E0CE00D79468 /* Aisles.plist in Resources */,
+				27E3DEB41EBA3B2A00D1246C /* Images.xcassets in Resources */,
 				37067E240DC629150018CEB6 /* glow.png in Resources */,
 				37EDDA6A0DE0D2C500D5180A /* add_photo.png in Resources */,
 				37290ACB0DE52D7F00383ABD /* edit_overlay.png in Resources */,
@@ -679,6 +683,8 @@
 		1D6058940D05DD3E006BFB54 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
@@ -698,6 +704,8 @@
 		1D6058950D05DD3E006BFB54 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
@@ -741,6 +749,8 @@
 		373C80E50E4904870071A11F /* Distribution */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
@@ -786,6 +796,8 @@
 		37CC23A70E495F8D0032F92C /* DistributionAdHoc */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Distribution: Greg Bernhardt";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
