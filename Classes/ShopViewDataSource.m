@@ -144,7 +144,7 @@
 		
 	// Filter and remove any empty shopping aisles
 	// Sort the items in the remaining aisles alphabetically
-	int i;
+	long i;
 	for (i = [self shoppingAisleCount] - 1; i >= 0; i--)
 	{
 		ShoppingAisle* sa = [self shoppingAisleAtIndex:i];
@@ -230,7 +230,7 @@
 //
 //	Gets the shopping aisle at the specified index.
 //
-- (ShoppingAisle*) shoppingAisleAtIndex:(int)index
+- (ShoppingAisle*) shoppingAisleAtIndex:(NSInteger)index
 {
 	ShoppingAisle* shoppingAisle = nil;
 	if ((index >= 0) && (index < [aislesArray count]))
@@ -284,7 +284,7 @@
 //	Internal method which removes the aisle, specified by the 
 //	index, from the shopping list.
 //
-- (ShoppingAisle*) removeShoppingAisleAtIndex:(int)index
+- (ShoppingAisle*) removeShoppingAisleAtIndex:(NSInteger)index
 {
 	ShoppingAisle* shoppingAisle = nil;
 	if ((index >= 0) && (index < [aislesArray count]))
@@ -313,8 +313,8 @@
 {
 	GroceryItem* ret = nil;
 
-	int aisleNdx = [indexPath indexAtPosition:0];  // section
-	int itemNdx = [indexPath indexAtPosition:1];
+	long aisleNdx = [indexPath indexAtPosition:0];  // section
+	long itemNdx = [indexPath indexAtPosition:1];
 	
 	ShoppingAisle* shoppingAisle = [self shoppingAisleAtIndex: aisleNdx];
 	NSMutableArray* items = [shoppingAisle aisleItems];
@@ -332,8 +332,8 @@
 - (GroceryItem*)removeGroceryItemAtIndexPath:(NSIndexPath*)indexPath
 {
 	GroceryItem* itemToMove = nil;		
-	int srcAisleNdx = [indexPath indexAtPosition:0];  // section
-	int srcItemNdx = [indexPath indexAtPosition:1];  // grocery item
+	long srcAisleNdx = [indexPath indexAtPosition:0];  // section
+	long srcItemNdx = [indexPath indexAtPosition:1];  // grocery item
 	ShoppingAisle* srcShoppingAisle = [self shoppingAisleAtIndex: srcAisleNdx];
 	NSMutableArray* srcAisleItems = [srcShoppingAisle aisleItems];
 	if ([srcAisleItems count] > srcItemNdx)
@@ -458,7 +458,7 @@
 	
 	if (cell == nil)
 	{
-		cell = [[[ItemTableViewCell alloc] initWithFrame:CGRectZero
+		cell = [[[ItemTableViewCell alloc] initWithStyle:UITableViewCellStyleDefault
 										 reuseIdentifier:@"GBCBShopItem"] autorelease];
 	}
 	

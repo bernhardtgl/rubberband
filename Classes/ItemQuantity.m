@@ -452,7 +452,7 @@
 	}
 	else
 	{
-		return [NSString stringWithFormat:@"%d%@%@", amountWhole, fracPart,
+		return [NSString stringWithFormat:@"%ld%@%@", (long)amountWhole, fracPart,
 					[ItemQuantity abbreviationForType:type]];
 	}
 }

@@ -505,7 +505,7 @@
 	}
 
 	// SWI sanity check - if more than 1,000 items this is a bogus recipe
-	int totalItems = (urlParts.count - 4) / 4;
+	NSInteger totalItems = (urlParts.count - 4) / 4;
 	if (totalItems > 1000) {
 		return NO;
 	}	

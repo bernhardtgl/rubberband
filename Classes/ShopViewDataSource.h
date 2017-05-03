@@ -41,12 +41,12 @@
 - (int) getShoppingAisleIndexForGroceryItem:(GroceryItem*)item;
 
 - (NSUInteger) shoppingAisleCount;
-- (ShoppingAisle*) shoppingAisleAtIndex:(int)index;
+- (ShoppingAisle*) shoppingAisleAtIndex:(NSInteger)index;
 - (ShoppingAisle*) shoppingAisleForUid: (NSString*)uid;
 - (ShoppingAisle*) noneShoppingAisle;
 - (ShoppingAisle*) haveShoppingAisle;
 - (void) addShoppingAisle:(ShoppingAisle*)shoppingAisleToAdd;
-- (ShoppingAisle*) removeShoppingAisleAtIndex:(int)index;
+- (ShoppingAisle*) removeShoppingAisleAtIndex:(NSInteger)index;
 
 - (GroceryItem*)groceryItemAtIndexPath:(NSIndexPath *)indexPath;  
 - (GroceryItem*)removeGroceryItemAtIndexPath:(NSIndexPath*)indexPath;

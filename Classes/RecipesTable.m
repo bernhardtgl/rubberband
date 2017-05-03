@@ -96,7 +96,7 @@
 //	Gets the recipe at the specified index within
 //	the collection.
 //
-- (Recipe*) recipeAtIndex:(int)index
+- (Recipe*) recipeAtIndex:(NSInteger)index
 {
 	Recipe* recipe = nil;
 	if ((index >= 0) && (index < [recipesArray count]))
@@ -111,7 +111,7 @@
 //	collection.
 //	Returns the items removed from the collection.
 //
-- (Recipe*) removeRecipeAtIndex:(int)index
+- (Recipe*) removeRecipeAtIndex:(NSInteger)index
 {
 	Recipe* recipe = nil;
 	if ((index >= 0) && (index < [recipesArray count]))
@@ -151,7 +151,7 @@
 //
 - (void) clear
 {
-	int i;
+	long i;
 	for (i = [recipesArray count] - 1; i >= 0; i--)
 	{
 		Recipe* recipe = [self removeRecipeAtIndex:i];

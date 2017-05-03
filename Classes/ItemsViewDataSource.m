@@ -101,8 +101,8 @@
 		// if an array already exists in the name index dictionary
 		// simply add the element to it, otherwise create an array
 		// and add it to the name index dictionary with the letter as the key
-		NSMutableArray* existingArray;
-		if (existingArray = [itemNameIndexDict valueForKey:firstLetter]) 
+		NSMutableArray* existingArray = [itemNameIndexDict valueForKey:firstLetter];
+		if (existingArray)
 		{
 			[existingArray addObject:eachItem];
 		} else 
@@ -247,7 +247,7 @@
 	foundIt = NO;
 	NSArray* sectionItems = [itemNameIndexDict objectForKey:firstLetter];
 	
-	int row = 0;
+	NSInteger row = 0;
 	for (GroceryItem* eachItem in sectionItems)
 	{
 		if (eachItem == item) 
@@ -406,7 +406,7 @@
 		cell = (ItemTableViewCell*) [tv dequeueReusableCellWithIdentifier:@"GBCBItem"];
 		if (cell == nil)
 		{
-			cell = [[[ItemTableViewCell alloc] initWithFrame:CGRectZero 
+			cell = [[[ItemTableViewCell alloc] initWithStyle:UITableViewCellStyleDefault
 											 reuseIdentifier:@"GBCBItem"] autorelease];
 		}
 		[(ItemTableViewCell*)cell configureItem:item];

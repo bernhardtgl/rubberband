@@ -22,8 +22,8 @@
 - (void) markDirty;
 - (NSUInteger) count;
 - (void) addRecipe:(Recipe*)newRecipe;
-- (Recipe*) recipeAtIndex:(int)index;
-- (Recipe*) removeRecipeAtIndex:(int)index;
+- (Recipe*) recipeAtIndex:(NSInteger)index;
+- (Recipe*) removeRecipeAtIndex:(NSInteger)index;
 - (void) removeRecipe:(Recipe*)aRecipe;
 - (void) clear;
 - (NSArray*)recipesArray;
