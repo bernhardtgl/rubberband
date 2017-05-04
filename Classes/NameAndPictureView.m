@@ -262,7 +262,7 @@
 		}
 		else
 		{
-			[pictureButton setBackgroundImage:[UIImage imageNamed:@"RecipeNone.png"] forState:UIControlStateNormal];
+			[pictureButton setBackgroundImage:[UIImage imageNamed:@"recipe" inBundle:nil compatibleWithTraitCollection:nil] forState:UIControlStateNormal];
 			pictureLabel.text = @"";
 			overlayViewMode.hidden = NO;
 		}

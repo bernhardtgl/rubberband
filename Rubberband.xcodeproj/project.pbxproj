@@ -56,7 +56,6 @@
 		37EDD9CB0DE0C31B00D5180A /* NameAndPictureView.m in Sources */ = {isa = PBXBuildFile; fileRef = 37EDD9CA0DE0C31B00D5180A /* NameAndPictureView.m */; };
 		37EDDA6A0DE0D2C500D5180A /* add_photo.png in Resources */ = {isa = PBXBuildFile; fileRef = 37EDDA690DE0D2C500D5180A /* add_photo.png */; };
 		37EFC2940DF8F7AA009959BB /* AddObjectTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 37EFC2920DF8F7AA009959BB /* AddObjectTableViewCell.m */; };
-		37F784A40DB7892200741059 /* RecipeNone.png in Resources */ = {isa = PBXBuildFile; fileRef = 37F784A30DB7892200741059 /* RecipeNone.png */; };
 		37FF4EEE0F36159E00AFE4C7 /* HelperFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = 37FF4EEC0F36159E00AFE4C7 /* HelperFunctions.m */; };
 		37FF505C0F366F7B00AFE4C7 /* UIImageHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 37FF505B0F366F7B00AFE4C7 /* UIImageHelper.m */; };
 		37FF50AA0F3678FB00AFE4C7 /* EmailRecipeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37FF50A90F3678FB00AFE4C7 /* EmailRecipeViewController.m */; };
@@ -182,7 +181,6 @@
 		37EDDA690DE0D2C500D5180A /* add_photo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = add_photo.png; sourceTree = "<group>"; };
 		37EFC2920DF8F7AA009959BB /* AddObjectTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AddObjectTableViewCell.m; path = Classes/AddObjectTableViewCell.m; sourceTree = "<group>"; };
 		37EFC2930DF8F7AA009959BB /* AddObjectTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AddObjectTableViewCell.h; path = Classes/AddObjectTableViewCell.h; sourceTree = "<group>"; };
-		37F784A30DB7892200741059 /* RecipeNone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RecipeNone.png; sourceTree = "<group>"; };
 		37FF4EEC0F36159E00AFE4C7 /* HelperFunctions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HelperFunctions.m; sourceTree = "<group>"; };
 		37FF4EED0F36159E00AFE4C7 /* HelperFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HelperFunctions.h; path = Classes/HelperFunctions.h; sourceTree = "<group>"; };
 		37FF505A0F366F7B00AFE4C7 /* UIImageHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UIImageHelper.h; path = Classes/UIImageHelper.h; sourceTree = "<group>"; };
@@ -379,7 +377,6 @@
 				372242090E05D742006846B1 /* image_overlay.png */,
 				37EDDA690DE0D2C500D5180A /* add_photo.png */,
 				37067E230DC629150018CEB6 /* glow.png */,
-				37F784A30DB7892200741059 /* RecipeNone.png */,
 				3745FB4E0E3B722900AEE411 /* recipe1.png */,
 				374FFBA30E3BD5050023329F /* recipe2.png */,
 				374FFBA20E3BD5050023329F /* recipe3.png */,
@@ -514,7 +511,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				37AA88F20D956B0100E4FFCE /* segment_arrow.png in Resources */,
-				37F784A40DB7892200741059 /* RecipeNone.png in Resources */,
 				3731BC760DC3DD8600D79468 /* GroceryItems.plist in Resources */,
 				3731BC8F0DC3E0CE00D79468 /* Aisles.plist in Resources */,
 				27E3DEB41EBA3B2A00D1246C /* Images.xcassets in Resources */,
