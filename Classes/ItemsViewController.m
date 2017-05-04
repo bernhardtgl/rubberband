@@ -33,8 +33,11 @@
 		isSearching = NO;
 		
 		self.title = NSLocalizedString(@"Items", @"Item view navigation title");
-		self.tabBarItem.image = [UIImage imageNamed:@"tab_items.png"];
-
+//		self.tabBarItem.image = [UIImage imageNamed:@"tab_items.png"];
+        self.tabBarItem.image = [UIImage imageNamed:@"items-unselected.png" inBundle:nil compatibleWithTraitCollection:nil];
+        self.tabBarItem.selectedImage = [UIImage imageNamed:@"items-selected.png" inBundle:nil compatibleWithTraitCollection:nil];
+        
+         
 		[[NSNotificationCenter defaultCenter] addObserver:self
 												 selector:@selector(handleNewItem:)
 													 name:@"GBCBNewItemNotification"

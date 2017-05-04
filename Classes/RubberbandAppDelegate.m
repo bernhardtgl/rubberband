@@ -70,9 +70,12 @@ ShareViewController* App_shareViewController;
 	{
 		database = [[Database alloc]init];
 		App_database = database;
-		App_dontNeedImage = [[UIImage imageNamed:@"checkbox_dontneed.png"] retain];
-		App_needImage = [[UIImage imageNamed:@"checkbox_need.png"] retain];
-		App_haveImage = [[UIImage imageNamed:@"checkbox_have.png"] retain];
+        App_dontNeedImage = [[UIImage imageNamed:@"check_dontneed" inBundle:nil compatibleWithTraitCollection:nil] retain];
+        App_needImage     = [[UIImage imageNamed:@"check_need" inBundle:nil compatibleWithTraitCollection:nil] retain];
+        App_haveImage     = [[UIImage imageNamed:@"check_have" inBundle:nil compatibleWithTraitCollection:nil] retain];
+//		App_dontNeedImage = [[UIImage imageNamed:@"checkbox_dontneed.png"] retain];
+//		App_needImage = [[UIImage imageNamed:@"checkbox_need.png"] retain];
+//		App_haveImage = [[UIImage imageNamed:@"checkbox_have.png"] retain];
 		App_glowImage = [[UIImage imageNamed:@"glow.png"] retain];
 		App_recipeEmptyImage = [[UIImage imageNamed:@"RecipeNone.png"] retain];
 		App_strikethroughImage = [[UIImage imageNamed:@"strikethrough.png"] retain];

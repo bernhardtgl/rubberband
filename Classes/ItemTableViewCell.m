@@ -104,14 +104,10 @@
 					   fullWidth + 8, 
 					   25);
 	strikeView.frame = frame;
-	
-	if (!self.editing)
-	{
-		frame = [imageView frame];
-		frame.origin.x = contentRect.origin.x + 9.0;
-		frame.origin.y =  contentRect.origin.y + 10.0;
-		imageView.frame = frame;
-	}
+
+    // the coordinate system is not set up to match the device yet - this works but seems weird
+    frame = CGRectMake(13, 13, 18, 18);
+    imageView.frame = frame;
 	imageView.hidden = (self.editing);
 }
 
@@ -153,7 +149,6 @@
 		[itemUid retain];
 		
 		strikeView.hidden = YES;
-		nameLabel.textColor = [UIColor darkTextColor];
 
 		if (isNumberDrawn) 
 		{
@@ -173,15 +168,17 @@
 			{
 				imageView.image = App_haveImage;
 				strikeView.hidden = NO;
-				nameLabel.textColor = [UIColor grayColor];
-			} 
+                nameLabel.textColor = [UIColor colorWithRed:0/255.0 green:64/255.0 blue:221/255.0 alpha:1.0];
+			}
 			else 
 			{
+                nameLabel.textColor = [UIColor colorWithRed:0/255.0 green:64/255.0 blue:221/255.0 alpha:1.0];
 				imageView.image = App_needImage;
 			}
 		}
 		else
 		{
+            nameLabel.textColor = [UIColor darkTextColor];
 			quantityButton.hidden = YES;
 			imageView.image = App_dontNeedImage;
 		}	

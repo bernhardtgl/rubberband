@@ -38,19 +38,13 @@
 		376896AC0D8612D500E271A2 /* ItemsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 376896AB0D8612D500E271A2 /* ItemsViewController.m */; };
 		3769773A0D9EA86A0043B9CA /* AisleTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 376977390D9EA86A0043B9CA /* AisleTableViewCell.m */; };
 		3776556D0E323DE900FB7D0C /* TableViewControllerUserPrefs.m in Sources */ = {isa = PBXBuildFile; fileRef = 3776556C0E323DE900FB7D0C /* TableViewControllerUserPrefs.m */; };
-		377EAACB0DF32C7000101188 /* checkbox_need.png in Resources */ = {isa = PBXBuildFile; fileRef = 377EAACA0DF32C7000101188 /* checkbox_need.png */; };
 		377EAB4D0DF334F700101188 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 377EAB4C0DF334F700101188 /* Default.png */; };
 		3789C0BF0E4E4AE6009CFE5B /* SearchBarCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3789C0BE0E4E4AE6009CFE5B /* SearchBarCell.m */; };
 		378C3C990D96DB0500B782E3 /* ItemTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 378C3C980D96DB0500B782E3 /* ItemTableViewCell.m */; };
 		379BB7400D9F1C1600F7F58A /* AislesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 379BB73F0D9F1C1600F7F58A /* AislesViewController.m */; };
 		37AA88F20D956B0100E4FFCE /* segment_arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 37AA88F10D956B0100E4FFCE /* segment_arrow.png */; };
 		37B2D4AC0DA816FC0072A9EB /* ShopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37B2D4AB0DA816FC0072A9EB /* ShopViewController.m */; };
-		37B2D56C0DA81DF40072A9EB /* tab_items.png in Resources */ = {isa = PBXBuildFile; fileRef = 37B2D56A0DA81DF40072A9EB /* tab_items.png */; };
-		37B2D56D0DA81DF40072A9EB /* tab_shop.png in Resources */ = {isa = PBXBuildFile; fileRef = 37B2D56B0DA81DF40072A9EB /* tab_shop.png */; };
 		37C333E60DAC4DC40007F5B9 /* RecipesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37C333E50DAC4DC40007F5B9 /* RecipesViewController.m */; };
-		37C333E80DAC4E310007F5B9 /* tab_recipes.png in Resources */ = {isa = PBXBuildFile; fileRef = 37C333E70DAC4E310007F5B9 /* tab_recipes.png */; };
-		37C3B1C50D9B367D006722A2 /* checkbox_have.png in Resources */ = {isa = PBXBuildFile; fileRef = 37C3B1C30D9B367D006722A2 /* checkbox_have.png */; };
-		37C3B1CA0D9B37C3006722A2 /* checkbox_dontneed.png in Resources */ = {isa = PBXBuildFile; fileRef = 37C3B1C70D9B37C3006722A2 /* checkbox_dontneed.png */; };
 		37CBBC090DE0E4620005FADE /* NewRecipeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37CBBC080DE0E4620005FADE /* NewRecipeViewController.m */; };
 		37D772DC0E9814AE00709F4F /* ItemQtyTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 37D772DB0E9814AE00709F4F /* ItemQtyTableViewCell.m */; };
 		37D908910E496B8A00D25516 /* dist.plist in Resources */ = {isa = PBXBuildFile; fileRef = 37D908900E496B8A00D25516 /* dist.plist */; };
@@ -77,7 +71,6 @@
 		4462FE010DA1E000006A12DD /* GroceryItemsTable.m in Sources */ = {isa = PBXBuildFile; fileRef = 4462FE000DA1E000006A12DD /* GroceryItemsTable.m */; };
 		447E01630DE18AF100F313AA /* RecipeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 447E01620DE18AF100F313AA /* RecipeTableViewCell.m */; };
 		448288B80DED1314004570D5 /* Recipes.plist in Resources */ = {isa = PBXBuildFile; fileRef = 448288B60DED1314004570D5 /* Recipes.plist */; };
-		44949FE50E8EF514008A1EDA /* tab_share.png in Resources */ = {isa = PBXBuildFile; fileRef = 44949FE40E8EF514008A1EDA /* tab_share.png */; };
 		449854D00DAF050700E3A430 /* ShoppingAisle.m in Sources */ = {isa = PBXBuildFile; fileRef = 449854CF0DAF050700E3A430 /* ShoppingAisle.m */; };
 		44E221870D8A42E30088D009 /* Database.m in Sources */ = {isa = PBXBuildFile; fileRef = 44E221860D8A42E30088D009 /* Database.m */; };
 		B06192F4160C0B5C001D5D16 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B06192F3160C0B5C001D5D16 /* Default-568h@2x.png */; };
@@ -144,7 +137,6 @@
 		376E26760DBD7CAC004F6DF2 /* NewTextFieldViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NewTextFieldViewController.h; path = Classes/NewTextFieldViewController.h; sourceTree = "<group>"; };
 		3776556B0E323DE900FB7D0C /* TableViewControllerUserPrefs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TableViewControllerUserPrefs.h; path = Classes/TableViewControllerUserPrefs.h; sourceTree = "<group>"; };
 		3776556C0E323DE900FB7D0C /* TableViewControllerUserPrefs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewControllerUserPrefs.m; sourceTree = "<group>"; };
-		377EAACA0DF32C7000101188 /* checkbox_need.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = checkbox_need.png; sourceTree = "<group>"; };
 		377EAB4C0DF334F700101188 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = Images/Default.png; sourceTree = "<group>"; };
 		3789C0BD0E4E4AE6009CFE5B /* SearchBarCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SearchBarCell.h; path = Classes/SearchBarCell.h; sourceTree = "<group>"; };
 		3789C0BE0E4E4AE6009CFE5B /* SearchBarCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SearchBarCell.m; path = Classes/SearchBarCell.m; sourceTree = "<group>"; };
@@ -162,13 +154,8 @@
 		37ACDA1012903FC500129B4D /* Swedish */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Swedish; path = Swedish.lproj/Recipes.plist; sourceTree = "<group>"; };
 		37B2D4AA0DA816FC0072A9EB /* ShopViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ShopViewController.h; path = Classes/ShopViewController.h; sourceTree = "<group>"; };
 		37B2D4AB0DA816FC0072A9EB /* ShopViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ShopViewController.m; path = Classes/ShopViewController.m; sourceTree = "<group>"; };
-		37B2D56A0DA81DF40072A9EB /* tab_items.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tab_items.png; sourceTree = "<group>"; };
-		37B2D56B0DA81DF40072A9EB /* tab_shop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tab_shop.png; sourceTree = "<group>"; };
 		37C333E40DAC4DC40007F5B9 /* RecipesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RecipesViewController.h; path = Classes/RecipesViewController.h; sourceTree = "<group>"; };
 		37C333E50DAC4DC40007F5B9 /* RecipesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RecipesViewController.m; path = Classes/RecipesViewController.m; sourceTree = "<group>"; };
-		37C333E70DAC4E310007F5B9 /* tab_recipes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tab_recipes.png; sourceTree = "<group>"; };
-		37C3B1C30D9B367D006722A2 /* checkbox_have.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = checkbox_have.png; sourceTree = "<group>"; };
-		37C3B1C70D9B37C3006722A2 /* checkbox_dontneed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = checkbox_dontneed.png; sourceTree = "<group>"; };
 		37CBBC070DE0E4620005FADE /* NewRecipeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NewRecipeViewController.h; path = Classes/NewRecipeViewController.h; sourceTree = "<group>"; };
 		37CBBC080DE0E4620005FADE /* NewRecipeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NewRecipeViewController.m; path = Classes/NewRecipeViewController.m; sourceTree = "<group>"; };
 		37D325450E9087570014FF9B /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/Localizable.strings; sourceTree = "<group>"; };
@@ -222,7 +209,6 @@
 		447E01610DE18AF100F313AA /* RecipeTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RecipeTableViewCell.h; path = Classes/RecipeTableViewCell.h; sourceTree = "<group>"; };
 		447E01620DE18AF100F313AA /* RecipeTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RecipeTableViewCell.m; path = Classes/RecipeTableViewCell.m; sourceTree = "<group>"; };
 		448288B70DED1314004570D5 /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = English; path = English.lproj/Recipes.plist; sourceTree = "<group>"; };
-		44949FE40E8EF514008A1EDA /* tab_share.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tab_share.png; sourceTree = "<group>"; };
 		449854CF0DAF050700E3A430 /* ShoppingAisle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ShoppingAisle.m; path = Classes/ShoppingAisle.m; sourceTree = "<group>"; };
 		44D6F4850DB1022E00BDB50E /* ShoppingAisle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ShoppingAisle.h; path = Classes/ShoppingAisle.h; sourceTree = "<group>"; };
 		44E221850D8A42E30088D009 /* Database.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Database.h; path = Classes/Database.h; sourceTree = "<group>"; };
@@ -389,7 +375,6 @@
 			isa = PBXGroup;
 			children = (
 				37E9922D0F3B64C9007DFFB2 /* gray_selection.png */,
-				44949FE40E8EF514008A1EDA /* tab_share.png */,
 				37DB4F590E2A56F4009DD3BA /* strikethrough.png */,
 				372242090E05D742006846B1 /* image_overlay.png */,
 				37EDDA690DE0D2C500D5180A /* add_photo.png */,
@@ -399,13 +384,7 @@
 				374FFBA30E3BD5050023329F /* recipe2.png */,
 				374FFBA20E3BD5050023329F /* recipe3.png */,
 				37290B560DE5B44700383ABD /* icon.png */,
-				37C333E70DAC4E310007F5B9 /* tab_recipes.png */,
-				37B2D56A0DA81DF40072A9EB /* tab_items.png */,
-				37B2D56B0DA81DF40072A9EB /* tab_shop.png */,
 				37290ACA0DE52D7F00383ABD /* edit_overlay.png */,
-				37C3B1C70D9B37C3006722A2 /* checkbox_dontneed.png */,
-				377EAACA0DF32C7000101188 /* checkbox_need.png */,
-				37C3B1C30D9B367D006722A2 /* checkbox_have.png */,
 				37AA88F10D956B0100E4FFCE /* segment_arrow.png */,
 			);
 			path = Images;
@@ -535,11 +514,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				37AA88F20D956B0100E4FFCE /* segment_arrow.png in Resources */,
-				37C3B1C50D9B367D006722A2 /* checkbox_have.png in Resources */,
-				37C3B1CA0D9B37C3006722A2 /* checkbox_dontneed.png in Resources */,
-				37B2D56C0DA81DF40072A9EB /* tab_items.png in Resources */,
-				37B2D56D0DA81DF40072A9EB /* tab_shop.png in Resources */,
-				37C333E80DAC4E310007F5B9 /* tab_recipes.png in Resources */,
 				37F784A40DB7892200741059 /* RecipeNone.png in Resources */,
 				3731BC760DC3DD8600D79468 /* GroceryItems.plist in Resources */,
 				3731BC8F0DC3E0CE00D79468 /* Aisles.plist in Resources */,
@@ -549,7 +523,6 @@
 				37290ACB0DE52D7F00383ABD /* edit_overlay.png in Resources */,
 				37290B570DE5B44700383ABD /* icon.png in Resources */,
 				448288B80DED1314004570D5 /* Recipes.plist in Resources */,
-				377EAACB0DF32C7000101188 /* checkbox_need.png in Resources */,
 				377EAB4D0DF334F700101188 /* Default.png in Resources */,
 				3722420A0E05D742006846B1 /* image_overlay.png in Resources */,
 				37DB4F5A0E2A56F4009DD3BA /* strikethrough.png in Resources */,
@@ -557,7 +530,6 @@
 				374FFBA40E3BD5050023329F /* recipe3.png in Resources */,
 				374FFBA50E3BD5050023329F /* recipe2.png in Resources */,
 				37D908910E496B8A00D25516 /* dist.plist in Resources */,
-				44949FE50E8EF514008A1EDA /* tab_share.png in Resources */,
 				3757734E0EC79032001BC69B /* Localizable.strings in Resources */,
 				37E1038E0F228F95004B3BF8 /* EmailRecipe.html in Resources */,
 				37E9922E0F3B64C9007DFFB2 /* gray_selection.png in Resources */,

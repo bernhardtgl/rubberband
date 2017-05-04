@@ -29,7 +29,8 @@
 	if (self = [super init]) 
 	{
 		self.title = NSLocalizedString(@"Shop", @"Shop view navigation title");
-		self.tabBarItem.image = [UIImage imageNamed:@"tab_shop.png"];
+        self.tabBarItem.image = [UIImage imageNamed:@"shop-unselected.png" inBundle:nil compatibleWithTraitCollection:nil];
+        self.tabBarItem.selectedImage = [UIImage imageNamed:@"shop-selected.png" inBundle:nil compatibleWithTraitCollection:nil];
 
 		[[NSNotificationCenter defaultCenter] addObserver:self
 												 selector:@selector(handleEditItem:)

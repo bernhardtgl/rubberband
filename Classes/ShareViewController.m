@@ -34,7 +34,8 @@
 	if (self = [super init]) 
 	{
 		self.title = NSLocalizedString(@"Share", @"Share view navigation title");
-		self.tabBarItem.image = [UIImage imageNamed:@"tab_share.png"];
+        self.tabBarItem.image = [UIImage imageNamed:@"share-unselected.png" inBundle:nil compatibleWithTraitCollection:nil];
+        self.tabBarItem.selectedImage = [UIImage imageNamed:@"share-selected.png" inBundle:nil compatibleWithTraitCollection:nil];
 	}
 	return self;
 }
